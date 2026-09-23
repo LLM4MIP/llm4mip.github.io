@@ -1,0 +1,2433 @@
+{
+  "snapshot_commit": "b329d3812c5acf51733e0e9f7baabdda7b1008d2",
+  "prepared_date": "2026-09-16",
+  "scope": "112 current-open in fixed 2026-09-04 list; rmine14 excluded",
+  "method": "Prior full 112 README inventory plus selected dual reports and 20-case later audit; no optimization or archived proof replay performed for skill creation.",
+  "evidence_precedence": "newer_audit supersedes older evidence labels/values where supplied; all are attributed repository claims, not independent verification by this synthesis.",
+  "counts": {
+    "instances": 112,
+    "repository_global_conclusions": 32,
+    "historical_copt_dual_improvements": 41,
+    "newer_audit_cases": 20
+  },
+  "source_hashes": {
+    "README.md": "4dd92ccb9872f78788b2ca57c1d1ee613a9acbb51bad89f320bd3f8f5ad1e2bc",
+    "docs/dual-bound-audit-2026-09-14/summary_20.json": "08a8f5d8cd4137063513159fac328bb4c2eb1f76e72b8a088f574111c6d65784"
+  },
+  "instances": [
+    {
+      "name": "a2864-99blp",
+      "family": "packing-code",
+      "structure": "Conflict graphs and code constructions",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-257",
+        "-257 published theorem",
+        "Optimal, exact geometry crosswalk + published theorem; theorem computation not replayed locally"
+      ],
+      "readme": "instances/a2864-99blp/README.md",
+      "readme_sha256": "6812ae53802aa55f10ddc08af9d8f9a61b6ebc3cd3fc99d125ade44a193a0d54",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/a2864-99blp/README.md",
+      "reports": [
+        "instances/a2864-99blp/reports/geometry-theorem-transfer.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = -257**",
+        "method": "exact finite-geometry crosswalk + published theorem",
+        "historical_evidence_label": "literature-dependent theorem transfer"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-282.960474",
+        "repository_lb": "-257",
+        "delta": "+25.960474",
+        "historical_evidence_code": "X"
+      },
+      "newer_audit": {
+        "adopted_bound": "-257",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Rigorous transfer of a published theorem",
+        "method": "Map selected columns to a subspace code; the theorem permits at most 257 columns, and the objective is the negative number of selected columns.",
+        "limits": "The published-theorem transfer establishes -257 rigorously; a matching feasible solution also closes optimality. The computations within the paper were not rerun. Four timed-out derived COPT runs are not premises of this proof. The weaker -282 certificate does not replace -257.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/a2864-99blp.zh.md"
+      }
+    },
+    {
+      "name": "allcolor58",
+      "family": "prepack",
+      "structure": "Configuration generation and residual covering",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "42",
+        "42",
+        "Optimal, exact parity certificate and validated witness"
+      ],
+      "readme": "instances/allcolor58/README.md",
+      "readme_sha256": "5c0dc46623707aa39bdafaafbe660b3a4ec9b4bd9324f93b390c58697ac45084",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/allcolor58/README.md",
+      "reports": [
+        "instances/allcolor58/reports/objective-42-certificate.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = 42**",
+        "method": "parity lower bound + zero-tolerance witness",
+        "historical_evidence_label": "self-contained exact certificate"
+      }
+    },
+    {
+      "name": "assign1-10-4",
+      "family": "categorical",
+      "structure": "Grouped or multiple-choice decisions with coupled resources",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "422",
+        "422",
+        "Optimal, exact certificate"
+      ],
+      "readme": "instances/assign1-10-4/README.md",
+      "readme_sha256": "3d20d0d6d6085ba4fec0585b902321ece0da088695dae592d145a0dfa58136ec",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/assign1-10-4/README.md",
+      "reports": [
+        "instances/assign1-10-4/reports/assign1_optimality_proof.md",
+        "instances/assign1-10-4/reports/framework-revalidation-20260902.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = 422**",
+        "method": "exact categorical counting bound + feasible witness",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "377.444386",
+        "repository_lb": "422",
+        "delta": "+44.555614",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "bab3",
+      "family": "categorical",
+      "structure": "Grouped or multiple-choice decisions with coupled resources",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-656,214.95420 (strict)",
+        "no new bound",
+        "Exact fixed-unassigned 224-block categorical neighborhood closed; global optimum open"
+      ],
+      "readme": "instances/bab3/README.md",
+      "readme_sha256": "67d59ccecbcdcba73651e9b0fcdd3d5110599f1b5a0d61b45704e31fa916a7c1",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/bab3/README.md",
+      "reports": []
+    },
+    {
+      "name": "bley_xs1",
+      "family": "network-design",
+      "structure": "Network design with continuous recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "3,855,895.86",
+        "3,532,608.740610",
+        "Feasible; global optimum open"
+      ],
+      "readme": "instances/bley_xs1/README.md",
+      "readme_sha256": "93b2ad58783ee849f30e7d784d5e780949bdcdb3bcf40f9905d350b1d00a8719",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/bley_xs1/README.md",
+      "reports": []
+    },
+    {
+      "name": "bley_xs1noM",
+      "family": "network-design",
+      "structure": "Network design with continuous recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "3,855,895.86 (strict incumbent)",
+        "3,344,924.0428 (solver, 720 s)",
+        "Equivalent Big-M strengthening improves same-budget numerical bound by 554.6058; global optimum open"
+      ],
+      "readme": "instances/bley_xs1noM/README.md",
+      "readme_sha256": "194597de34a0861657fc32db2585ceecc0b8ff9e3942b35947adab423f725d74",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/bley_xs1noM/README.md",
+      "reports": [
+        "instances/bley_xs1noM/reports/SOURCES-20260908.md",
+        "instances/bley_xs1noM/reports/deep-study-2026-09-08.zh.md"
+      ]
+    },
+    {
+      "name": "bppc6-06",
+      "family": "geometry",
+      "structure": "Layout, packing, and geometric relations",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "208",
+        "208",
+        "Optimal, tight-profile CNF/LRAT certificate and exact witness"
+      ],
+      "readme": "instances/bppc6-06/README.md",
+      "readme_sha256": "d26c9cd0a79ea5e9c86efa49b6e1477affec6262fd43d64caa9d845491cd2ffb",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/bppc6-06/README.md",
+      "reports": [
+        "instances/bppc6-06/reports/optimality-proof.zh.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = 208**",
+        "method": "exact tight-profile reduction + checked CNF/LRAT + witness",
+        "historical_evidence_label": "checked exact certificate; 2.65 GiB proof files retained by hash outside Git"
+      },
+      "historical_copt_comparison": {
+        "baseline": "201",
+        "repository_lb": "208",
+        "delta": "+7",
+        "historical_evidence_code": "X"
+      }
+    },
+    {
+      "name": "cdc7-4-3-2",
+      "family": "packing-code",
+      "structure": "Conflict graphs and code constructions",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-307",
+        "-381",
+        "Feasible; all exchanges through 4→5 ruled out"
+      ],
+      "readme": "instances/cdc7-4-3-2/README.md",
+      "readme_sha256": "5cdd9b57caa1ca5672815a937fab67614064bc0737b88cfcfe6cadd77c8440ce",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/cdc7-4-3-2/README.md",
+      "reports": []
+    },
+    {
+      "name": "circ10-3",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "242",
+        "242 published",
+        "Optimal, exact MPS crosswalk + published exhaustive result"
+      ],
+      "readme": "instances/circ10-3/README.md",
+      "readme_sha256": "daea6a1aa6cd12e9c46b496f2a5700d80ade6a68b8ea900ff54e217437ab9a0d",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/circ10-3/README.md",
+      "reports": [
+        "instances/circ10-3/reports/exact-formulation-audit.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = 242**",
+        "method": "exact MPS/TTP crosswalk + published exhaustive result",
+        "historical_evidence_label": "literature-dependent theorem transfer"
+      },
+      "historical_copt_comparison": {
+        "baseline": "141",
+        "repository_lb": "242",
+        "delta": "+101",
+        "historical_evidence_code": "X"
+      },
+      "newer_audit": {
+        "adopted_bound": "242",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Transfer of a published computational result",
+        "method": "Map the original MPS to standard CIRC10 and invoke the published optimum 242.",
+        "limits": "The literature-transfer audit passed. The complete external search was not independently replayed, and the full 14-page journal article was not obtained. Local feasibility logs for 242 and the weaker bound 220 do not constitute the external optimality proof.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/circ10-3.zh.md"
+      }
+    },
+    {
+      "name": "cmflsp40-36-2-10",
+      "family": "lot-sizing",
+      "structure": "Multiperiod production and inventory recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "66,452,236.4536 (strict repair)",
+        "65,928,415.3068 (solver)",
+        "985 exact item/period neighborhoods closed; 0.7883% global gap; no strict primal improvement"
+      ],
+      "readme": "instances/cmflsp40-36-2-10/README.md",
+      "readme_sha256": "3bf7b526c110ef6279a082a01400aa2124fcdf814206811adeddb1e829f6f1b4",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/cmflsp40-36-2-10/README.md",
+      "reports": [
+        "instances/cmflsp40-36-2-10/reports/SOURCES.md",
+        "instances/cmflsp40-36-2-10/reports/deep-study-2026-09-08.zh.md"
+      ],
+      "historical_copt_comparison": {
+        "baseline": "64134678.7",
+        "repository_lb": "65928415.30680852",
+        "delta": "+1793736.60680852",
+        "historical_evidence_code": "N"
+      },
+      "newer_audit": {
+        "adopted_bound": "65928415.306808524",
+        "numerical_bound": true,
+        "decision": "Accepted under the numerical-evidence standard; missing runner remains a limitation",
+        "evidence": "Reconstructed original-model identity plus historical global numerical solver evidence",
+        "method": "Distinguish a global run on the original model with a MIP start from a subproblem fixing 72 Z variables.",
+        "limits": "Accepted under the model and reasonable-log standards authorized by the user; the missing original global runner still limits complete reproduction. A 32-bit fingerprint is not collision-free mathematical proof of model identity and does not rule out every possible historical callback. No actual evidence of additional restrictions was found, but neither complete recovery of the runner source nor exact certification of every decimal digit is claimed.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/cmflsp40-36-2-10.zh.md"
+      }
+    },
+    {
+      "name": "comp12-2idx",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "277",
+        "165 (solver)",
+        "Feasible; global optimum open; prior radius-10 local result retained"
+      ],
+      "readme": "instances/comp12-2idx/README.md",
+      "readme_sha256": "40a13cfee343953091013efbca048149612ec6c72779729582d379c7fd6c190c",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/comp12-2idx/README.md",
+      "reports": [
+        "instances/comp12-2idx/reports/comp12-continuation-study.md",
+        "instances/comp12-2idx/reports/framework-smoke-20260902.md"
+      ]
+    },
+    {
+      "name": "core2586-950",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "944 (strict)",
+        "937 (solver)",
+        "Exact set-cover reduction OPT = 87 + OPT(hard); 0.7415% numerical gap; global optimum open"
+      ],
+      "readme": "instances/core2586-950/README.md",
+      "readme_sha256": "d32979f4b2fdef9787c82ac11b1e65da032cc8dc3c540b00350595ebd33b9aab",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/core2586-950/README.md",
+      "reports": []
+    },
+    {
+      "name": "core4284-1064",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "1062",
+        "1055 (portable)",
+        "Exact set-cover reduction and independently checked dual certificate; global optimum open"
+      ],
+      "readme": "instances/core4284-1064/README.md",
+      "readme_sha256": "0a3b54a3dd484318b5fa3c78d1d8ecf9c401a2dfc95130a8c7f005008e3b95cb",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/core4284-1064/README.md",
+      "reports": [
+        "instances/core4284-1064/reports/effort_ledger.md",
+        "instances/core4284-1064/reports/final_report.md"
+      ]
+    },
+    {
+      "name": "core4872-1529",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "1530",
+        "932 (portable)",
+        "Independently replayed disjoint-row-packing certificate; global optimum open"
+      ],
+      "readme": "instances/core4872-1529/README.md",
+      "readme_sha256": "f83c133ca010f10c6248086f9f43a59f38678bb2d95cbcf438722152b6670b86",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/core4872-1529/README.md",
+      "reports": [
+        "instances/core4872-1529/reports/final_report.md"
+      ]
+    },
+    {
+      "name": "cvrpa-n64k9vrpi",
+      "family": "routing",
+      "structure": "Routing with load or time potentials",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "1,401 (new strict incumbent)",
+        "1,401",
+        "Optimal, mixed database/computational evidence; exact MPS projection and rational 17+ bound, but no portable complete lower-bound trace"
+      ],
+      "readme": "instances/cvrpa-n64k9vrpi/README.md",
+      "readme_sha256": "0de5fe82b941d5b87f551f4ee72998faa572644d311bcd1c7bbd953dfac84d8c",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/cvrpa-n64k9vrpi/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = 1401**",
+        "method": "exact compiled-MPS projection + CVRPLIB fixed-nine optimum + exact-route-count Gurobi/COPT exclusions + rational `K>=17` dual",
+        "historical_evidence_label": "mixed database/computational global conclusion; no portable complete lower-bound trace"
+      },
+      "historical_copt_comparison": {
+        "baseline": "0",
+        "repository_lb": "1401",
+        "delta": "+1401",
+        "historical_evidence_code": "M"
+      },
+      "newer_audit": {
+        "adopted_bound": "1401",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Exact original-MPS projection plus external results, numerical exclusions, and exact certificates for larger fleet sizes",
+        "method": "Cover all fleet sizes K=9...63, activating the nonmerge exclusions in order: 9, then 10, then 11.",
+        "limits": "Mixed evidence supports 1401. The external fixed-9-vehicle computation and commercial exclusions were not fully rerun in this audit. Timeouts of plain K10/K11 runs neither prove infeasibility nor refute a different successful nonmerge run. Bounds from fixed-route lifting subproblems are not used as global proofs.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/cvrpa-n64k9vrpi.zh.md"
+      }
+    },
+    {
+      "name": "cvrpb-n45k5vrpi",
+      "family": "routing",
+      "structure": "Routing with load or time potentials",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "751 (new strict incumbent)",
+        "751",
+        "Optimal, mixed database/computational evidence; no portable exact lower-bound trace"
+      ],
+      "readme": "instances/cvrpb-n45k5vrpi/README.md",
+      "readme_sha256": "ef221375d4007d8412b94f151d249e6add9420d5179938fa5e9974783a972fbc",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/cvrpb-n45k5vrpi/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = 751**",
+        "method": "exact compiled-MPS projection + CVRPLIB five-route optimum + Gurobi exclusion for at least six routes",
+        "historical_evidence_label": "mixed database/computational global conclusion; no portable exact lower-bound trace"
+      },
+      "historical_copt_comparison": {
+        "baseline": "0",
+        "repository_lb": "751",
+        "delta": "+751",
+        "historical_evidence_code": "M"
+      },
+      "newer_audit": {
+        "adopted_bound": "751",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Exact original-MPS projection plus an external fixed-fleet result and historical numerical exclusions",
+        "method": "Cover all fleet sizes: use the external result 751 for K=5 and successful Gurobi exclusions for K>=6.",
+        "limits": "Accepted under a standard allowing external results and reasonable solver logs. The external fixed-5-vehicle computation and commercial searches for K>=6 were not rerun in this audit. The timed-out original-MPS COPT log on altman is not a successful exclusion; objective 0 in a cutoff feasibility model is not a routing lower bound.",
+        "latest_commercial_rerun": {
+          "status": "TIME_LIMIT",
+          "seconds": 60,
+          "threads": 16,
+          "infeasibility_reproduced": false,
+          "historical_infeasible_still_separate": true
+        },
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/cvrpb-n45k5vrpi.zh.md"
+      }
+    },
+    {
+      "name": "cvrpp-n16k8vrpi",
+      "family": "routing",
+      "structure": "Routing with load or time potentials",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "450",
+        "450",
+        "Optimal, exact dynamic program"
+      ],
+      "readme": "instances/cvrpp-n16k8vrpi/README.md",
+      "readme_sha256": "35cab24397e9f9d906415b035ecf584cb9942463f48b5fce4a2826a44a4de0d0",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/cvrpp-n16k8vrpi/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = 450**",
+        "method": "capacity-feasible route DP + exact partition",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "282.375839",
+        "repository_lb": "450",
+        "delta": "+167.624161",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "d20200",
+      "family": "categorical",
+      "structure": "Grouped or multiple-choice decisions with coupled resources",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "12,237",
+        "12,232 solver; 12,230 independently exact",
+        "Custom tree incomplete: 33 pending subtrees; no new bound"
+      ],
+      "readme": "instances/d20200/README.md",
+      "readme_sha256": "4fa2e6515914e229ad2990b56f58afc0cee3a6f8f1fc1c7a31a4942c3889e42f",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/d20200/README.md",
+      "reports": []
+    },
+    {
+      "name": "dano3mip",
+      "family": "network-design",
+      "structure": "Network design with continuous recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "664.020833333333",
+        "578.2171855753",
+        "Feasible; global optimum open"
+      ],
+      "readme": "instances/dano3mip/README.md",
+      "readme_sha256": "05d920c6d4f04735de780031f7db40767e7eb1f1f1415bac4426f9bb3786834a",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/dano3mip/README.md",
+      "reports": []
+    },
+    {
+      "name": "datt256",
+      "family": "puzzle-feasibility",
+      "structure": "Finite-domain feasibility and covering repair",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "no feasible point",
+        "local infeasibility certificates",
+        "Global feasibility open"
+      ],
+      "readme": "instances/datt256/README.md",
+      "readme_sha256": "1edafb1feb9a338a81212c37c3e1e06701aac29adc4f41fa333223e872bfcce3",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/datt256/README.md",
+      "reports": [
+        "instances/datt256/reports/datt256-study.md"
+      ]
+    },
+    {
+      "name": "dfn-bwin-DBE",
+      "family": "network-design",
+      "structure": "Network design with continuous recourse",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "73,623.79",
+        "73,623.79",
+        "Optimal, exact spanning-tree DP and cost exclusion"
+      ],
+      "readme": "instances/dfn-bwin-DBE/README.md",
+      "readme_sha256": "03837fed0d6890335cf8cfba0a0a15ec0bf5741a903da5237c3b49b3e72a1351",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/dfn-bwin-DBE/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = 73,623.79**",
+        "method": "exact spanning-tree subset DP + ten-edge cost exclusion",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "56406.0914",
+        "repository_lb": "73623.79",
+        "delta": "+17217.6986",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "dws012-01",
+      "family": "network-design",
+      "structure": "Network design with continuous recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "82,030.5522222395466198 (1e-9 feasible)",
+        "44,641.72316928 (solver)",
+        "Fixed-design recourse optimum and exact projection blueprint; 45.5792% numerical gap; global optimum open"
+      ],
+      "readme": "instances/dws012-01/README.md",
+      "readme_sha256": "69382aca064f27f722511a41e4fc33aff4cd82a871aa83ab24152350335980ef",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/dws012-01/README.md",
+      "reports": []
+    },
+    {
+      "name": "dws012-02",
+      "family": "network-design",
+      "structure": "Network design with continuous recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "119443.31072434435 (new strict incumbent)",
+        "23459.58492171858",
+        "Sibling-design transplant improves MIPLIB v36 by 449.99998531942; global optimum open"
+      ],
+      "readme": "instances/dws012-02/README.md",
+      "readme_sha256": "7c74740b732d6342e6d2f3488bc064a5efb5e17e1ad5d380d0ab313aba88c9a2",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/dws012-02/README.md",
+      "reports": [
+        "instances/dws012-02/reports/final_report.md"
+      ]
+    },
+    {
+      "name": "eva1aprime5x5opt",
+      "family": "structural-design",
+      "structure": "Component selection and mechanical recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-17.94807560443689 (strict)",
+        "-458.919072061",
+        "Feasible; no 1e-6 improvement within bit radius 8; global optimum open"
+      ],
+      "readme": "instances/eva1aprime5x5opt/README.md",
+      "readme_sha256": "d953331366aedddfa9dce6391de014b586d8f8e87e1a3f91057d499aa20d3c07",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/eva1aprime5x5opt/README.md",
+      "reports": [
+        "instances/eva1aprime5x5opt/reports/eva1aprime5x5opt-study.md"
+      ]
+    },
+    {
+      "name": "ex1010-pi",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "233",
+        "224 solver",
+        "Exact kernelization; global optimum open"
+      ],
+      "readme": "instances/ex1010-pi/README.md",
+      "readme_sha256": "c4073b21653ff85fafce299d6838207dc8928ee8be0b8b52cc1ba030cf2ec33e",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/ex1010-pi/README.md",
+      "reports": [
+        "instances/ex1010-pi/reports/structural-investigation.md"
+      ]
+    },
+    {
+      "name": "f2000",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "1,810",
+        "1,332 root",
+        "Feasible minimum-prime-implicant witness; global optimum open"
+      ],
+      "readme": "instances/f2000/README.md",
+      "readme_sha256": "762e3644517fd1e15e72df60b6ce8f4bd2494239e3332192de90b3e253650271",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/f2000/README.md",
+      "reports": [
+        "instances/f2000/reports/structural-investigation.md"
+      ]
+    },
+    {
+      "name": "fastxgemm-n3r21s3t6",
+      "family": "tensor",
+      "structure": "Bilinear tensors and support patterns",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "2,147 (external-derived; strictly verified)",
+        "93",
+        "Strict interval [93,2147]; LB is our proof, UB is excluded from our primal count; global optimum open"
+      ],
+      "readme": "instances/fastxgemm-n3r21s3t6/README.md",
+      "readme_sha256": "d99385b93b2ab74201cc682c73fa158860f5d73197e909ecf814f67d8063e2e5",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fastxgemm-n3r21s3t6/README.md",
+      "reports": [],
+      "historical_copt_comparison": {
+        "baseline": "84",
+        "repository_lb": "**93**",
+        "delta": "**+9**",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "fastxgemm-n3r22s4t6",
+      "family": "tensor",
+      "structure": "Bilinear tensors and support patterns",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "1,150 (external-derived; strictly verified)",
+        "90",
+        "Strict interval [90,1150]; LB is our proof, UB is excluded from our primal count; global optimum open"
+      ],
+      "readme": "instances/fastxgemm-n3r22s4t6/README.md",
+      "readme_sha256": "e4c628c68c2ee3ef4bee7d6b09756e5caa09b88dbdc884aa35622c63049fe675",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fastxgemm-n3r22s4t6/README.md",
+      "reports": []
+    },
+    {
+      "name": "fastxgemm-n3r23s5t6",
+      "family": "tensor",
+      "structure": "Bilinear tensors and support patterns",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "153 (BILR 2018; strictly verified)",
+        "90",
+        "Strict interval [90,153]; LB is our proof, UB is excluded from our primal count; global optimum open"
+      ],
+      "readme": "instances/fastxgemm-n3r23s5t6/README.md",
+      "readme_sha256": "5089e07a9c9aae4a48074dbd849586ce42093e924b1875656a9de21c35c757b1",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fastxgemm-n3r23s5t6/README.md",
+      "reports": []
+    },
+    {
+      "name": "fhnw-binpack4-58",
+      "family": "geometry",
+      "structure": "Layout, packing, and geometric relations",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "—",
+        "geometric contradiction",
+        "Infeasible, exact certificate"
+      ],
+      "readme": "instances/fhnw-binpack4-58/README.md",
+      "readme_sha256": "880dd4f809bb4c840855fde5fc39fa9ac75c5b029b5b689e2fb91d22037105ee",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fhnw-binpack4-58/README.md",
+      "reports": [
+        "instances/fhnw-binpack4-58/reports/fhnw-binpack4-58-infeasibility-proof.md"
+      ],
+      "closure_table": {
+        "conclusion": "**infeasible**",
+        "method": "exact projection-area contradiction",
+        "historical_evidence_label": "self-contained exact certificate"
+      }
+    },
+    {
+      "name": "fhnw-binschedule0",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "15,958",
+        "15,958",
+        "Optimal, exact interval-order path-cover certificate"
+      ],
+      "readme": "instances/fhnw-binschedule0/README.md",
+      "readme_sha256": "6a05e97a086982e2cf5730fd9f04b0d5f4bed8ba4092c47c1fb05ce8a5800f30",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fhnw-binschedule0/README.md",
+      "reports": [
+        "instances/fhnw-binschedule0/reports/structural-investigation.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = 15,958**",
+        "method": "endpoint interval-order path cover + even-load lattice",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "15642",
+        "repository_lb": "15958",
+        "delta": "+316",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "fhnw-binschedule1",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "55,158",
+        "55,158",
+        "Optimal, exact interval-order path-cover certificate"
+      ],
+      "readme": "instances/fhnw-binschedule1/README.md",
+      "readme_sha256": "0e338ff58b2284f24d1fc14cb3d01f8545399d2e7363f0b003aa3dd4ff161b0d",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fhnw-binschedule1/README.md",
+      "reports": [
+        "instances/fhnw-binschedule1/reports/structural-investigation.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = 55,158**",
+        "method": "endpoint interval-order path cover + colored matching witness",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "52153",
+        "repository_lb": "55158",
+        "delta": "+3005",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "fhnw-binschedule2",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "2,428",
+        "2,428",
+        "Optimal, exact endpoint clique/parity certificate"
+      ],
+      "readme": "instances/fhnw-binschedule2/README.md",
+      "readme_sha256": "4d30405c77d22bbdf25cc329881807515332ca3ebd770ad60829140ac8eec85f",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fhnw-binschedule2/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = 2,428**",
+        "method": "endpoint interval-order clique + parity",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "2273.5",
+        "repository_lb": "2428",
+        "delta": "+154.5",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "fhnw-schedule-paira100",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-15.113116512593402 (strict)",
+        "-15.113116512593402 (Gurobi + audited valid cuts)",
+        "Computational optimum; official lower headline is nonintegral, so no numerical primal improvement is claimed"
+      ],
+      "readme": "instances/fhnw-schedule-paira100/README.md",
+      "readme_sha256": "2843e2c13cc2d03b0e9df8665f841c4673b13f69a858780d8c3005931fd8e7c8",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fhnw-schedule-paira100/README.md",
+      "reports": [
+        "instances/fhnw-schedule-paira100/reports/SOURCES.md",
+        "instances/fhnw-schedule-paira100/reports/common-deadline-sandwich-2026-09-08.md",
+        "instances/fhnw-schedule-paira100/reports/deep-study-2026-09-08.zh.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = -15.113116512593402**",
+        "method": "196 conflict + 2,292 interval-energy cuts; independent zero-gap reread",
+        "historical_evidence_label": "computational global conclusion; original-MPS and row-semantic audits, no portable formal MIP proof"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-23.8016842",
+        "repository_lb": "-15.113116512593402",
+        "delta": "+8.688567687406598",
+        "historical_evidence_code": "C"
+      },
+      "newer_audit": {
+        "adopted_bound": "-15.113116512593401992",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Local exact branch-dual certificate plus an exact original-MPS feasible solution",
+        "method": "Use a safe release-suffix relaxation, complete 0/1 branching, and weak-duality proofs at every leaf, then close the bound with an original-model solution.",
+        "limits": "Adopt the exactly certified value for the literal coefficients of this original MPS. The final proof does not depend on the retracted old energy cuts or floating-point D_safe. The exact tree certificate was completed later and is not presented as a replay of the old search trajectory.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/fhnw-schedule-paira100.zh.md"
+      }
+    },
+    {
+      "name": "fhnw-schedule-paira200",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-19.369961204645204 (new strict incumbent)",
+        "-19.369961204645204 (Gurobi + audited valid cuts)",
+        "Computational optimum; independent rerun and original-MPS audit"
+      ],
+      "readme": "instances/fhnw-schedule-paira200/README.md",
+      "readme_sha256": "09462db7cc705326686ce557fb4491e95cf1d722e21878d9e382914304f3c160",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fhnw-schedule-paira200/README.md",
+      "reports": [
+        "instances/fhnw-schedule-paira200/reports/deep-study-2026-09-08.zh.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = -19.369961204645204**",
+        "method": "708 conflict + 1,500 interval-energy cuts; independent zero-gap reread",
+        "historical_evidence_label": "computational global conclusion; original-MPS and cross-formulation audits, no portable formal MIP proof"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-46.9081453",
+        "repository_lb": "-19.369961204645204",
+        "delta": "+27.538184095354796",
+        "historical_evidence_code": "C"
+      },
+      "newer_audit": {
+        "adopted_bound": "-19.36996120464520581",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Local exact branch-dual certificate plus an exact original-MPS feasible solution",
+        "method": "Use a safe release-suffix relaxation, complete 0/1 branching, and weak-duality proofs at every leaf, then close the bound with an original-model solution.",
+        "limits": "Adopt the certified value. The last digits of the old headline were too high, so that literal decimal cannot be reinstated as a rigorous lower bound. The final proof does not depend on the retracted old energy cuts or floating-point D_safe. The exact tree certificate was completed later and is not presented as a replay of the old search trajectory.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/fhnw-schedule-paira200.zh.md"
+      }
+    },
+    {
+      "name": "fhnw-schedule-paira400",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-36.27696674236886 (new strict incumbent)",
+        "-36.27696674236886 (safe suffix master)",
+        "Computational optimum; two master runs and Pair-A/Pair-B full-row audits"
+      ],
+      "readme": "instances/fhnw-schedule-paira400/README.md",
+      "readme_sha256": "5d689998ff8bb6e375fc800c21dd9646eedd0811526f47b40bdc72d1b0295360",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fhnw-schedule-paira400/README.md",
+      "reports": [
+        "instances/fhnw-schedule-paira400/reports/deep-study-2026-09-08.zh.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = -36.27696674236886**",
+        "method": "safe 400-binary release-suffix relaxation + Pair-A/Pair-B witness reconstruction",
+        "historical_evidence_label": "computational global conclusion; independent zero-gap reread and full-row audits, no portable formal MIP proof"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-95.8844179",
+        "repository_lb": "-36.27696674236886",
+        "delta": "+59.60745115763114",
+        "historical_evidence_code": "C"
+      },
+      "newer_audit": {
+        "adopted_bound": "-36.276966742368865136",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Local exact branch-dual certificate plus an exact original-MPS feasible solution",
+        "method": "Use a safe release-suffix relaxation, complete 0/1 branching, and weak-duality proofs at every leaf, then close the bound with an original-model solution.",
+        "limits": "Adopt the certified value. The last digits of the old headline were too high, so that literal decimal cannot be reinstated as a rigorous lower bound. The final proof does not depend on the retracted old energy cuts or floating-point D_safe. The exact tree certificate was completed later and is not presented as a replay of the old search trajectory.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/fhnw-schedule-paira400.zh.md"
+      }
+    },
+    {
+      "name": "fhnw-schedule-pairb200",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-19.3699612046452058100 (new strict incumbent)",
+        "-19.3699612046452058100 (Gurobi + audited valid cuts)",
+        "Computational optimum; independent rerun and Pair-A cross-check, no portable formal lower-bound proof"
+      ],
+      "readme": "instances/fhnw-schedule-pairb200/README.md",
+      "readme_sha256": "f5d5841f8c250f510655fc1ba49f90f975c8ce453e06f8007c13641d1548ce19",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fhnw-schedule-pairb200/README.md",
+      "reports": [
+        "instances/fhnw-schedule-pairb200/reports/SOURCES.md",
+        "instances/fhnw-schedule-pairb200/reports/deep-study-2026-09-08.zh.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = -19.3699612046452058100**",
+        "method": "audited interval-energy proof plus independent 200-binary release-suffix master",
+        "historical_evidence_label": "computational global conclusion; independently rerun and cross-formulation audited, no portable formal MIP proof"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-51.5610835",
+        "repository_lb": "-19.3699612046452058100",
+        "delta": "+32.1911222953547941900",
+        "historical_evidence_code": "C"
+      },
+      "newer_audit": {
+        "adopted_bound": "-19.36996120464520581",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Local exact branch-dual certificate plus an exact original-MPS feasible solution",
+        "method": "Use a safe release-suffix relaxation, complete 0/1 branching, and weak-duality proofs at every leaf, then close the bound with an original-model solution.",
+        "limits": "Adopt the exactly certified value for the literal coefficients of this original MPS. The final proof does not depend on the retracted old energy cuts or floating-point D_safe. The exact tree certificate was completed later and is not presented as a replay of the old search trajectory.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/fhnw-schedule-pairb200.zh.md"
+      }
+    },
+    {
+      "name": "fhnw-schedule-pairb400",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-36.27696674236886 (new strict incumbent)",
+        "-36.27696674236886 (independent safe suffix master)",
+        "Computational optimum; two safe runs, cross-formulation audit, invalid old cuts explicitly rejected"
+      ],
+      "readme": "instances/fhnw-schedule-pairb400/README.md",
+      "readme_sha256": "42634b6c2f6fc2edf99f4526daa31df4abc6346fdff40a84535cd716fc86127e",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/fhnw-schedule-pairb400/README.md",
+      "reports": [
+        "instances/fhnw-schedule-pairb400/reports/REJECTED-PROOF-NOTICE.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = -36.27696674236886**",
+        "method": "independently rebuilt safe release-suffix relaxation + cross-formulation audit",
+        "historical_evidence_label": "computational global conclusion; two safe zero-gap runs and full-row audits, no portable formal MIP proof"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-98.8384308",
+        "repository_lb": "-36.27696674236886",
+        "delta": "+62.56146405763114",
+        "historical_evidence_code": "C"
+      },
+      "newer_audit": {
+        "adopted_bound": "-36.276966742368865136",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Local exact branch-dual certificate plus an exact original-MPS feasible solution",
+        "method": "Use a safe release-suffix relaxation, complete 0/1 branching, and weak-duality proofs at every leaf, then close the bound with an original-model solution.",
+        "limits": "Adopt the certified value. The last digits of the old headline were too high, so that literal decimal cannot be reinstated as a rigorous lower bound. The final proof does not depend on the retracted old energy cuts or floating-point D_safe. The exact tree certificate was completed later and is not presented as a replay of the old search trajectory.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/fhnw-schedule-pairb400.zh.md"
+      }
+    },
+    {
+      "name": "genus-g31-8",
+      "family": "genus",
+      "structure": "Graph embeddings and rotation systems",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-23 (genus 3)",
+        "-23 exhaustive result",
+        "Optimal, same graph and exact exhaustive result; no standalone proof trace"
+      ],
+      "readme": "instances/genus-g31-8/README.md",
+      "readme_sha256": "bf97bc64d8689070afd43c76756c427174d2c09219dcaeb6b28c9e4fa672d892",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/genus-g31-8/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = -23**",
+        "method": "same graph, exhaustive genus computation + rotation",
+        "historical_evidence_label": "exact exhaustive computation; no standalone proof trace"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-27",
+        "repository_lb": "-23",
+        "delta": "+4",
+        "historical_evidence_code": "X"
+      }
+    },
+    {
+      "name": "genus-g61-25",
+      "family": "genus",
+      "structure": "Graph embeddings and rotation systems",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-40 (genus 10; MPS tolerance 1e-6)",
+        "-42 (exact; genus ≥9)",
+        "Complete 44-face exclusion; 42-face target unresolved"
+      ],
+      "readme": "instances/genus-g61-25/README.md",
+      "readme_sha256": "a8958cd2d9281b3bd030106524b4646113fa2da22c52e27ba25fdce8dc29ad46",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/genus-g61-25/README.md",
+      "reports": [
+        "instances/genus-g61-25/reports/structural-investigation.md"
+      ],
+      "historical_copt_comparison": {
+        "baseline": "-58",
+        "repository_lb": "-42",
+        "delta": "+16",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "genus-sym-g31-8",
+      "family": "genus",
+      "structure": "Graph embeddings and rotation systems",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-23 (genus 3)",
+        "-23 exhaustive result",
+        "Optimal, specialized exact exhaustive computation; no standalone proof trace"
+      ],
+      "readme": "instances/genus-sym-g31-8/README.md",
+      "readme_sha256": "9f7081d11dcf2283491b05e911ba49b724a72bf355d8eb36ee8f1f03a5c5ba33",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/genus-sym-g31-8/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = -23**",
+        "method": "exhaustive orientable-genus computation + rotation",
+        "historical_evidence_label": "exact exhaustive computation; no standalone proof trace"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-27",
+        "repository_lb": "-23",
+        "delta": "+4",
+        "historical_evidence_code": "X"
+      }
+    },
+    {
+      "name": "genus-sym-g62-2",
+      "family": "genus",
+      "structure": "Graph embeddings and rotation systems",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-38 (MPS tolerance 1e-6)",
+        "-40 (exact)",
+        "Complete short-face catalogue and rational dual; optimum open"
+      ],
+      "readme": "instances/genus-sym-g62-2/README.md",
+      "readme_sha256": "dcf1b97a2f705ccca209e54ee1003f449302cc7734005691f848bb03e1cedf0f",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/genus-sym-g62-2/README.md",
+      "reports": [],
+      "historical_copt_comparison": {
+        "baseline": "-54",
+        "repository_lb": "-40",
+        "delta": "+14",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "genus-sym-grafo5708-48",
+      "family": "genus",
+      "structure": "Graph embeddings and rotation systems",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-21 (genus 4)",
+        "-21 exhaustive result",
+        "Optimal, specialized exact exhaustive computation; no standalone proof trace"
+      ],
+      "readme": "instances/genus-sym-grafo5708-48/README.md",
+      "readme_sha256": "e31d8fd20461cdf01a2e4e067a58e02edc57ff8731c86278e0a72e1fa09efc07",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/genus-sym-grafo5708-48/README.md",
+      "reports": [
+        "instances/genus-sym-grafo5708-48/reports/structural-investigation.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = -21**",
+        "method": "exhaustive orientable-genus computation + rotation",
+        "historical_evidence_label": "exact exhaustive computation; no standalone proof trace"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-27",
+        "repository_lb": "-21",
+        "delta": "+6",
+        "historical_evidence_code": "X"
+      }
+    },
+    {
+      "name": "ger50-17-ptp-pop-3t",
+      "family": "network-design",
+      "structure": "Network design with continuous recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "5,224.5144 (strict)",
+        "5,183.93592586653 (solver)",
+        "Exact flow scaling; conflicting Gurobi 13 zero-gap output rejected; 0.7767% numerical gap; global optimum open"
+      ],
+      "readme": "instances/ger50-17-ptp-pop-3t/README.md",
+      "readme_sha256": "e2f2afaa66f6efa30a78365774c4556b758147ae2b983ac4dd6839430ae3de42",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/ger50-17-ptp-pop-3t/README.md",
+      "reports": []
+    },
+    {
+      "name": "gmut-76-40",
+      "family": "harvest",
+      "structure": "Forest set packing and interperiod smoothing",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-14,169,477.7859 (strict repaired)",
+        "-14,171,086.31587 (solver)",
+        "Exact-decimal primal audit; 0.0114% numerical gap; global optimum open"
+      ],
+      "readme": "instances/gmut-76-40/README.md",
+      "readme_sha256": "59e14a7e218d884ca62c0b90485e0f47a5248e8e2856b709ce67cca6a1e6a3f0",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/gmut-76-40/README.md",
+      "reports": []
+    },
+    {
+      "name": "gmut-76-50",
+      "family": "harvest",
+      "structure": "Forest set packing and interperiod smoothing",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-14171397.8275 (strict)",
+        "no new certified global bound",
+        "Public lower-looking witness is nonintegral; no incumbent improvement claimed"
+      ],
+      "readme": "instances/gmut-76-50/README.md",
+      "readme_sha256": "6737bffe85c5446a1ce8fe1e8a0a270710405d74dfe83584a37cca98d3f47f48",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/gmut-76-50/README.md",
+      "reports": [
+        "instances/gmut-76-50/reports/effort_ledger.md",
+        "instances/gmut-76-50/reports/final_report.md"
+      ]
+    },
+    {
+      "name": "graph40-20-1rand",
+      "family": "graph-cut",
+      "structure": "Disjoint graph-cut packing",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-15 (15 cuts)",
+        "-15 published, graph identity not certified",
+        "Feasible; global optimality not locally certified"
+      ],
+      "readme": "instances/graph40-20-1rand/README.md",
+      "readme_sha256": "114dc836d36b102aa916450034158c8851b93d0883d9857326a706853d85b06f",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/graph40-20-1rand/README.md",
+      "reports": []
+    },
+    {
+      "name": "graph40-40-1rand",
+      "family": "graph-cut",
+      "structure": "Disjoint graph-cut packing",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-9 (9 cuts)",
+        "-9",
+        "Optimal, original-MPS/CNF/LRAT certificate"
+      ],
+      "readme": "instances/graph40-40-1rand/README.md",
+      "readme_sha256": "1112244f6345b07c94aeca57afe9399be574dc852d8ca79fe7540a3794f6703f",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/graph40-40-1rand/README.md",
+      "reports": [
+        "instances/graph40-40-1rand/reports/graph40-40-1rand_fractional_clique_c5_report.md",
+        "instances/graph40-40-1rand/reports/graph40-40-1rand_investigation.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = -9**",
+        "method": "original-MPS audit + ten-cut CNF/LRAT + witness",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-68.9559386",
+        "repository_lb": "-9",
+        "delta": "+59.9559386",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "graph40-80-1rand",
+      "family": "graph-cut",
+      "structure": "Disjoint graph-cut packing",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-7",
+        "-7",
+        "Optimal, original-MPS/CNF/LRAT certificate"
+      ],
+      "readme": "instances/graph40-80-1rand/README.md",
+      "readme_sha256": "df5f690e745d87beb1cf692843cea0c2d7f542b514e1caed0f2763ae91788eb0",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/graph40-80-1rand/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = -7**",
+        "method": "original-MPS audit + CNF/LRAT + witness",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-495.450445",
+        "repository_lb": "-7",
+        "delta": "+488.450445",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "graphdraw-mainerd",
+      "family": "geometry",
+      "structure": "Layout, packing, and geometric relations",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "38,842 (exact reconstruction)",
+        "31,882 (exact global certificate)",
+        "New global geometric proof; historical six-rectangle local exclusion remains separate; global optimum open"
+      ],
+      "readme": "instances/graphdraw-mainerd/README.md",
+      "readme_sha256": "186808fdbda8bbc31d535011345dd7ed9812e9074068cf524f97799d07632629",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/graphdraw-mainerd/README.md",
+      "reports": [
+        "instances/graphdraw-mainerd/reports/graphdraw-mainerd-study-zh.md"
+      ],
+      "historical_copt_comparison": {
+        "baseline": "31493.2257",
+        "repository_lb": "**31882**",
+        "delta": "**+388.7743**",
+        "historical_evidence_code": "E"
+      },
+      "newer_audit": {
+        "adopted_bound": "31882",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Local exact geometric projection plus four-direction branch-dual certificates",
+        "method": "Derive distance bounds for small rectangle groups that apply to every original layout, then sum them without charging any cost twice.",
+        "limits": "Adopt the new exact bound 31882. This is a new proof, not a replay of the original search for 31769. Earlier local results allowing only a limited number of rectangles to move are excluded from the global proof chain. Optimality is not claimed.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/graphdraw-mainerd.zh.md"
+      }
+    },
+    {
+      "name": "graphdraw-opmanager",
+      "family": "geometry",
+      "structure": "Layout, packing, and geometric relations",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "99,445.5",
+        "58,950 (exact global certificate)",
+        "New global geometric proof; historical four-rectangle local exclusion remains separate; global optimum open"
+      ],
+      "readme": "instances/graphdraw-opmanager/README.md",
+      "readme_sha256": "4f38b0f735ede81040bfbf939fbf8be4ae79a9b481515d4722a40c4e67e2e2dc",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/graphdraw-opmanager/README.md",
+      "reports": [],
+      "historical_copt_comparison": {
+        "baseline": "56741.4457",
+        "repository_lb": "**58950**",
+        "delta": "**+2208.5543**",
+        "historical_evidence_code": "E"
+      },
+      "newer_audit": {
+        "adopted_bound": "58950",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Local exact geometric projection plus four-direction branch-dual certificates",
+        "method": "Derive distance bounds for small rectangle groups that apply to every original layout, then sum them without charging any cost twice.",
+        "limits": "Adopt the new exact bound 58950. This is a new proof, not a replay of the original search for 58625.5. Earlier local results allowing only a limited number of rectangles to move are excluded from the global proof chain. Optimality is not claimed.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/graphdraw-opmanager.zh.md"
+      }
+    },
+    {
+      "name": "gsvm2rl11",
+      "family": "classification",
+      "structure": "Classifier construction and outlier selection",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "18,539.12716192643 (strict)",
+        "2,096.755457820071",
+        "Feasible; sparse-exchange prototypes tested; global optimum open"
+      ],
+      "readme": "instances/gsvm2rl11/README.md",
+      "readme_sha256": "f8f5ff6a9c04c97d0bcf6b9934678f243077a88e05f0a864971644bf9972a013",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/gsvm2rl11/README.md",
+      "reports": []
+    },
+    {
+      "name": "gsvm2rl9",
+      "family": "classification",
+      "structure": "Classifier construction and outlier selection",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "7,438.181167767967 (strict)",
+        "2,289.659530409",
+        "Feasible; no official-target improvement within z radius 8; global optimum open"
+      ],
+      "readme": "instances/gsvm2rl9/README.md",
+      "readme_sha256": "4f3628808adb923f494c9f71fa97921a60cb12767fe5ff6a76eefcdbf1da80d1",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/gsvm2rl9/README.md",
+      "reports": [
+        "instances/gsvm2rl9/reports/gsvm2rl9-study.md"
+      ]
+    },
+    {
+      "name": "ivu06",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "142.864331576",
+        "135.900242315 (portable)",
+        "Exact rational dual checked against all columns; global optimum open"
+      ],
+      "readme": "instances/ivu06/README.md",
+      "readme_sha256": "e9fb1d9af3f2b29c3a391f11b325bb1b4b786b5b4d54d3993060d3aea8253765",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/ivu06/README.md",
+      "reports": [
+        "instances/ivu06/reports/background_and_sources.md",
+        "instances/ivu06/reports/effort_ledger.md",
+        "instances/ivu06/reports/final_report.md"
+      ]
+    },
+    {
+      "name": "liu",
+      "family": "geometry",
+      "structure": "Layout, packing, and geometric relations",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "1,082 (new strict solution)",
+        "1,074 (area + even-lattice certificate)",
+        "Feasible; target-1,080 critical-path study closes two restricted neighborhoods, but global optimum remains open"
+      ],
+      "readme": "instances/liu/README.md",
+      "readme_sha256": "b5004c4f0c109d846fd81907decc1d498361d84320dd4272cb3bc6c6db373dcb",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/liu/README.md",
+      "reports": [
+        "instances/liu/reports/liu-study.md"
+      ],
+      "historical_copt_comparison": {
+        "baseline": "560",
+        "repository_lb": "1074",
+        "delta": "+514",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "lr1dr02vc05v8a-t360",
+      "family": "inventory-routing",
+      "structure": "Inventory routing and cargo-vehicle coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "123,046.81611861245 (strict normalized)",
+        "no new bound",
+        "Route RVND/ILS and capacity-preserving compound exchanges tested; global optimum open"
+      ],
+      "readme": "instances/lr1dr02vc05v8a-t360/README.md",
+      "readme_sha256": "776df52c3a6d95c54cbb3ce9b707815351566d5fcaf2fdd268131ae335aa2bc9",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/lr1dr02vc05v8a-t360/README.md",
+      "reports": []
+    },
+    {
+      "name": "milo-v12-6-r1-75-1",
+      "family": "structural-design",
+      "structure": "Component selection and mechanical recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "1,153,756.398205675",
+        "1,125,907.0416245167 (solver)",
+        "2.4138% numerical gap; 5,236 fixed-topology tests; global optimum open"
+      ],
+      "readme": "instances/milo-v12-6-r1-75-1/README.md",
+      "readme_sha256": "b902878e70d4696c67c08613e6f6d431ea3dda46367cc7e68d1563fdb43d5d51",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/milo-v12-6-r1-75-1/README.md",
+      "reports": []
+    },
+    {
+      "name": "milo-v13-4-3d-4-0",
+      "family": "structural-design",
+      "structure": "Component selection and mechanical recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "358,152.26219370891",
+        "221,230.41433552347 (solver)",
+        "Same verified design; prior member-radius-7 result retained; global optimum open"
+      ],
+      "readme": "instances/milo-v13-4-3d-4-0/README.md",
+      "readme_sha256": "42ee967b0d10f3c8aadd25e266a919243a19d50d9efce60fe3e6214ae91a952c",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/milo-v13-4-3d-4-0/README.md",
+      "reports": [
+        "instances/milo-v13-4-3d-4-0/reports/milo-study.md"
+      ]
+    },
+    {
+      "name": "mining",
+      "family": "mining",
+      "structure": "Mining precedence and interperiod capacity",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-833,589,149.2736538586882046",
+        "-835,361,895.5863052144840282387439 (strict)",
+        "Exact certified interval; 0.2126642740% gap; global optimum open"
+      ],
+      "readme": "instances/mining/README.md",
+      "readme_sha256": "fcc9fd581d1b5068cdd76bcc5840ab4e5267118ec88a82638691a62591361b51",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/mining/README.md",
+      "reports": [],
+      "historical_copt_comparison": {
+        "baseline": "-933493233",
+        "repository_lb": "-835361895.5863052144840282387439",
+        "delta": "+98131337.41369478551597176126",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "minutedispatchstrategy",
+      "family": "dispatch",
+      "structure": "Power dispatch",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "3,109.9034777596576",
+        "3,109.9034777596576 (Gurobi)",
+        "Repository computational closure; official page still open; strict primal audit, not yet incorporated into or confirmed by MIPLIB, and no portable exact lower-bound certificate"
+      ],
+      "readme": "instances/minutedispatchstrategy/README.md",
+      "readme_sha256": "3b4631788c1dfee3bfe807c494e4dc5c244cb8828eab236a040a8a884e84d783",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/minutedispatchstrategy/README.md",
+      "reports": [
+        "instances/minutedispatchstrategy/reports/computational-optimality.zh.md"
+      ],
+      "closure_table": {
+        "conclusion": "**UB = LB = 3,109.9034777596576 (repository computational closure)**",
+        "method": "original official MPS + public MIP start + zero-gap Gurobi 13.0.1; no user cuts",
+        "historical_evidence_label": "not incorporated into or confirmed by MIPLIB; v36 records `=best=` and the current page remains `open`; no primal improvement and no portable exact lower-bound certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "3109.78686",
+        "repository_lb": "3109.9034777596576",
+        "delta": "+0.1166177596576",
+        "historical_evidence_code": "C"
+      },
+      "newer_audit": {
+        "adopted_bound": "3109.9034777596576",
+        "numerical_bound": true,
+        "decision": "New numerical bound adopted; discrepancy with the old PDF remains unresolved",
+        "evidence": "Original model plus historical global numerical solver closure; historical discrepancy retained",
+        "method": "Solve the original MPS directly and use its global ObjBound; recompute the existing solution exactly to examine tolerance effects.",
+        "limits": "The new lower bound is adopted following the user decision, while retaining the old PDF primal=3109.90308, which is approximately 0.00039776 below the new bound; its corresponding original solution is still missing. Residuals from another COPT solution do not explain that specific historical record. The discrepancy remains unresolved, and no verified counterexample was found. Adopting the new value is a usage decision, not a proof that the unresolved issue has been settled.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/minutedispatchstrategy.zh.md"
+      }
+    },
+    {
+      "name": "n3700",
+      "family": "network-design",
+      "structure": "Network design with continuous recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "1,247,295 (strict)",
+        "1,063,103.147061621",
+        "Feasible; fixed-charge/network repair tested; global optimum open"
+      ],
+      "readme": "instances/n3700/README.md",
+      "readme_sha256": "21fbcb5d6a20470bac4c035120124c8def81cd73622655c0d38af0437c5fa3f3",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/n3700/README.md",
+      "reports": []
+    },
+    {
+      "name": "nag",
+      "family": "selection-core",
+      "structure": "Selection cores and local coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "930 (verified @ 1e-9)",
+        "550.540540540541",
+        "Feasible under the stated tolerance; global optimum open"
+      ],
+      "readme": "instances/nag/README.md",
+      "readme_sha256": "dca7ac0868439c8c36db5b944e52488316c3d80274ad675db7c54d4fb5978e45",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/nag/README.md",
+      "reports": [],
+      "historical_copt_comparison": {
+        "baseline": "465",
+        "repository_lb": "550.5405405405405",
+        "delta": "+85.5405405405405",
+        "historical_evidence_code": "N"
+      },
+      "newer_audit": {
+        "adopted_bound": "550.5405405405405",
+        "numerical_bound": true,
+        "decision": "Accepted",
+        "evidence": "Traceable original MPS and runner plus historical global numerical solver evidence",
+        "method": "Solve the original MPS directly and inspect global ObjBound and terminal logs; no new manual mathematical reduction is involved.",
+        "limits": "Accepted under a standard permitting reasonable global numerical solver results. Not all internal cuts or the branch tree were independently checked, and no commercial numerical rerun was performed. API decimals are numerical records, not digit-by-digit exact certificates. Improvement over the old COPT PDF cannot be attributed to a specific parameter and is not proof of a same-budget performance advantage.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/nag.zh.md"
+      }
+    },
+    {
+      "name": "neos-2629914-sudost",
+      "family": "exact-core",
+      "structure": "Network, matching, and discrete cores",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "48,180",
+        "48,180",
+        "Optimal, exact QAP/cut-enumeration certificate"
+      ],
+      "readme": "instances/neos-2629914-sudost/README.md",
+      "readme_sha256": "0e1925d6452f56c31a17c8d8ab3b9cd5cfafc68713bfa6fdc29a8d6f977063cc",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-2629914-sudost/README.md",
+      "reports": [
+        "instances/neos-2629914-sudost/reports/sudost-optimality-proof.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = 48,180**",
+        "method": "exact QAP reduction + cut-chain enumeration",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "42387.0653",
+        "repository_lb": "48180",
+        "delta": "+5792.9347",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "neos-2978205-isar",
+      "family": "symmetry",
+      "structure": "Repeated columns and type counts",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-11.925808687",
+        "-11.925808687",
+        "Optimal, computational global conclusion; exact symmetry quotient and lift with no portable formal lower-bound trace"
+      ],
+      "readme": "instances/neos-2978205-isar/README.md",
+      "readme_sha256": "e5fbb47be8846b0af630ad35c21e2be32932dd4112ea2045353ae830c632a633",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-2978205-isar/README.md",
+      "reports": [
+        "instances/neos-2978205-isar/reports/effort_ledger.md",
+        "instances/neos-2978205-isar/reports/final_report.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = -11.925808687**",
+        "method": "exact symmetry quotient and mapping + zero-gap solve + independently audited lifted solution",
+        "historical_evidence_label": "computational global conclusion; no portable formal lower-bound trace"
+      }
+    },
+    {
+      "name": "neos-3009394-lami",
+      "family": "exact-core",
+      "structure": "Network, matching, and discrete cores",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "5.5",
+        "5.5",
+        "Optimal, exact Hall/matching certificate"
+      ],
+      "readme": "instances/neos-3009394-lami/README.md",
+      "readme_sha256": "006aa5717c7578c8fab4e581710b38993394759a3bbedc4f137434472ab31bd5",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-3009394-lami/README.md",
+      "reports": [
+        "instances/neos-3009394-lami/reports/neos-3009394-lami-study-zh.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = 5.5**",
+        "method": "exact bottleneck matching + Hall deficiency",
+        "historical_evidence_label": "self-contained exact certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "1.92857143",
+        "repository_lb": "5.5",
+        "delta": "+3.57142857",
+        "historical_evidence_code": "E"
+      }
+    },
+    {
+      "name": "neos-3355120-tarago",
+      "family": "selection-core",
+      "structure": "Selection cores and local coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-11,110,906.689290019 (verified @ 1e-9)",
+        "-11,123,832.676970437",
+        "Feasible; incumbent-centered binary exchange attempted; 0.1163% gap remains"
+      ],
+      "readme": "instances/neos-3355120-tarago/README.md",
+      "readme_sha256": "c81a31a6840a551a08b7b0d6ddf0304ccaf87b8a6ee05e3b63eea1bfd5f5f8f8",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-3355120-tarago/README.md",
+      "reports": [],
+      "historical_copt_comparison": {
+        "baseline": "-11712060.9",
+        "repository_lb": "-11123832.676970437",
+        "delta": "+588228.223029563",
+        "historical_evidence_code": "N"
+      },
+      "newer_audit": {
+        "adopted_bound": "-11123832.676970437",
+        "numerical_bound": true,
+        "decision": "Accepted",
+        "evidence": "Traceable original MPS and runner plus historical global numerical solver evidence",
+        "method": "Solve the original MPS directly and inspect global ObjBound and terminal logs; no new manual mathematical reduction is involved.",
+        "limits": "Accepted under a standard permitting reasonable global numerical solver results. Not all internal cuts or the branch tree were independently checked, and no commercial numerical rerun was performed. API decimals are numerical records, not digit-by-digit exact certificates. Improvement over the old COPT PDF cannot be attributed to a specific parameter and is not proof of a same-budget performance advantage.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/neos-3355120-tarago.zh.md"
+      }
+    },
+    {
+      "name": "neos-3355323-arnon",
+      "family": "puzzle-feasibility",
+      "structure": "Finite-domain feasibility and covering repair",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "no feasible witness",
+        "no infeasibility certificate",
+        "Exact order-CSP/CNF search remains unknown"
+      ],
+      "readme": "instances/neos-3355323-arnon/README.md",
+      "readme_sha256": "72a30d0dc81d336e662409df0ab2982ec88731b062017250a9b5951d7b5ea104",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-3355323-arnon/README.md",
+      "reports": [
+        "instances/neos-3355323-arnon/reports/final_report.md"
+      ]
+    },
+    {
+      "name": "neos-3594536-henty",
+      "family": "exact-core",
+      "structure": "Network, matching, and discrete cores",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "401,092",
+        "401,092 (Gurobi/COPT)",
+        "Computational optimum; exact primal audit, no portable exact lower-bound certificate"
+      ],
+      "readme": "instances/neos-3594536-henty/README.md",
+      "readme_sha256": "852dc28839ef3674b391f65ebb5f7d09ff6de60c7124d362a0710f6f9bf7e5ac",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-3594536-henty/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = 401,092**",
+        "method": "exact component-balance/parity reduction + zero-gap Gurobi/COPT",
+        "historical_evidence_label": "computational global conclusion; no portable exact lower-bound certificate"
+      },
+      "historical_copt_comparison": {
+        "baseline": "397821.689",
+        "repository_lb": "401092",
+        "delta": "+3270.311",
+        "historical_evidence_code": "C"
+      },
+      "newer_audit": {
+        "adopted_bound": "401092",
+        "numerical_bound": true,
+        "decision": "Accepted",
+        "evidence": "Rigorous structural reduction plus historical numerical closure by two solvers",
+        "method": "Normalize free integer pairs, eliminate free flows, and reduce to component balance and parity.",
+        "limits": "The reduction is rigorous; the value 401092 is supported by historical global solver evidence. Agreement between two solvers and a feasible solution of value 401092 do not constitute an independent exact lower-bound certificate; neither solver was rerun in this audit. Improve-only cutoff branches and the weaker 400947 were not substituted for the original claim.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/neos-3594536-henty.zh.md"
+      }
+    },
+    {
+      "name": "neos-3603137-hoteo",
+      "family": "puzzle-feasibility",
+      "structure": "Finite-domain feasibility and covering repair",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "no feasible point",
+        "CP and SAT UNKNOWN",
+        "Global feasibility open; no UNSAT proof"
+      ],
+      "readme": "instances/neos-3603137-hoteo/README.md",
+      "readme_sha256": "3dd35ffc44ecd9c31436992750e9cdb80b02bb3bd5f16759866889a615999857",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-3603137-hoteo/README.md",
+      "reports": []
+    },
+    {
+      "name": "neos-3634244-kauru",
+      "family": "minimax-cluster",
+      "structure": "Equal-cardinality minimax clustering",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "1398.0156859 (strict)",
+        "no new certified global bound",
+        "Equitable-minimax-clustering recovery; no incumbent improvement claimed"
+      ],
+      "readme": "instances/neos-3634244-kauru/README.md",
+      "readme_sha256": "6268570aec428287598d8d29d57100a802b79ab326527a5d366995bb18403d83",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-3634244-kauru/README.md",
+      "reports": [
+        "instances/neos-3634244-kauru/reports/final_report.md"
+      ]
+    },
+    {
+      "name": "neos-3691541-lonja",
+      "family": "selection-core",
+      "structure": "Selection cores and local coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "0.0918239856 (strict)",
+        "no new certified global bound",
+        "Exact subset witnesses plus complete-hint CP-SAT; public lower-valued pattern fails zero-tolerance feasibility; global optimum open"
+      ],
+      "readme": "instances/neos-3691541-lonja/README.md",
+      "readme_sha256": "4fd7bf7d9094ad370bbedaa4bd2c968fe3cd57cd5b9e2d43d941b7fabd8d4421",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-3691541-lonja/README.md",
+      "reports": []
+    },
+    {
+      "name": "neos-4355351-swalm",
+      "family": "exact-core",
+      "structure": "Network, matching, and discrete cores",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "33.45763",
+        "33.45763",
+        "Optimal, exact state-Steiner DP and zero-violation witness"
+      ],
+      "readme": "instances/neos-4355351-swalm/README.md",
+      "readme_sha256": "e7e502188eabd31038087f68c51930bf8e78e0a670324419b1a33520a8f04c0f",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-4355351-swalm/README.md",
+      "reports": [
+        "instances/neos-4355351-swalm/reports/optimality-proof.zh.md"
+      ],
+      "closure_table": {
+        "conclusion": "**OPT = 33.45763**",
+        "method": "exact forbidden-turn state-Steiner subset DP + witness",
+        "historical_evidence_label": "self-contained exact certificate"
+      }
+    },
+    {
+      "name": "neos-4360552-sangro",
+      "family": "exact-core",
+      "structure": "Network, matching, and discrete cores",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "-8",
+        "-8",
+        "Optimal, exact active-layer quotient and A=9 relaxed infeasibility"
+      ],
+      "readme": "instances/neos-4360552-sangro/README.md",
+      "readme_sha256": "2509bc198225fb3a51620948cb7c74a36aaa38d13b78b0124077fa2971187f06",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-4360552-sangro/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = -8**",
+        "method": "exact active-layer quotient + A=9 interval-chain infeasibility",
+        "historical_evidence_label": "exact exhaustive computation; no standalone proof trace"
+      },
+      "historical_copt_comparison": {
+        "baseline": "-12.0644768",
+        "repository_lb": "-8",
+        "delta": "+4.0644768",
+        "historical_evidence_code": "X"
+      }
+    },
+    {
+      "name": "neos-4533806-waima",
+      "family": "selection-core",
+      "structure": "Selection cores and local coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "4,870 (exact audit)",
+        "3,956 (solver)",
+        "Exact aggregation and path-component LNS completed; no improvement; global optimum open"
+      ],
+      "readme": "instances/neos-4533806-waima/README.md",
+      "readme_sha256": "b677ae818209941afa11296a569589cb759c8aad16361dc8559b652475528bea",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-4533806-waima/README.md",
+      "reports": []
+    },
+    {
+      "name": "neos-5045105-creuse",
+      "family": "selection-core",
+      "structure": "Selection cores and local coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "20.571410408673 (Gurobi-accepted)",
+        "19.932229270717",
+        "Feasible under solver tolerances; combined observed gap 3.1071%; strict verification and global optimum open"
+      ],
+      "readme": "instances/neos-5045105-creuse/README.md",
+      "readme_sha256": "255861c0cfc4e7e3d7a3dd1100fc660b95d30482b7ecd14fd6cb95fe650a83a9",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-5045105-creuse/README.md",
+      "reports": []
+    },
+    {
+      "name": "neos-5266653-tugela",
+      "family": "routing",
+      "structure": "Routing with load or time potentials",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "65,257.573990387 (new strict incumbent)",
+        "no new certified global bound",
+        "Three-vehicle-block LNS and two exact original-MPS audits; improves MIPLIB by 247.6265848893; global optimum open"
+      ],
+      "readme": "instances/neos-5266653-tugela/README.md",
+      "readme_sha256": "a59ca8a64efaaf99c5cddd3ceebd2abefac8f99f5dc8dc062c34c5320b78735b",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/neos-5266653-tugela/README.md",
+      "reports": []
+    },
+    {
+      "name": "nj1",
+      "family": "districting",
+      "structure": "Population-balanced connected partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "382.0606208032 (improved first strict incumbent)",
+        "no new nontrivial strict global lower bound",
+        "Tree/compound search, 21 pair, 39 anchor-fixed triple, and 67 anchor-fixed quad closures, plus a zero-tolerance audit; global optimum open"
+      ],
+      "readme": "instances/nj1/README.md",
+      "readme_sha256": "fe6728f2e5919ccba557d8107403b49bc36f84c625852293707001bc3d8f39c5",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/nj1/README.md",
+      "reports": []
+    },
+    {
+      "name": "nj2",
+      "family": "districting",
+      "structure": "Population-balanced connected partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "382.0606208032 (improved first strict incumbent)",
+        "no new nontrivial strict global lower bound",
+        "Exact lift, local-neighborhood closures, and zero-tolerance audit; global optimum open"
+      ],
+      "readme": "instances/nj2/README.md",
+      "readme_sha256": "aa1431ead426ac5df198c3e04f359aa6774a0208a81156da4c9f07ab98a40a18",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/nj2/README.md",
+      "reports": []
+    },
+    {
+      "name": "nj3",
+      "family": "districting",
+      "structure": "Population-balanced connected partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "382.0606208032 (first strict incumbent)",
+        "no new nontrivial strict global lower bound",
+        "Exact nj2 -> nj3 projection, label anchoring, local-neighborhood closures, and zero-tolerance audit; global optimum open"
+      ],
+      "readme": "instances/nj3/README.md",
+      "readme_sha256": "676b8cd6fc57bc076745aea95c4863e82a993adcdc974270303812000d5c4098",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/nj3/README.md",
+      "reports": []
+    },
+    {
+      "name": "ns1631475",
+      "family": "exact-core",
+      "structure": "Network, matching, and discrete cores",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "11,100",
+        "11,100",
+        "Optimal, exact cyclic-cutwidth enumeration and audited witness"
+      ],
+      "readme": "instances/ns1631475/README.md",
+      "readme_sha256": "f8958945309e05e68ae5be71e5a28edc40f5a6a31f77f52e0e982f99d50e5e27",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/ns1631475/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**OPT = 11,100**",
+        "method": "original-MPS ring recovery + exact cyclic-cutwidth enumeration + witness",
+        "historical_evidence_label": "exact exhaustive computation; no standalone proof trace"
+      },
+      "historical_copt_comparison": {
+        "baseline": "1659",
+        "repository_lb": "11100",
+        "delta": "+9441",
+        "historical_evidence_code": "X"
+      }
+    },
+    {
+      "name": "ns1828997",
+      "family": "selection-core",
+      "structure": "Selection cores and local coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "8",
+        "no new lower-bound-8 certificate",
+        "Exact 375-choice projection and cutoff-7 CNF; exact search remains unknown"
+      ],
+      "readme": "instances/ns1828997/README.md",
+      "readme_sha256": "0198f7cd61ea77510c81d0ab154554ee26c70d33a767378ea331a9df88833eb5",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/ns1828997/README.md",
+      "reports": [
+        "instances/ns1828997/reports/final_report.md"
+      ]
+    },
+    {
+      "name": "ns1905797",
+      "family": "routing",
+      "structure": "Routing with load or time potentials",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "13.98258 (new strict incumbent)",
+        "12.38858 (COPT, numerical)",
+        "Serialized file passes zero-tolerance Fraction audit; 11.40% numerical gap; global optimum open"
+      ],
+      "readme": "instances/ns1905797/README.md",
+      "readme_sha256": "ec90588d30305bdbd4d86950e9d5ee723978f62a8ab17ba22fd9a21244e4edc3",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/ns1905797/README.md",
+      "reports": []
+    },
+    {
+      "name": "ns2122698",
+      "family": "selection-core",
+      "structure": "Selection cores and local coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "68,750 (strict repair)",
+        "62,785.565316 (strict)",
+        "Exact primal/dual interval; global optimum open"
+      ],
+      "readme": "instances/ns2122698/README.md",
+      "readme_sha256": "74da4970cfe94af5418323baeeadf3ceff317ed5b1ecb2831ba1c8870220d41e",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/ns2122698/README.md",
+      "reports": []
+    },
+    {
+      "name": "pb-gfrd-pnc",
+      "family": "symmetry",
+      "structure": "Repeated columns and type counts",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "8,844 (strict)",
+        "8,566 (solver)",
+        "Exact identical-column quotient removes 9,944 variables; 3.1434% numerical gap; global optimum open"
+      ],
+      "readme": "instances/pb-gfrd-pnc/README.md",
+      "readme_sha256": "b51a4e706938dd1a1bd6a96387c2c7211992721ecd33551975b26c0b3c1238c2",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/pb-gfrd-pnc/README.md",
+      "reports": []
+    },
+    {
+      "name": "pb-grow22",
+      "family": "symmetry",
+      "structure": "Repeated columns and type counts",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-449536",
+        "-449546 (solver)",
+        "Exact symmetry quotient; numerical 10-unit interval without portable cutoff proof; global optimum open"
+      ],
+      "readme": "instances/pb-grow22/README.md",
+      "readme_sha256": "882d9cc3e665385779cf06641a7108f340d5c7f8afd4ec21acc127cd811019cb",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/pb-grow22/README.md",
+      "reports": [
+        "instances/pb-grow22/reports/effort_ledger.md",
+        "instances/pb-grow22/reports/final_report.md"
+      ]
+    },
+    {
+      "name": "polygonpack4-15",
+      "family": "geometry",
+      "structure": "Layout, packing, and geometric relations",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-63,613,612.411253203798895776945039... (strict repair)",
+        "no new global lower bound",
+        "Exact recovered geometry, radius/object neighborhoods and mask screening; no MIPLIB headline improvement; global optimum open"
+      ],
+      "readme": "instances/polygonpack4-15/README.md",
+      "readme_sha256": "0a2f010d09a1a8fd9011fdee3e976a64e7d5ad86b022432c3c5c1a6cf6ee7976",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/polygonpack4-15/README.md",
+      "reports": []
+    },
+    {
+      "name": "polygonpack4-7",
+      "family": "geometry",
+      "structure": "Layout, packing, and geometric relations",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-51,837,707.95034043267785954996 (strict repair)",
+        "no new global lower bound",
+        "Full submitted-MPS geometry audit; no strict incumbent improvement; global optimum open"
+      ],
+      "readme": "instances/polygonpack4-7/README.md",
+      "readme_sha256": "118a70b1bc0c2c6c85f9b57c375b39c8060dc4b75e204669c9bb6e975db52be9",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/polygonpack4-7/README.md",
+      "reports": []
+    },
+    {
+      "name": "polygonpack5-15",
+      "family": "geometry",
+      "structure": "Layout, packing, and geometric relations",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-55,494,687.647606651289167114364938... (strict repair)",
+        "no new global lower bound",
+        "Improves the only audited official literal-zero solution but not the MIPLIB tolerance headline; global optimum open"
+      ],
+      "readme": "instances/polygonpack5-15/README.md",
+      "readme_sha256": "8ef27da1f430907eac6188b940efabcfa02860383ae149c3b4594548f548ceab",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/polygonpack5-15/README.md",
+      "reports": []
+    },
+    {
+      "name": "pythago7825",
+      "family": "puzzle-feasibility",
+      "structure": "Finite-domain feasibility and covering repair",
+      "repository_global_conclusion": true,
+      "repository_summary": [
+        "—",
+        "published UNSAT theorem",
+        "Infeasible, exact encoding/core crosswalk + published theorem; proof archive not replayed locally"
+      ],
+      "readme": "instances/pythago7825/README.md",
+      "readme_sha256": "5d5a2498ad546979018e8db84927a80950529ad3a6a25447fc1d4f35c7e88ef0",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/pythago7825/README.md",
+      "reports": [],
+      "closure_table": {
+        "conclusion": "**infeasible**",
+        "method": "exact NAE-SAT crosswalk + published UNSAT theorem",
+        "historical_evidence_label": "literature-dependent theorem transfer"
+      }
+    },
+    {
+      "name": "ramos3",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "186",
+        "156 (covering-code bound)",
+        "Feasible; strict local optimality proved to bit radius 7; global optimum open"
+      ],
+      "readme": "instances/ramos3/README.md",
+      "readme_sha256": "d14440ffc094cd4605826a3cc0edf517d9fc2291c3608df52dd2a5d390527976",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/ramos3/README.md",
+      "reports": [
+        "instances/ramos3/reports/ramos3-study-zh.md"
+      ],
+      "historical_copt_comparison": {
+        "baseline": "146.482178",
+        "repository_lb": "156",
+        "delta": "+9.517822",
+        "historical_evidence_code": "X"
+      },
+      "newer_audit": {
+        "adopted_bound": "156",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Local exact combinatorial proof plus exhaustive finite checking",
+        "method": "Exclude a 155-point ternary radius-one covering, thereby proving objective >=156.",
+        "limits": "The exact global lower bound 156 passed the audit. It is not extrapolated directly from a local exclusion, and optimality at 156 is not claimed.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/ramos3.zh.md"
+      }
+    },
+    {
+      "name": "rmine11",
+      "family": "mining",
+      "structure": "Mining precedence and interperiod capacity",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-2508.404143999999991662 (strict)",
+        "-2521.353274311517894 (portable exact)",
+        "394 pair, 70 clique and 5 genuine triple-cover cuts plus flow=cut certificate; global optimum open"
+      ],
+      "readme": "instances/rmine11/README.md",
+      "readme_sha256": "6cf745a71fa82e91d6e453e99b18c9a8f06494b93ea1eac3919e23ff234df8cf",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/rmine11/README.md",
+      "reports": [
+        "instances/rmine11/reports/exact-time-structure-2026-09-08.md",
+        "instances/rmine11/reports/pair-clique-study.md",
+        "instances/rmine11/reports/triple-cover-study.md"
+      ]
+    },
+    {
+      "name": "rmine13",
+      "family": "mining",
+      "structure": "Mining precedence and interperiod capacity",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-3495.3706609999999806509 (strict repair)",
+        "-3504.689959073912780 (portable exact)",
+        "Rounded public tolerance vector and closure flow=cut certificate; structured neighborhoods tested; global optimum open"
+      ],
+      "readme": "instances/rmine13/README.md",
+      "readme_sha256": "31bb2726f3b682797eb0a67450834254303803eea1f8e7482bf43af0a1c0f810",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/rmine13/README.md",
+      "reports": [
+        "instances/rmine13/reports/structured-search.md"
+      ]
+    },
+    {
+      "name": "rmine15",
+      "family": "mining",
+      "structure": "Mining precedence and interperiod capacity",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-5018.823005000000004879 (new strict incumbent)",
+        "-5042.036233392018593 (portable exact)",
+        "34-block exchange; 121 pair and 61 clique cuts; exact primal and flow=cut audits; global optimum open"
+      ],
+      "readme": "instances/rmine15/README.md",
+      "readme_sha256": "fa7772bc39eca71c86577276e7fbf1a7c3646ba8a32b1d4a0272d82ed0b17890",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/rmine15/README.md",
+      "reports": [
+        "instances/rmine15/reports/SOURCES.md",
+        "instances/rmine15/reports/deep-study-2026-09-08.zh.md",
+        "instances/rmine15/reports/exact-pair-clique-bound.md",
+        "instances/rmine15/reports/triple-cover-screen.md"
+      ]
+    },
+    {
+      "name": "rmine21",
+      "family": "mining",
+      "structure": "Mining precedence and interperiod capacity",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-10618.7507269999999491342 (strict repair)",
+        "-10679.232567260660741 (portable exact)",
+        "Exact 1,441,651-row primal replay and closure flow=cut certificate; global optimum open"
+      ],
+      "readme": "instances/rmine21/README.md",
+      "readme_sha256": "1196c6134f2a39559789fa75c2ba490bdface3aba93bbc8f7270ea1ac369d415",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/rmine21/README.md",
+      "reports": []
+    },
+    {
+      "name": "rmine25",
+      "family": "mining",
+      "structure": "Mining precedence and interperiod capacity",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-15541.66927699999998289011 (strict repair)",
+        "-15667.918862520611901 (portable exact)",
+        "Exact 2,953,849-row primal replay and cross-host closure certificate verification; global optimum open"
+      ],
+      "readme": "instances/rmine25/README.md",
+      "readme_sha256": "e6cd0e5cfafd7ae96b2dc0920ca4e725a3148a6e8ca91537d161964e5a413c21",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/rmine25/README.md",
+      "reports": []
+    },
+    {
+      "name": "s82",
+      "family": "schedule",
+      "structure": "Time selection and scheduling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-33.7970576238223 (strict public point)",
+        "exact structural bound max sum(A8)=36",
+        "Full objective open; high-level acceptance count globally optimal and line 4 conditionally optimal"
+      ],
+      "readme": "instances/s82/README.md",
+      "readme_sha256": "ffcf0dc75f21c61d0d1f4553344e80c01a273a60090b41511a33ec6a717aa65b",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/s82/README.md",
+      "reports": [
+        "instances/s82/reports/SOURCES.md",
+        "instances/s82/reports/deep-study-2026-09-08.zh.md"
+      ]
+    },
+    {
+      "name": "scpj4scip",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "128",
+        "107 (strict)",
+        "Exact branch/dual certificates improved the lower bound; global optimum open; experiments paused"
+      ],
+      "readme": "instances/scpj4scip/README.md",
+      "readme_sha256": "93ef9937bf5d030a549888848042c00c664cd13f4c43b1166be6c681a4f13c1f",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/scpj4scip/README.md",
+      "reports": []
+    },
+    {
+      "name": "scpk4",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "318",
+        "283 (strict)",
+        "Exact domination and independently replayed target-282 branch/dual certificate; global optimum open"
+      ],
+      "readme": "instances/scpk4/README.md",
+      "readme_sha256": "47a6a6f2b82d8aa3626d1f1564e0467b3e8b3bdd42ef51adb52451556b532fec",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/scpk4/README.md",
+      "reports": []
+    },
+    {
+      "name": "scpl4",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "259",
+        "214 (portable strict)",
+        "Complete target-213 exact branch/dual replay; COPT terminal exclusion corroborates; global optimum open"
+      ],
+      "readme": "instances/scpl4/README.md",
+      "readme_sha256": "586ab132dae61d35b5d82ddb84fa92767ee74110113b0de7d60d9b4c7aeca996",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/scpl4/README.md",
+      "reports": []
+    },
+    {
+      "name": "set3-09",
+      "family": "lot-sizing",
+      "structure": "Multiperiod production and inventory recourse",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "176497.152425682499961401493852... (strict repair)",
+        "no new certified global bound",
+        "BOM-aware Decimal reconstruction and period/item/Hamming neighborhoods; global optimum open"
+      ],
+      "readme": "instances/set3-09/README.md",
+      "readme_sha256": "84a4440791a384ace38b7ef3a7f5ca0b5ea445efd414dcd3878f7517e291e81d",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/set3-09/README.md",
+      "reports": []
+    },
+    {
+      "name": "shs1042",
+      "family": "inventory-routing",
+      "structure": "Inventory routing and cargo-vehicle coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "11,070.7016616034 (strict repair)",
+        "10,905.7397762548 (solver)",
+        "1.4901% local reproducible gap; article partition and truck-radius-2 neighborhoods closed; global optimum open"
+      ],
+      "readme": "instances/shs1042/README.md",
+      "readme_sha256": "b61e8164874ec31da0a29080840eda31d9711eeafd8353a3fe55f013c1f18c92",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/shs1042/README.md",
+      "reports": []
+    },
+    {
+      "name": "siena1",
+      "family": "selection-core",
+      "structure": "Selection cores and local coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "10,449,008.9 (verified @ 1e-9)",
+        "10,219,502.195349596",
+        "Feasible; structure-specific decomposition attempts tested; global optimum open"
+      ],
+      "readme": "instances/siena1/README.md",
+      "readme_sha256": "8fde93a32d9bdc0bddc1b00f388f2c43ea71f0cf056224cedc4eeaca268e22d1",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/siena1/README.md",
+      "reports": [],
+      "historical_copt_comparison": {
+        "baseline": "10214130.1",
+        "repository_lb": "10219502.195349596",
+        "delta": "+5372.095349596",
+        "historical_evidence_code": "N"
+      },
+      "newer_audit": {
+        "adopted_bound": "10219502.195349596",
+        "numerical_bound": true,
+        "decision": "Accepted",
+        "evidence": "Traceable original MPS and runner plus historical global numerical solver evidence",
+        "method": "Solve the original MPS directly and inspect global ObjBound and terminal logs; no new manual mathematical reduction is involved.",
+        "limits": "Accepted under a standard permitting reasonable global numerical solver results. Not all internal cuts or the branch tree were independently checked, and no commercial numerical rerun was performed. API decimals are numerical records, not digit-by-digit exact certificates. Improvement over the old COPT PDF cannot be attributed to a specific parameter and is not proof of a same-budget performance advantage.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/siena1.zh.md"
+      }
+    },
+    {
+      "name": "sing11",
+      "family": "unit-commitment",
+      "structure": "Unit commitment with demand and reserve coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "19,108,639.4603941927675439822 (strict repair)",
+        "18,853,382.0323116 (solver; 1.3358% gap)",
+        "1,200 s root-cut LB improves archived PDF-only LB by about 76,817.9; 74/74 blocks and 6 selected groups closed conditionally; global optimum open"
+      ],
+      "readme": "instances/sing11/README.md",
+      "readme_sha256": "a94c6b37fbd0cc1fb338b2ccb41b69ed2c3458c96d8bb0e1baa9049480a8c895",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/sing11/README.md",
+      "reports": [],
+      "historical_copt_comparison": {
+        "baseline": "18776564.1",
+        "repository_lb": "18853382.0323116",
+        "delta": "+76817.9323116",
+        "historical_evidence_code": "N"
+      },
+      "newer_audit": {
+        "adopted_bound": "18853382.0323116",
+        "numerical_bound": true,
+        "decision": "Accepted",
+        "evidence": "Original MPS plus historical global numerical solver evidence at the root node",
+        "method": "Obtain global ObjBound from built-in cuts at the original problem root; do not use bounds from 74-block LNS.",
+        "limits": "Accepted under the numerical solver standard; optimality is not claimed. The Gurobi 13.0.2 root LP solve was not replayed. Neither the root-cut count nor an old multiplier file is presented as a complete exact dual certificate.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/sing11.zh.md"
+      }
+    },
+    {
+      "name": "sing17",
+      "family": "unit-commitment",
+      "structure": "Unit commitment with demand and reserve coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "36,161,699.3779386893546367410 (strict numerical polish)",
+        "35,556,219.47983733 (locally reproducible solver LB; 1.6744% gap)",
+        "Same integer pattern and only 0.000893823 lower; 50/50 blocks closed conditionally; archived PDF-only LB 35,599,182.4 is stronger; global optimum open"
+      ],
+      "readme": "instances/sing17/README.md",
+      "readme_sha256": "4d2c2fdbd31e96eb50ecb6728de8e6a6118e3f063dc632253192ba81743cd149",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/sing17/README.md",
+      "reports": [
+        "instances/sing17/reports/deep-study-2026-09-08.zh.md"
+      ]
+    },
+    {
+      "name": "sing5",
+      "family": "unit-commitment",
+      "structure": "Unit commitment with demand and reserve coupling",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "18,778,435.60767737 (strict)",
+        "18,462,676.77864 (locally reproducible solver LB; 1.6815% gap)",
+        "Imported run improves the prior local LB by 19,778.272826703; archived PDF-only LB 18,605,207.3 remains stronger; runtime metadata is inconsistent; global optimum open"
+      ],
+      "readme": "instances/sing5/README.md",
+      "readme_sha256": "9015c095dcb3a3a96ff7e782f126e793781e11ef87e4775c34e2594a10dda0da",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/sing5/README.md",
+      "reports": [
+        "instances/sing5/reports/imported-baseline-2026-09-08.md"
+      ]
+    },
+    {
+      "name": "sorrell7",
+      "family": "packing-code",
+      "structure": "Conflict graphs and code constructions",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-198 (code size 198)",
+        "-210 published; -216 study solver",
+        "Feasible; any improvement must change at least 27 bits; global optimum open"
+      ],
+      "readme": "instances/sorrell7/README.md",
+      "readme_sha256": "079caabde45111f8b2c93454d030bad11e4f44d664da4a649179475f13705831",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/sorrell7/README.md",
+      "reports": [
+        "instances/sorrell7/reports/sorrell7-study-zh.md"
+      ],
+      "historical_copt_comparison": {
+        "baseline": "-223.02692",
+        "repository_lb": "-210",
+        "delta": "+13.02692",
+        "historical_evidence_code": "X"
+      },
+      "newer_audit": {
+        "adopted_bound": "-210",
+        "numerical_bound": false,
+        "decision": "Accepted",
+        "evidence": "Local exact combinatorial proof plus checking against the complete model",
+        "method": "Map an original solution to a set of binary strings and count by weight layers to establish cardinality at most 210.",
+        "limits": "The exact global lower bound -210 passed the audit. Neither a feasible set of 210 strings nor closure of the original optimum is claimed.",
+        "latest_commercial_rerun": null,
+        "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/docs/dual-bound-audit-2026-09-14/cases/sorrell7.zh.md"
+      }
+    },
+    {
+      "name": "supportcase30",
+      "family": "puzzle-feasibility",
+      "structure": "Finite-domain feasibility and covering repair",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "no feasible point; best partial 987/1,024",
+        "37 covering rows remain",
+        "Global feasibility open"
+      ],
+      "readme": "instances/supportcase30/README.md",
+      "readme_sha256": "ba8f805cb2c0e7d807443db46824f7f4fa92d3040d746ab4a33cf316aac96d96",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/supportcase30/README.md",
+      "reports": [
+        "instances/supportcase30/reports/supportcase30-study.md"
+      ]
+    },
+    {
+      "name": "supportcase39",
+      "family": "projector",
+      "structure": "Gaussian-projection pixel control",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-1,085,083.856820570460",
+        "-1,085,325.230699 root",
+        "New strict incumbent from Gaussian-boundary block search; global optimum open"
+      ],
+      "readme": "instances/supportcase39/README.md",
+      "readme_sha256": "9c279bcc3f7672d269cddfe3cef09a619c98823470ce00d8187632f918fb3ff3",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/supportcase39/README.md",
+      "reports": [
+        "instances/supportcase39/reports/structural-investigation.md"
+      ]
+    },
+    {
+      "name": "t1722",
+      "family": "set-cover",
+      "structure": "Support exchanges for covering and partitioning",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "108,953 (strict)",
+        "no new bound",
+        "Exact connected exchanges through five blocks and association-guided repair completed; global optimum open"
+      ],
+      "readme": "instances/t1722/README.md",
+      "readme_sha256": "7c4489618fa3716da5afe4a26ed21480655c0eecf94156e7326dcbebda3b238a",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/t1722/README.md",
+      "reports": []
+    },
+    {
+      "name": "tokyometro",
+      "family": "geometry",
+      "structure": "Layout, packing, and geometric relations",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "8,263.1 (strict)",
+        "7,117.5 (solver)",
+        "Translation and impossible-direction audit; 13.864% numerical gap; global optimum open"
+      ],
+      "readme": "instances/tokyometro/README.md",
+      "readme_sha256": "047dfcefe55b316a25fccf81843b9fcf30451e06d7c85011991016464ae3423e",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/tokyometro/README.md",
+      "reports": []
+    },
+    {
+      "name": "xmas10-2",
+      "family": "exact-core",
+      "structure": "Network, matching, and discrete cores",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-497 (497 cells)",
+        "511 cells official; 515 study solver",
+        "Best known path reproduced; extensive cell-projection/LNS search; global optimum open"
+      ],
+      "readme": "instances/xmas10-2/README.md",
+      "readme_sha256": "45ca852d6cb4c386262acd8cd5d04e259e69c8316396d72d5e27cb9431b3bb84",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/xmas10-2/README.md",
+      "reports": []
+    },
+    {
+      "name": "z26",
+      "family": "packing-code",
+      "structure": "Conflict graphs and code constructions",
+      "repository_global_conclusion": false,
+      "repository_summary": [
+        "-1,198",
+        "-1,646 (strict)",
+        "Exact MPS-to-MIS interval; global optimum open"
+      ],
+      "readme": "instances/z26/README.md",
+      "readme_sha256": "317cb257add2f694388835fd046c3b84d6da586bd3adf197f5e36630eec1c0cf",
+      "source_url": "https://github.com/Huangyc98/MIPLIB_openproblem/blob/b329d3812c5acf51733e0e9f7baabdda7b1008d2/instances/z26/README.md",
+      "reports": []
+    }
+  ]
+}

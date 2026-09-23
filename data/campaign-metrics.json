@@ -1,0 +1,36 @@
+{
+  "instances": 132,
+  "original112": 112,
+  "subsequent20": 20,
+  "optimal_including_tolerance": 32,
+  "optimal_with_1e_10_policy": 2,
+  "infeasible": 2,
+  "project_primal_updates": 29,
+  "first_finite": 4,
+  "external_derived_updates": 2,
+  "numerical_polish_updates": 1,
+  "copt_finite_dual_coverage": 131,
+  "paired_finite_duals": 108,
+  "dual_improvements_at_1e_7": 66,
+  "dual_improvements_by_cohort": {
+    "original112": 49,
+    "subsequent20": 17
+  },
+  "legacy_dual_improvements": 41,
+  "additional_old_cohort_dual_comparisons": [
+    "fastxgemm-n3r22s4t6",
+    "fastxgemm-n3r23s5t6",
+    "ger50-17-ptp-pop-3t",
+    "neos-2978205-isar",
+    "pb-gfrd-pnc",
+    "pb-grow22",
+    "tokyometro",
+    "xmas10-2"
+  ],
+  "comparison_epsilon": "1e-7",
+  "genus_feasibility_policy": "ignore residual < 1e-10",
+  "fresh_solver_runs": false,
+  "excluded_from_cohort": [
+    "rmine14"
+  ]
+}

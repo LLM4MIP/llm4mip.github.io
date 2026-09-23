@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNJSLE077H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JNJSLE077H');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download the primal and dual skills and review the 20-instance comparison of Solver + primal/dual skill with Vanilla prompting.">
+  <title>Skill-Based Workflow Comparison | LLM4MIP</title>
+  <link rel="icon" type="image/png" href="../assets/llm4mip-icon.png">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="detail-page skill-page">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Primary navigation">
+      <a class="brand" href="../"><img class="brand-icon" src="../assets/llm4mip-icon.png" width="1254" height="1254" alt=""><span>LLM<span class="brand-four">4</span>MIP</span></a>
+      <div class="nav-links">
+        <a href="../">Overview</a>
+        <a href="../instances/">Instances</a>
+        <a href="./" aria-current="page">Skill comparison</a>
+        <!-- Temporarily hidden: <a href="../solver-replacement/">Replace solvers?</a> -->
+        <!-- Temporarily hidden: <a href="../technical-report.pdf">Report</a> -->
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Methods &amp; comparison</p>
+        <h1>Primal and dual skills</h1>
+        <p class="dek">Primal-skill and dual-skill guide LLMs to improve feasible solutions and strengthen global bounds through structural analysis and solver experiments.</p>
+        <div class="hero-actions">
+          <a class="button light" href="../downloads/primal-current-skill.tar.gz" download>Download primal-skill</a>
+          <a class="button light" href="../downloads/dual-current-skill.tar.gz" download>Download dual-skill</a>
+          <a class="button ghost" href="#results">View comparison results</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page-shell" tabindex="-1">
+    <div class="content">
+      <section class="section" aria-labelledby="skill-heading">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Approach</p>
+            <h2 id="skill-heading">Structure, experiments, and verification</h2>
+          </div>
+          <!-- <p>The COPT and Gurobi versions follow the same research approach, with solver-specific tools for model inspection and profiling.</p> -->
+        </div>
+        <ul class="skill-focus-list">
+          <li><strong>Find useful structure:</strong> identify exploitable patterns, primal heuristics, and dual certificates instead of relying only on generic solver tuning.</li>
+          <li><strong>Run targeted experiments:</strong> turn structural observations into focused tests with an optimization solver.</li>
+          <li><strong>Verify every result:</strong> check candidate solutions and bounds against the original model, using independent verification to determine what can be claimed.</li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="design-heading">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Comparison design</p>
+            <h2 id="design-heading">Two workflows, 20 instances</h2>
+          </div>
+        </div>
+        <div class="download-grid">
+          <article class="download-card">
+            <h3>Solver + primal/dual skill</h3>
+            <p>An LLM uses the dedicated primal and dual skills together with MIP solvers, including Gurobi and COPT, on the same 20 instances. Each skill was given an overall runtime limit of 150 minutes per instance.</p>
+          </article>
+          <article class="download-card">
+            <h3>Vanilla prompting</h3>
+            <p>An archived LLM + solver workflow on the same 20 minimization instances, run without the dedicated primal/dual skills. It still used computational tools and problem-specific methods; it is not a solver-only control.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="results" class="section" aria-labelledby="results-heading">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Paired results</p>
+            <h2 id="results-heading">Primal and dual bounds</h2>
+          </div>
+          <a href="../downloads/primal-dual-comparison.csv">Download all 20 rows</a>
+        </div>
+        <p class="note">This table reports the Solver + primal/dual skill workflow, combining dedicated primal-skill and dual-skill runs. The solver baseline selects the best valid primal and dual bounds across the recorded COPT and Gurobi runs; it is a post-hoc combination, not one solver run.</p>
+        <div class="panel">
+          <div class="tabs focused-tabs" role="group" aria-label="Skill comparison">
+            <button type="button" data-focused="gap" aria-pressed="true">Skills vs. vanilla prompting</button>
+            <button type="button" data-focused="solver" aria-pressed="false">Skills vs. solver baseline</button>
+            <button type="button" data-focused="primal" aria-pressed="false">Primal skill improvement</button>
+            <button type="button" data-focused="dual" aria-pressed="false">Dual skill improvement</button>
+          </div>
+          <h3 id="focused-title"></h3>
+          <p id="focused-note" class="chart-note" aria-live="polite"></p>
+          <div id="focused-chart" class="bar-list"></div>
+        </div>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Instance results</p>
+            <h2>All 20 paired results</h2>
+          </div>
+          <a href="../downloads/primal-dual-comparison.csv">Download CSV</a>
+        </div>
+        <div class="controls">
+          <div class="field">
+            <label for="focused-search">Search instance, method, or final status</label>
+            <input id="focused-search" type="search" placeholder="Try “exact route” or “neos”" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="focused-filter">Outcome filter</label>
+            <select id="focused-filter">
+              <option value="all">All 20</option>
+              <option value="win">Solver + skill better</option>
+              <option value="tie">Tie</option>
+              <option value="loss">Vanilla prompting better</option>
+            </select>
+          </div>
+        </div>
+        <p id="focused-count" class="result-count" aria-live="polite"></p>
+        <p class="scroll-hint">Swipe sideways to see every column.</p>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Skill comparison results">
+          <table class="results-table">
+            <thead><tr id="focused-head"></tr></thead>
+            <tbody id="focused-body"></tbody>
+          </table>
+        </div>
+        <noscript><p>The charts and table require JavaScript. The complete results are available in the downloadable CSV.</p></noscript>
+      </section>
+
+      <!-- Temporarily hidden downloads section.
+      <section class="section" aria-labelledby="downloads-heading">
+        <div class="section-head"><div><p class="eyebrow">Downloads</p><h2 id="downloads-heading">Download comparison materials</h2></div></div>
+        <div class="download-grid">
+          <article class="download-card"><h3>Skill packages</h3><p>Choose the solver-native profiler and instructions matching your workflow.</p><a class="button small" href="../downloads/primal-current-skill.tar.gz" download>COPT skill</a> <a class="button small" href="../downloads/dual-current-skill.tar.gz" download>Gurobi skill</a></article>
+          <article class="download-card"><h3>Benchmark results package</h3><p>Complete comparison materials, including the report, analysis script, source notes, CSV, and machine-readable validation records.</p><a class="button small" href="../downloads/skill-experiment-evidence.tar.gz" download>Results .tar.gz</a></article>
+          <article class="download-card"><h3>Machine-readable results</h3><p>Unrounded instance-level values and comparison labels.</p><a class="button small" href="../downloads/skill-comparison.csv">CSV</a> <a class="button small" href="../downloads/skill-comparison-audit.json">Audit JSON</a></article>
+          <article class="download-card"><h3>Methods and provenance</h3><p>The narrative report and the exact source/reproduction notes used for this page.</p><a class="button small" href="../downloads/skill-comparison-report.md">Report.md</a> <a class="button small" href="../downloads/skill-comparison-source.md">Source.md</a></article>
+        </div>
+      </section>
+      -->
+    </div>
+  </main>
+
+  <footer class="footer"><div class="footer-inner"><span>LLM4MIP · skill comparison</span><span><a href="../">Overview</a><!-- Temporarily hidden: · <a href="../solver-replacement/">Can LLMs replace solvers?</a> --></span></div></footer>
+  <script src="../assets/focused-skill-data.js"></script>
+  <script src="../assets/focused-skill.js"></script>
+</body>
+</html>

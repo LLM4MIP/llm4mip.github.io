@@ -1,0 +1,6 @@
+interface:
+  display_name: "MIP Dual Improve"
+  short_description: "Continuously strengthen and validate global MIP bounds"
+  default_prompt: "Use $mip-dual-improve to continuously improve only the global dual bound within the available budget. Prefer COPT for solver-backed work; if it is unavailable or incapable, try Gurobi, then NVIDIA cuOPT, and record the fallback reason."
+policy:
+  allow_implicit_invocation: true

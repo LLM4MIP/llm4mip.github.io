@@ -1,0 +1,607 @@
+{
+  "source_website_commit": "7bd747dd4712af29be5562b430cdc493fb0b1d6f",
+  "date": "2026-09-22",
+  "method": "Existing verified English equivalents, local offline NLLB draft translation, terminology normalization, protected numerical/code tokens, and manual corrections. No repository text sent to an external translation service.",
+  "files": [
+    {
+      "archive": null,
+      "path": "assets/comparison-data.js",
+      "sha": "6ea98d10e57ff63b42bf2218a17dcaaf781c7322392ca7f2a336d2ae7cc10bba",
+      "translated_sha256": "72f20dbaed50caf39ca3b0cf4c9d94ad933fb56c07846fa87af03430ce441826"
+    },
+    {
+      "archive": null,
+      "path": "data/campaign-catalogue.json",
+      "sha": "bff6ce8a22e41146c6038d193e3b49de41b0a5de405d675f06bbfe6f013ffa5a",
+      "translated_sha256": "87a92d5cda6573dbeef0d6441a26dbc960ec98e407169e88a39035c2e480a6dc"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/packages/dual-frozen/references/corpus-index.json",
+      "sha": "b8a33e831b049974f00cb52d62e32fcb3106753edb9616c926541af7b327d908",
+      "translated_sha256": "01daa210e4605df5d6e0b7ab10237771a37ef4e2cb424b43f865b537ab8da13f"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/packages/primal-frozen/SKILL.md",
+      "sha": "1bab6d94a097dcb4f0506a4b03120aee57fa9c829ca7250ed066fd7782feb341",
+      "translated_sha256": "5e74581fa6d833cfe5c834e57b6c2b679a80ef44cde8f108aa8f08261e05e0c0"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/packages/primal-frozen/agents/openai.yaml",
+      "sha": "19043e57e724be21661086c464bedd8588b2f67b249a83983cd1d50e7fa3e159",
+      "translated_sha256": "29c3480a32538f3ed7b00a04effef789985d814c72821dcedca4056b73e0e9ad"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/packages/primal-frozen/references/casebook.md",
+      "sha": "177273de79fe460002d9654b4e539f131619152a3a80fb4c1f3b152778361bec",
+      "translated_sha256": "99ee2c18726a32193118c42d7f5beefdb481ae0703803675e560a8e2121f9cc0"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/packages/primal-frozen/references/instances.json",
+      "sha": "98a7f51321e571b6c2fd4fea8f09a1b8780ec50a5c640bbb369fef98533c11f5",
+      "translated_sha256": "34308cb783a5868c5b03764a21aa21b7f4fa2b0f2cd1a415682114cad353fe07"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/packages/primal-frozen/references/instances.md",
+      "sha": "47ba37e6da249b85851a4d451226131a7387b82ef48338ee912ba25a806782d3",
+      "translated_sha256": "46adbd1ece5f7e89aa9b1600fe08089e859ac5d3af50cbbbe1a5c8679fe3a8f1"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/packages/primal-frozen/references/search-playbook.md",
+      "sha": "d39bf202d468303a745c8c3475c988c09fd9ac530ee172064e5fd043cdd82f49",
+      "translated_sha256": "d83696ecd4300b3050553c547498712ea140ea5b18e5cfa01ed730a4c7eae65c"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/packages/primal-frozen/references/validation-and-measurement.md",
+      "sha": "87109ba132c80c8d0338cf08c051342d9ce3abfb0a354205c27a4887a1e3cae4",
+      "translated_sha256": "248817a2827ecd4fcaf2de0206705229974e207c2da222b817f4b7322c90de33"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/source/skills-research/experiments/no-skill/report.md",
+      "sha": "b823d230cbce5926e05f32924384211a8c10a48f1e4526e1ee2c5b1ca2dbd28d",
+      "translated_sha256": "7ddc5e9f3f2b75b4cbe7124eab4ea9f77224637dda7286153b7501038af895c6"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/source/skills-research/experiments/primal/README.md",
+      "sha": "58bb41e01ec4b69284ca1bde53eb1053f4177b4b796f9ec794d5b7a76032c698",
+      "translated_sha256": "e64a53ffede3e0af5cca5b910866ea01f3a8741c6869cf9a52488b968254917a"
+    },
+    {
+      "archive": null,
+      "path": "data/skill-study/source/skills-research/skills/SKILL_SOURCE_INSTANCES.csv",
+      "sha": "054ac480009ee58823119c1b4fe4940ad4969e260df252d0edf3ea066559857a",
+      "translated_sha256": "4aaf286c9f0a6d3e80b9db765291c78695c408f58c6abd4af73e2561a4be2105"
+    },
+    {
+      "archive": "downloads/dual-frozen-skill.tar.gz",
+      "path": "references/corpus-index.json",
+      "sha": "b8a33e831b049974f00cb52d62e32fcb3106753edb9616c926541af7b327d908",
+      "translated_sha256": "01daa210e4605df5d6e0b7ab10237771a37ef4e2cb424b43f865b537ab8da13f"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/packages/dual-frozen/references/corpus-index.json",
+      "sha": "b8a33e831b049974f00cb52d62e32fcb3106753edb9616c926541af7b327d908",
+      "translated_sha256": "01daa210e4605df5d6e0b7ab10237771a37ef4e2cb424b43f865b537ab8da13f"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/packages/primal-frozen/SKILL.md",
+      "sha": "1bab6d94a097dcb4f0506a4b03120aee57fa9c829ca7250ed066fd7782feb341",
+      "translated_sha256": "5e74581fa6d833cfe5c834e57b6c2b679a80ef44cde8f108aa8f08261e05e0c0"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/packages/primal-frozen/agents/openai.yaml",
+      "sha": "19043e57e724be21661086c464bedd8588b2f67b249a83983cd1d50e7fa3e159",
+      "translated_sha256": "29c3480a32538f3ed7b00a04effef789985d814c72821dcedca4056b73e0e9ad"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/packages/primal-frozen/references/casebook.md",
+      "sha": "177273de79fe460002d9654b4e539f131619152a3a80fb4c1f3b152778361bec",
+      "translated_sha256": "99ee2c18726a32193118c42d7f5beefdb481ae0703803675e560a8e2121f9cc0"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/packages/primal-frozen/references/instances.json",
+      "sha": "98a7f51321e571b6c2fd4fea8f09a1b8780ec50a5c640bbb369fef98533c11f5",
+      "translated_sha256": "34308cb783a5868c5b03764a21aa21b7f4fa2b0f2cd1a415682114cad353fe07"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/packages/primal-frozen/references/instances.md",
+      "sha": "47ba37e6da249b85851a4d451226131a7387b82ef48338ee912ba25a806782d3",
+      "translated_sha256": "46adbd1ece5f7e89aa9b1600fe08089e859ac5d3af50cbbbe1a5c8679fe3a8f1"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/packages/primal-frozen/references/search-playbook.md",
+      "sha": "d39bf202d468303a745c8c3475c988c09fd9ac530ee172064e5fd043cdd82f49",
+      "translated_sha256": "d83696ecd4300b3050553c547498712ea140ea5b18e5cfa01ed730a4c7eae65c"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/packages/primal-frozen/references/validation-and-measurement.md",
+      "sha": "87109ba132c80c8d0338cf08c051342d9ce3abfb0a354205c27a4887a1e3cae4",
+      "translated_sha256": "248817a2827ecd4fcaf2de0206705229974e207c2da222b817f4b7322c90de33"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/source/skills-research/experiments/no-skill/report.md",
+      "sha": "b823d230cbce5926e05f32924384211a8c10a48f1e4526e1ee2c5b1ca2dbd28d",
+      "translated_sha256": "7ddc5e9f3f2b75b4cbe7124eab4ea9f77224637dda7286153b7501038af895c6"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/source/skills-research/experiments/primal/README.md",
+      "sha": "58bb41e01ec4b69284ca1bde53eb1053f4177b4b796f9ec794d5b7a76032c698",
+      "translated_sha256": "e64a53ffede3e0af5cca5b910866ea01f3a8741c6869cf9a52488b968254917a"
+    },
+    {
+      "archive": "downloads/primal-dual-evidence.tar.gz",
+      "path": "data/skill-study/source/skills-research/skills/SKILL_SOURCE_INSTANCES.csv",
+      "sha": "054ac480009ee58823119c1b4fe4940ad4969e260df252d0edf3ea066559857a",
+      "translated_sha256": "4aaf286c9f0a6d3e80b9db765291c78695c408f58c6abd4af73e2561a4be2105"
+    },
+    {
+      "archive": "downloads/primal-frozen-skill.tar.gz",
+      "path": "SKILL.md",
+      "sha": "1bab6d94a097dcb4f0506a4b03120aee57fa9c829ca7250ed066fd7782feb341",
+      "translated_sha256": "5e74581fa6d833cfe5c834e57b6c2b679a80ef44cde8f108aa8f08261e05e0c0"
+    },
+    {
+      "archive": "downloads/primal-frozen-skill.tar.gz",
+      "path": "agents/openai.yaml",
+      "sha": "19043e57e724be21661086c464bedd8588b2f67b249a83983cd1d50e7fa3e159",
+      "translated_sha256": "29c3480a32538f3ed7b00a04effef789985d814c72821dcedca4056b73e0e9ad"
+    },
+    {
+      "archive": "downloads/primal-frozen-skill.tar.gz",
+      "path": "references/casebook.md",
+      "sha": "177273de79fe460002d9654b4e539f131619152a3a80fb4c1f3b152778361bec",
+      "translated_sha256": "99ee2c18726a32193118c42d7f5beefdb481ae0703803675e560a8e2121f9cc0"
+    },
+    {
+      "archive": "downloads/primal-frozen-skill.tar.gz",
+      "path": "references/instances.json",
+      "sha": "98a7f51321e571b6c2fd4fea8f09a1b8780ec50a5c640bbb369fef98533c11f5",
+      "translated_sha256": "34308cb783a5868c5b03764a21aa21b7f4fa2b0f2cd1a415682114cad353fe07"
+    },
+    {
+      "archive": "downloads/primal-frozen-skill.tar.gz",
+      "path": "references/instances.md",
+      "sha": "47ba37e6da249b85851a4d451226131a7387b82ef48338ee912ba25a806782d3",
+      "translated_sha256": "46adbd1ece5f7e89aa9b1600fe08089e859ac5d3af50cbbbe1a5c8679fe3a8f1"
+    },
+    {
+      "archive": "downloads/primal-frozen-skill.tar.gz",
+      "path": "references/search-playbook.md",
+      "sha": "d39bf202d468303a745c8c3475c988c09fd9ac530ee172064e5fd043cdd82f49",
+      "translated_sha256": "d83696ecd4300b3050553c547498712ea140ea5b18e5cfa01ed730a4c7eae65c"
+    },
+    {
+      "archive": "downloads/primal-frozen-skill.tar.gz",
+      "path": "references/validation-and-measurement.md",
+      "sha": "87109ba132c80c8d0338cf08c051342d9ce3abfb0a354205c27a4887a1e3cae4",
+      "translated_sha256": "248817a2827ecd4fcaf2de0206705229974e207c2da222b817f4b7322c90de33"
+    },
+    {
+      "archive": null,
+      "path": "downloads/skill-comparison-report.md",
+      "sha": "7b8a5b39cf5d6efddccd49ca49309c8faceb090f1a5b26ef7fbb15145ad6aec5",
+      "translated_sha256": "c9e08b43280b6a91ac6266e41e8d2cf09697d6c8062868abd58cade46a78a75a"
+    },
+    {
+      "archive": null,
+      "path": "downloads/skill-comparison-source.md",
+      "sha": "5f9691c1d812e5ddb29a9fae94f2ebe8383ca7af660fb024dc2118a414c64546",
+      "translated_sha256": "dfef62d873f1a5cd618f84b15cd0b3236ac8c2d2e62eb4b9d18cb65f98d66223"
+    },
+    {
+      "archive": null,
+      "path": "downloads/skill-comparison.csv",
+      "sha": "9479d6db1f6c16377bf7a24dfd48976e3da82aba4d5c281b2d15b4b6b3c70808",
+      "translated_sha256": "0566737a4c0fa579c8ced6ca5eecee528447e6ae365689f2d5b2d1d3ab72be4d"
+    },
+    {
+      "archive": "downloads/skill-experiment-evidence.tar.gz",
+      "path": "milp-structure-skill-effect-20260913/README.md",
+      "sha": "0ed9c0a484622a553d9d830d86c6bc7d3222e7c67e51e7b144f7a9e204d71da8",
+      "translated_sha256": "c9e08b43280b6a91ac6266e41e8d2cf09697d6c8062868abd58cade46a78a75a"
+    },
+    {
+      "archive": "downloads/skill-experiment-evidence.tar.gz",
+      "path": "milp-structure-skill-effect-20260913/SOURCE.md",
+      "sha": "5f9691c1d812e5ddb29a9fae94f2ebe8383ca7af660fb024dc2118a414c64546",
+      "translated_sha256": "dfef62d873f1a5cd618f84b15cd0b3236ac8c2d2e62eb4b9d18cb65f98d66223"
+    },
+    {
+      "archive": "downloads/skill-experiment-evidence.tar.gz",
+      "path": "milp-structure-skill-effect-20260913/compare_skill_effect.py",
+      "sha": "1baea45d5faf3f8857aa29f2846a575fb2d0009bdef0d13fdd383fd15f133958",
+      "translated_sha256": "36287774ad0616f297a9b25f21a708b62980f8800023561af5dfe7ffe4dec3ac"
+    },
+    {
+      "archive": "downloads/skill-experiment-evidence.tar.gz",
+      "path": "milp-structure-skill-effect-20260913/comparison.csv",
+      "sha": "18f14dc58129789881d26c44b01c5514cb6007d8c52a74c01a07d7fc58a746f2",
+      "translated_sha256": "0566737a4c0fa579c8ced6ca5eecee528447e6ae365689f2d5b2d1d3ab72be4d"
+    },
+    {
+      "archive": "downloads/skill-experiment-evidence.tar.gz",
+      "path": "milp-structure-skill-effect-20260913/sources/no-skill-report.md",
+      "sha": "14e279ff9d049e1baede8d9482102e4f1e4dfa9610b238ffbfce2eeb2f2fc897",
+      "translated_sha256": "e3f3238cd2ae25c9577b8ac64aa66ec3d6423b45b20c7843b6142cf5c78afed0"
+    },
+    {
+      "archive": "downloads/skill-experiment-evidence.tar.gz",
+      "path": "milp-structure-skill-effect-20260913/sources/skill-report.zh.md",
+      "sha": "adc8d3a81b07f5885a5a872c69d0abf00174606a36ec267546a2e6343817cb3e",
+      "translated_sha256": "488910c65105a2aa5989063ba0280b6e9196cb314108d89db399f83b8e1eae07"
+    },
+    {
+      "archive": null,
+      "path": "instances/data.js",
+      "sha": "42b9db9c3b95645f0b54a2a2acc8f7020b0da7a30bba3344252531bd3973b5d1",
+      "translated_sha256": "e7cb764e5435829613917d4b51d8a02e28dcf4c227023fd418fffeaf6bfb146f"
+    },
+    {
+      "archive": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "path": "allcolor58-findings/allcolor58/framework-runs/20260905-151556/controller/controller.stdout.log",
+      "sha": "f9a2b065451389804845aecfd258f41ff9c1ef028a2606c52ad18afe3e55df3c",
+      "translated_sha256": "4b82191fbb9a96e4e1f2ed424c9d9771c415a88ee2d8195b286a98ea2e3702ee"
+    },
+    {
+      "archive": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "path": "allcolor58-findings/allcolor58/framework-runs/20260905-151556/controller/state.json",
+      "sha": "f9a2b065451389804845aecfd258f41ff9c1ef028a2606c52ad18afe3e55df3c",
+      "translated_sha256": "4b82191fbb9a96e4e1f2ed424c9d9771c415a88ee2d8195b286a98ea2e3702ee"
+    },
+    {
+      "archive": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "path": "allcolor58-findings/allcolor58/framework-runs/20260905-151556/reporting_bundle.json",
+      "sha": "4696eb096ccebc6f3413d4d067ec6f9a1becbb29dc00f732b43981f749f7f996",
+      "translated_sha256": "689407dcb28cc44c878985381d2d0208e3acd440cbf526584b41f340de1fc822"
+    },
+    {
+      "archive": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "path": "allcolor58-findings/allcolor58/framework-runs/20260905-151556/result.json",
+      "sha": "8767059302c6b387dbbaeb9459ce216cd2a9caec99f694d3016f1e6a71882e37",
+      "translated_sha256": "1299da9910af371294db47ca53a234ead7998366429150d57adbfafc35928d74"
+    },
+    {
+      "archive": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "path": "allcolor58-findings/allcolor58/framework-runs/20260905-184627/controller/controller.stdout.log",
+      "sha": "fa5ce180cfcc9bb76c5f66685ba1ad28ea3c9b2cc9a47c24e26fc4079fb9ea7a",
+      "translated_sha256": "85078a38b12b9b04b485bd1d946bf4f53278ea7b2452c752780208539eb45d72"
+    },
+    {
+      "archive": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "path": "allcolor58-findings/allcolor58/framework-runs/20260905-184627/controller/state.json",
+      "sha": "fa5ce180cfcc9bb76c5f66685ba1ad28ea3c9b2cc9a47c24e26fc4079fb9ea7a",
+      "translated_sha256": "85078a38b12b9b04b485bd1d946bf4f53278ea7b2452c752780208539eb45d72"
+    },
+    {
+      "archive": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "path": "allcolor58-findings/allcolor58/framework-runs/20260905-184627/handoff.json",
+      "sha": "df95af6d257c8c653a1e45c509fe06c85c7896385f1eef5e47afa4f0ba859eb5",
+      "translated_sha256": "a9b697eefc5407d679e50cb2cea368f8738b29cabfed9e4adfd51742d7793aff"
+    },
+    {
+      "archive": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "path": "allcolor58-findings/allcolor58/framework-runs/20260905-184627/reporting_bundle.json",
+      "sha": "0afcc12da8c064b4631b49a3cbe4192980674c49871e365257bffc2110c9d922",
+      "translated_sha256": "d591e36ae3ac95cdacf99633a37829bc59b134960f51a8bc6ef06377b4e711af"
+    },
+    {
+      "archive": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "path": "allcolor58-findings/allcolor58/framework-runs/20260905-184627/result.json",
+      "sha": "87ea7d8e4544fec2ff18a130f16bbed88b8ca359afee49d8cb57fa31b2a09a2b",
+      "translated_sha256": "450ccc7bcb6de6bd14a2b8e7b1bcb8c0c09847432583d0a9a948c010e06490ec"
+    },
+    {
+      "archive": "instances/details/bley_xs1noM/bley_xs1noM-findings.tar.gz",
+      "path": "bley_xs1noM-findings/bley_xs1noM/reports/SOURCES-20260908.md",
+      "sha": "8d5f1c9803fae01e91382a18855cfd106b3a9c9e4fe1c9fc1940eb9972e754f5",
+      "translated_sha256": "9067659f0c6f9ef80f70063c6dc48b8e7e3de9b6e33f9c3c5189f6fc946a947a"
+    },
+    {
+      "archive": "instances/details/bley_xs1noM/bley_xs1noM-findings.tar.gz",
+      "path": "bley_xs1noM-findings/bley_xs1noM/reports/deep-study-2026-09-08.zh.md",
+      "sha": "8b750332e0d887b1020c38829b2e97b60cacafa6e6366ad5f6e146019f4668ad",
+      "translated_sha256": "14e02f96ad8355b43f1f43b10b2d100c94fc78ac8d0330fd59208cc799ac2ac5"
+    },
+    {
+      "archive": "instances/details/bppc6-06/bppc6-06-findings.tar.gz",
+      "path": "bppc6-06-findings/bppc6-06/artifacts/proof-208/README.zh.md",
+      "sha": "89007becac95ed592087211c5fa91a6922d456d3cfc9aafda2b1a991e9031943",
+      "translated_sha256": "cbe07f658bc005b13d5fdbb5a10675bce5a3d17b8aeeba43e0c708bfc8d07ce1"
+    },
+    {
+      "archive": "instances/details/bppc6-06/bppc6-06-findings.tar.gz",
+      "path": "bppc6-06-findings/bppc6-06/reports/optimality-proof.zh.md",
+      "sha": "54b7fa5f84d68e8fb2c207d3b445c828df2ea7412ec5955f8107176298b2d392",
+      "translated_sha256": "8665be846bc3b7e540b82e377c9f0ad61f61b20e9d0a5b8e601c70de9f92c64b"
+    },
+    {
+      "archive": "instances/details/cmflsp40-36-2-10/cmflsp40-36-2-10-findings.tar.gz",
+      "path": "cmflsp40-36-2-10-findings/cmflsp40-36-2-10/reports/deep-study-2026-09-08.zh.md",
+      "sha": "e1798df4871cef8451fe0567afd811f61106442ce3f6f865ad9b159c9ce3ae7a",
+      "translated_sha256": "a860647d8992bd3a9e167326ffd8f507b7473972284bc6e33b63418be54782ad"
+    },
+    {
+      "archive": "instances/details/comp12-2idx/comp12-2idx-findings.tar.gz",
+      "path": "comp12-2idx-findings/comp12-2idx/reports/comp12-continuation-study.md",
+      "sha": "daf4d24cd8a587ee7357f0f92a13e338c897cde2f276652b5ad376dacd3d0904",
+      "translated_sha256": "906332138eb5497f20e52ed79eed92eb138f7fafdf768785c2eb8e12aa9bf6cb"
+    },
+    {
+      "archive": "instances/details/datt256/datt256-findings.tar.gz",
+      "path": "datt256-findings/datt256/reports/datt256-study.md",
+      "sha": "2f83a6c02f2c5da45ce6dd0cd8ecb3cb187124fb917457d87f0dc3f8793ba7a2",
+      "translated_sha256": "4794011ecfb3bbdd7a7aa7fc7529c38b6e185b0a9141d22d79aaef52c78d06d1"
+    },
+    {
+      "archive": "instances/details/eva1aprime5x5opt/eva1aprime5x5opt-findings.tar.gz",
+      "path": "eva1aprime5x5opt-findings/eva1aprime5x5opt/reports/eva1aprime5x5opt-study.md",
+      "sha": "7c0c36bdada380a0e53cd7d8f22446ad704b670a34bbacdc04ceb023c836638e",
+      "translated_sha256": "ced77162dfa57cf4f7b4b0106ee506f6b01d3f985b742ee3052546d444d655c7"
+    },
+    {
+      "archive": "instances/details/fastxgemm-n3r21s3t6/fastxgemm-n3r21s3t6-findings.tar.gz",
+      "path": "fastxgemm-n3r21s3t6-findings/fastxgemm-n3r21s3t6/REPORT.md",
+      "sha": "75e70e2e69a02953ce4509fe384c49ecf28b93f362d65c258c317e2033c5173d",
+      "translated_sha256": "194d61fabb34f924f9a8e4a4b849c03223feea843a797953937f8223257aa365"
+    },
+    {
+      "archive": "instances/details/fastxgemm-n3r22s4t6/fastxgemm-n3r22s4t6-findings.tar.gz",
+      "path": "fastxgemm-n3r22s4t6-findings/fastxgemm-n3r22s4t6/REPORT.md",
+      "sha": "d69ba805dc7433e899758b7257cf694ca7f32b88dc94b6b6ec245f3d6a3dd342",
+      "translated_sha256": "bfca1231514f8384db0486706a964bfca42e5e0d7fbd1f8e43aa5797199c727e"
+    },
+    {
+      "archive": "instances/details/fastxgemm-n3r22s4t6/fastxgemm-n3r22s4t6-findings.tar.gz",
+      "path": "fastxgemm-n3r22s4t6-findings/fastxgemm-n3r22s4t6/artifacts/LB87_PROOF.md",
+      "sha": "b0c99a124e0cff774a7d19c728ca5563f25086d7faa9f36ece6f4648ffd683e6",
+      "translated_sha256": "f7df63584cba4530adb7e6438092ad8356285677887a224deb485fbc9169a849"
+    },
+    {
+      "archive": "instances/details/fastxgemm-n3r23s5t6/fastxgemm-n3r23s5t6-findings.tar.gz",
+      "path": "fastxgemm-n3r23s5t6-findings/fastxgemm-n3r23s5t6/REPORT.md",
+      "sha": "c7c7277ec3bf7e9dbcbb491002a24e1e3994731bbc1f24a2a57919bdd658b4d1",
+      "translated_sha256": "9aa199e7d74bf29d3873a1ba040f0fe5ca3338d258034921ae8e54c228e48ff0"
+    },
+    {
+      "archive": "instances/details/fastxgemm-n3r23s5t6/fastxgemm-n3r23s5t6-findings.tar.gz",
+      "path": "fastxgemm-n3r23s5t6-findings/fastxgemm-n3r23s5t6/artifacts/LB87_PROOF.md",
+      "sha": "28cbea2da19f9e76516262da03dfa7e5c3020679abad9f5d98b6d6c3efc8c565",
+      "translated_sha256": "c1586f23b39a4fd41f59480a0b4547f8e904ebbfe11e162dc554db332fd64f6b"
+    },
+    {
+      "archive": "instances/details/fastxgemm-n3r23s5t6/fastxgemm-n3r23s5t6-findings.tar.gz",
+      "path": "fastxgemm-n3r23s5t6-findings/fastxgemm-n3r23s5t6/artifacts/PROVENANCE.md",
+      "sha": "0d05812f0e6300d1e029d3c424e0d2eb9c6a04a409269a5674776e0e72470460",
+      "translated_sha256": "2760a867d1907f7a588c921ad9ffea71da37d4c139a56355fa1e0fdc1705e7d3"
+    },
+    {
+      "archive": "instances/details/fhnw-binpack4-58/fhnw-binpack4-58-findings.tar.gz",
+      "path": "fhnw-binpack4-58-findings/fhnw-binpack4-58/reports/fhnw-binpack4-58-infeasibility-proof.md",
+      "sha": "120f38e20692febba4f7c1ec7d54200a611625758157399b97af6d5cf1ff16b6",
+      "translated_sha256": "0b1eabb11d5dceea022847615f998a3a77a55a0f97b6ed21ba6c335d2dbd138b"
+    },
+    {
+      "archive": "instances/details/fhnw-schedule-paira100/fhnw-schedule-paira100-findings.tar.gz",
+      "path": "fhnw-schedule-paira100-findings/fhnw-schedule-paira100/reports/deep-study-2026-09-08.zh.md",
+      "sha": "5afe9d087c5f9caf5204cc40878af013a62d65d52c08683d86116bd564dd09de",
+      "translated_sha256": "fb25792ddfff0b69ca8004fa1755082bd8796a10279c18d16a7cde09359f1b10"
+    },
+    {
+      "archive": "instances/details/fhnw-schedule-paira200/fhnw-schedule-paira200-findings.tar.gz",
+      "path": "fhnw-schedule-paira200-findings/fhnw-schedule-paira200/reports/deep-study-2026-09-08.zh.md",
+      "sha": "befc6166073b3cb7b7e8417c7aac94f4aee971a6dca934e88393353c05ffaa27",
+      "translated_sha256": "efc34335d2a0b0902e2df9abc7582d3e5ddc9d2e5b9977a4af931d8a55154e03"
+    },
+    {
+      "archive": "instances/details/fhnw-schedule-paira400/fhnw-schedule-paira400-findings.tar.gz",
+      "path": "fhnw-schedule-paira400-findings/fhnw-schedule-paira400/reports/deep-study-2026-09-08.zh.md",
+      "sha": "6088bcdd66cae12307cae7a698882c45ec96f5b5e4217844befe3ee25c1506e1",
+      "translated_sha256": "fc413a390e33f26710c7444910b3b98a4fb1cf1d0f622557c108d7dc3c14a043"
+    },
+    {
+      "archive": "instances/details/fhnw-schedule-pairb200/fhnw-schedule-pairb200-findings.tar.gz",
+      "path": "fhnw-schedule-pairb200-findings/fhnw-schedule-pairb200/reports/deep-study-2026-09-08.zh.md",
+      "sha": "15a6ce647054f67c2702cdaaa85f38f4eff95ba37689b8852f2c89ffbac539ec",
+      "translated_sha256": "f37bdcb7e7aa2eeb1926016d86cd94192fe619d4aff559d602cc8b3e9baa5f83"
+    },
+    {
+      "archive": "instances/details/graphdraw-mainerd/graphdraw-mainerd-findings.tar.gz",
+      "path": "graphdraw-mainerd-findings/graphdraw-mainerd/reports/graphdraw-mainerd-study-zh.md",
+      "sha": "461d00645d1604da90e0e3e1244dd699e5117ca5fa04d2f18327fd1d8aec70c2",
+      "translated_sha256": "4af7a72700ed1c6fe3dfdbf93d5b336dc9e48f4c35aaeb34b4fbf353143c0617"
+    },
+    {
+      "archive": "instances/details/gsvm2rl9/gsvm2rl9-findings.tar.gz",
+      "path": "gsvm2rl9-findings/gsvm2rl9/reports/gsvm2rl9-study.md",
+      "sha": "a2d10872047b52114605f1c745cdaecdf3b663dba6c9bc39846a25b7197298a5",
+      "translated_sha256": "b8cd7f0030f8b0bf854a1839285c3c9b1624700cc1ae2ffd1394651243ed7a57"
+    },
+    {
+      "archive": "instances/details/liu/liu-findings.tar.gz",
+      "path": "liu-findings/liu/reports/liu-study.md",
+      "sha": "da0ee7e5ee5f4c0ad436fd0d13af3a037c45a69c4482bcdb6a8870cb4e143d9b",
+      "translated_sha256": "4159a0458f15f2a3ab67b6b52aefe7469891693d6abfd1a5dd11e7dd455598da"
+    },
+    {
+      "archive": "instances/details/milo-v13-4-3d-4-0/milo-v13-4-3d-4-0-findings.tar.gz",
+      "path": "milo-v13-4-3d-4-0-findings/milo-v13-4-3d-4-0/reports/milo-study.md",
+      "sha": "d6b275b357a22f58cdd07fbcb3773f0b3c4e8ad2df443fdb1f47a063370dd68b",
+      "translated_sha256": "61d8d65627e1e25b8f4653659325c90e081f029b119a21038119a2a8e246d32f"
+    },
+    {
+      "archive": "instances/details/minutedispatchstrategy/minutedispatchstrategy-findings.tar.gz",
+      "path": "minutedispatchstrategy-findings/minutedispatchstrategy/reports/computational-optimality.zh.md",
+      "sha": "9fb7574bd2c9e2ff29bae6d92b0906794f356c92e68768f924612fc32c2e7a3d",
+      "translated_sha256": "6833d68c01fad76d8871c1bd1ea50d7f31f8a5e6c02357b3a172ecf8d4433eb4"
+    },
+    {
+      "archive": "instances/details/neos-3009394-lami/neos-3009394-lami-findings.tar.gz",
+      "path": "neos-3009394-lami-findings/neos-3009394-lami/reports/neos-3009394-lami-study-zh.md",
+      "sha": "b1cd02bb9d2686fccd8d7e95103b97c37c82ef26e72f3e8542c71cb04ffa774f",
+      "translated_sha256": "3e2bd3f827ce2b3793180d01374041e8185ca613bd1d714839cfacb3aebd7026"
+    },
+    {
+      "archive": "instances/details/neos-3691541-lonja/neos-3691541-lonja-findings.tar.gz",
+      "path": "neos-3691541-lonja-findings/neos-3691541-lonja/README.md",
+      "sha": "4fd7bf7d9094ad370bbedaa4bd2c968fe3cd57cd5b9e2d43d941b7fabd8d4421",
+      "translated_sha256": "22d5378d1579cee1aa150242cf88b339ead35d12f73e693b322f6a0eeef9f7aa"
+    },
+    {
+      "archive": "instances/details/neos-4355351-swalm/neos-4355351-swalm-findings.tar.gz",
+      "path": "neos-4355351-swalm-findings/neos-4355351-swalm/reports/optimality-proof.zh.md",
+      "sha": "b28f1a925ab1ef65d22eef571af8eb2b17e7aa6634277ace4a402533ccbf7c46",
+      "translated_sha256": "f4e8316b2eb9764b2359f6812a4a2ef300755ca61fdd9dadad1992faa4c9550a"
+    },
+    {
+      "archive": "instances/details/neos-4360552-sangro/neos-4360552-sangro-findings.tar.gz",
+      "path": "neos-4360552-sangro-findings/neos-4360552-sangro/report.zh.md",
+      "sha": "8e5c11994cd7b9b12aef85a78365a7d60c24788f650576556f767373245539f3",
+      "translated_sha256": "aa505c735de765a77217bc772b024ba184754c9b7258b1fef3529206a59a2891"
+    },
+    {
+      "archive": "instances/details/neos-5045105-creuse/neos-5045105-creuse-findings.tar.gz",
+      "path": "neos-5045105-creuse-findings/neos-5045105-creuse/background.md",
+      "sha": "9dce8ccede6364154016644735058016e016cafcf2af2d9cf062dcd5427fbc73",
+      "translated_sha256": "b007fe42f1c919b1001d0502978bc4916bd590dda55d6be1ecbb93c07502e617"
+    },
+    {
+      "archive": "instances/details/neos-5045105-creuse/neos-5045105-creuse-findings.tar.gz",
+      "path": "neos-5045105-creuse-findings/neos-5045105-creuse/strategy.md",
+      "sha": "b82103632b8a9aaf52b1cea9faf7090f04dfe1056c720d345031cbb77698d35f",
+      "translated_sha256": "1362432236f4af3d6873b4160b9b51dc554f7c397489fb3780f8d7b9a36c1d64"
+    },
+    {
+      "archive": "instances/details/neos-5266653-tugela/neos-5266653-tugela-findings.tar.gz",
+      "path": "neos-5266653-tugela-findings/neos-5266653-tugela/README.md",
+      "sha": "a59ca8a64efaaf99c5cddd3ceebd2abefac8f99f5dc8dc062c34c5320b78735b",
+      "translated_sha256": "458dce00f6848f66f0f1827e3d52bcb3fc339167f72824b0cdab88361d0855c0"
+    },
+    {
+      "archive": "instances/details/ns1631475/ns1631475-findings.tar.gz",
+      "path": "ns1631475-findings/ns1631475/report.zh.md",
+      "sha": "813a91a336fb72d9ab20fdf7f7b11c0a8140ab509ec7e0425616bfa5a22d29ec",
+      "translated_sha256": "6985eadc1d600ebf1e8408b6ac03d39b8c51db987d2eb15fdd38a9d57cbf2ae5"
+    },
+    {
+      "archive": "instances/details/polygonpack4-15/polygonpack4-15-findings.tar.gz",
+      "path": "polygonpack4-15-findings/polygonpack4-15/README.md",
+      "sha": "0a2f010d09a1a8fd9011fdee3e976a64e7d5ad86b022432c3c5c1a6cf6ee7976",
+      "translated_sha256": "ad54167cbc72b9f730d4278e50989d0b8042cfd8f00d58e599ed373f2d48cd58"
+    },
+    {
+      "archive": "instances/details/polygonpack5-15/polygonpack5-15-findings.tar.gz",
+      "path": "polygonpack5-15-findings/polygonpack5-15/README.md",
+      "sha": "8ef27da1f430907eac6188b940efabcfa02860383ae149c3b4594548f548ceab",
+      "translated_sha256": "ad5f547c44413f236f3846f9551d6a1ceef7e30aeb69467ecebcbbbb3b45a004"
+    },
+    {
+      "archive": "instances/details/ramos3/ramos3-findings.tar.gz",
+      "path": "ramos3-findings/ramos3/reports/ramos3-study-zh.md",
+      "sha": "1ae988e4303d0ee559512bc5ce61c00d9457bd33f35d686fb17ec4bdc179ee96",
+      "translated_sha256": "26892adefc1f8164fa0c1ab9a88c173b756655765b2904f59ba4bb6308224e19"
+    },
+    {
+      "archive": "instances/details/rmine11/rmine11-findings.tar.gz",
+      "path": "rmine11-findings/rmine11/reports/pair-clique-study.md",
+      "sha": "acd1a31110158341f7a0d8479af23519907aaa1afa663dd9aa5c96fa06b45736",
+      "translated_sha256": "ed63e83478a39a565fdf6e0f9114b41dfaba6e3fbbd372c7d09f16363bb089f9"
+    },
+    {
+      "archive": "instances/details/rmine11/rmine11-findings.tar.gz",
+      "path": "rmine11-findings/rmine11/reports/triple-cover-study.md",
+      "sha": "f4849786edc6dc5d3f99d80de908e2e5782b579f6536a3cb6bc6766583dc8b91",
+      "translated_sha256": "bed2dd1c2c34d49ed1dd6909bd59a33b8ae3cbd2096449db670c5fca1c43e12c"
+    },
+    {
+      "archive": "instances/details/rmine13/rmine13-findings.tar.gz",
+      "path": "rmine13-findings/rmine13/README.md",
+      "sha": "31bb2726f3b682797eb0a67450834254303803eea1f8e7482bf43af0a1c0f810",
+      "translated_sha256": "744af2b2196d2b0278050994c6de812edde493bb52f87d617518c5488ff9e36a"
+    },
+    {
+      "archive": "instances/details/rmine15/rmine15-findings.tar.gz",
+      "path": "rmine15-findings/rmine15/reports/SOURCES.md",
+      "sha": "3535daf62c1e61436112303a22da7b98f778702a22dfb9fb5148d1d54d661a5f",
+      "translated_sha256": "fd4d8ec58a2e480364135e5bdaf50bee8903bbad0f43c7d36d12076e71cd9912"
+    },
+    {
+      "archive": "instances/details/rmine15/rmine15-findings.tar.gz",
+      "path": "rmine15-findings/rmine15/reports/deep-study-2026-09-08.zh.md",
+      "sha": "90623e248fe07068acfcec2d759dc64eade6f3fb6a342bf6aa0a1f068acbf932",
+      "translated_sha256": "5b6ebbe6e4a36b918e1d1503eea787ca4b372e2c6cdc16c6c3d507187642af82"
+    },
+    {
+      "archive": "instances/details/rmine15/rmine15-findings.tar.gz",
+      "path": "rmine15-findings/rmine15/reports/exact-pair-clique-bound.md",
+      "sha": "c535f133cfc4e1a2017a2f66a1fa334512b07f20eaca6c61e679b2e7d618ee81",
+      "translated_sha256": "1e72e902e4f999891b10ae805573e72b379d14b57a5c0eada874f5bf88f0c057"
+    },
+    {
+      "archive": "instances/details/s82/s82-findings.tar.gz",
+      "path": "s82-findings/s82/reports/SOURCES.md",
+      "sha": "22806118c553ac06c20359848fbdb5eaa24558c1404d348b4602fd2b3f8a617f",
+      "translated_sha256": "fbda0e57729f2726ec91e07dd1691c1114e10cc98c76294b6e645c88ccb87d8c"
+    },
+    {
+      "archive": "instances/details/s82/s82-findings.tar.gz",
+      "path": "s82-findings/s82/reports/deep-study-2026-09-08.zh.md",
+      "sha": "9b6d215e2447ae59726d5a2e89ccf2a892e7eb1bac6814060a2df5eb9ecc362e",
+      "translated_sha256": "ec47e92ee7596801c4408324ee8241665425e59436d2640b1711a544a3290edd"
+    },
+    {
+      "archive": "instances/details/scpj4scip/scpj4scip-findings.tar.gz",
+      "path": "scpj4scip-findings/scpj4scip/report.zh.md",
+      "sha": "e8db0c097733209357b5e2e795951ccc213387f29013e21baabb14758b3cc23b",
+      "translated_sha256": "ace205c891128a1f51014f36d9d839adbe5a14fbefe740d0e107585d96dc183d"
+    },
+    {
+      "archive": "instances/details/scpl4/scpl4-findings.tar.gz",
+      "path": "scpl4-findings/scpl4/background.md",
+      "sha": "b979a269690e07068ee5a75665248960792cf9632aaaf2f8020c9772e153b83b",
+      "translated_sha256": "2a3ad854f52ab455d748c5cb947864465395b6dbe35613f877eefe2fc4b91a39"
+    },
+    {
+      "archive": "instances/details/set3-09/set3-09-findings.tar.gz",
+      "path": "set3-09-findings/set3-09/README.md",
+      "sha": "84a4440791a384ace38b7ef3a7f5ca0b5ea445efd414dcd3878f7517e291e81d",
+      "translated_sha256": "47a479c07f06a8efd57ade9255f7d42e9e81ccfef6b52bfa1bd60a5a2faeb94d"
+    },
+    {
+      "archive": "instances/details/sorrell7/sorrell7-findings.tar.gz",
+      "path": "sorrell7-findings/sorrell7/reports/sorrell7-study-zh.md",
+      "sha": "100675f8e52690604eaeac8ebd496c311abcea66023b001d2001fa573c764965",
+      "translated_sha256": "be1d833b8374114dfdda21bc8e30fe071458c6504e4fe26d9d8e0350a48fe142"
+    },
+    {
+      "archive": "instances/details/supportcase30/supportcase30-findings.tar.gz",
+      "path": "supportcase30-findings/supportcase30/reports/supportcase30-study.md",
+      "sha": "cdd8e7e27862d8aab4dd1fafc4bde56e893d52d2cc504f92dd9eb6286723d6d9",
+      "translated_sha256": "9d86343575d1f63ce4010d989db5fd62f44fff62e41b2ab6ec87bdfc6d0ce59b"
+    },
+    {
+      "archive": null,
+      "path": "instances/instances.json",
+      "sha": "ee08bab83703240beeb4ddb4b94e920e91624918d1a0fd034e28791e2d60a640",
+      "translated_sha256": "4b9f3722fa8c565c0e9ad8dc7b8a4021a630d65319a06fb453256dd65345ba1c"
+    }
+  ]
+}

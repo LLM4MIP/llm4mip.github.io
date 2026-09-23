@@ -1,0 +1,6 @@
+interface:
+  display_name: "MIP Dual Improve"
+  short_description: "Continuously strengthen and validate global MIP bounds"
+  default_prompt: "Use $mip-dual-improve to continuously improve only the global dual bound within the available budget; do not require primal work, and use existing solutions or an optional concurrent solver only as auxiliary input."
+policy:
+  allow_implicit_invocation: true

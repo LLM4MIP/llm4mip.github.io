@@ -1,0 +1,6 @@
+interface:
+  display_name: "MIP Primal Improvement"
+  short_description: "Improve and validate MIP primal solutions with structural search"
+  default_prompt: "Use $mip-primal-improve to continuously improve and validate primal solutions throughout the full allocated budget. Keep searching after each improvement rather than stopping at the first; dual-bound improvement or an optimality proof is not required."
+policy:
+  allow_implicit_invocation: true

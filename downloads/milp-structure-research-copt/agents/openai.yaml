@@ -1,0 +1,7 @@
+interface:
+  display_name: "MILP Structure Research (COPT)"
+  short_description: "Route hard MILPs with COPT-based structural analysis"
+  default_prompt: "Use $milp-structure-research-copt to diagnose this MILP with COPT and design an auditable structure-specific research plan."
+
+policy:
+  allow_implicit_invocation: false

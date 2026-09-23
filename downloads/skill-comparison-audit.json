@@ -1,0 +1,105 @@
+{
+  "schema": "miplib_openproblem.milp_structure_skill_effect_audit.v1",
+  "created_at": "2026-09-13",
+  "comparison_design": {
+    "skill_arm": "User-designated milp-structure-research run",
+    "no_skill_arm": "User-designated report without milp-structure-research",
+    "design": "historical_non_randomized_paired_comparison",
+    "causal_limit": "Observed differences are not a controlled causal effect estimate because resources, baselines, solver states, and verification workflows differ.",
+    "problem_sense": "minimize",
+    "bound_tie_tolerance": "1e-7",
+    "common_gap_formula": "abs(P-D)/max(1,abs(P),abs(D))"
+  },
+  "original_working_copy_inputs": {
+    "no_skill_report_md": {
+      "bytes": 58162,
+      "sha256": "528d544ac95193213eeb3cfd6bdf98804f123c34e7fbe417ad7c8e374c185134"
+    },
+    "no_skill_report_pdf": {
+      "bytes": 189424,
+      "sha256": "c8dfe7590ce5723a81bbca1a5aa2ebf9912c033b86a1ad83f8cef5331522d0b9",
+      "pages": 21,
+      "visual_inspection": "pass"
+    },
+    "skill_summary_csv": {
+      "bytes": 14799,
+      "sha256": "7b1df6d2b6a9441cf16f2a82d2b7b77e782cb7ab73ea73b72c556718dd7934e7",
+      "rows": 20
+    },
+    "skill_report_zh_md": {
+      "bytes": 28284,
+      "sha256": "a1d728d332dd963bcea1cbd24cfe1253f995a6c4d540fb58962d074197ee07dd"
+    },
+    "milp_structure_research_skill": {
+      "bytes": 4966,
+      "sha256": "f8a09b104f0af3786b2e702f60dde3de7fd54a1aac581dff9bdd8a3325c84b4f"
+    }
+  },
+  "published_artifacts": {
+    "README.md": {
+      "bytes": 20914,
+      "sha256": "0ed9c0a484622a553d9d830d86c6bc7d3222e7c67e51e7b144f7a9e204d71da8"
+    },
+    "comparison.csv": {
+      "bytes": 11838,
+      "sha256": "18f14dc58129789881d26c44b01c5514cb6007d8c52a74c01a07d7fc58a746f2",
+      "rows": 20
+    },
+    "compare_skill_effect.py": {
+      "bytes": 10176,
+      "sha256": "1baea45d5faf3f8857aa29f2846a575fb2d0009bdef0d13fdd383fd15f133958"
+    },
+    "skill-gate-inventory.csv": {
+      "bytes": 2378,
+      "sha256": "32e2bc023c23f7aa328a65167252affb0f9486dcdd5219e7198cd95d25958b27",
+      "rows": 20,
+      "unique_instances": 20,
+      "all_full_read_before_instance_access_verified": true
+    },
+    "SOURCE.md": {
+      "bytes": 2761,
+      "sha256": "5f9691c1d812e5ddb29a9fae94f2ebe8383ca7af660fb024dc2118a414c64546"
+    },
+    "sources/no-skill-report.md": {
+      "bytes": 57693,
+      "sha256": "14e279ff9d049e1baede8d9482102e4f1e4dfa9610b238ffbfce2eeb2f2fc897"
+    },
+    "sources/skill-report.zh.md": {
+      "bytes": 28276,
+      "sha256": "adc8d3a81b07f5885a5a872c69d0abf00174606a36ec267546a2e6343817cb3e"
+    },
+    "sources/skill-summary.csv": {
+      "bytes": 14778,
+      "sha256": "c07155504727a5d32e3f2f9a9a6237871cbd540a2a6097d637152b5b274ee2bc",
+      "rows": 20
+    }
+  },
+  "counts": {
+    "instances": 20,
+    "selected_primal_comparison_at_1e_7": {
+      "skill_better": 11,
+      "tie": 9,
+      "no_skill_better": 0
+    },
+    "dual_comparison_at_1e_7": {
+      "skill_better": 8,
+      "no_skill_better": 12
+    },
+    "common_gap_comparison": {
+      "skill_better": 9,
+      "no_skill_better": 11
+    },
+    "skill_new_strict_vs_frozen_public_baseline": 4,
+    "no_skill_new_strict_vs_frozen_public_baseline": 2,
+    "skill_exact_global_optima": 2,
+    "no_skill_exact_global_optima": 0,
+    "skill_tolerance_indexed_selected_primals": 6,
+    "skill_gate_verified_instances": 20
+  },
+  "validation": {
+    "comparison_recomputed_from_published_snapshots": true,
+    "recomputed_csv_sha256": "18f14dc58129789881d26c44b01c5514cb6007d8c52a74c01a07d7fc58a746f2",
+    "recomputed_csv_matches_published_csv": true,
+    "pass": true
+  }
+}

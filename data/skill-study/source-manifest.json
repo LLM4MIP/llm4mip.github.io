@@ -1,0 +1,286 @@
+{
+  "repository": "Huangyc98/MIPLIB_openproblem",
+  "branch": "organize/complete-results-20260921",
+  "commit": "b63b89634917ccde2f9e7dc7aefe1583a3eb55e8",
+  "files": [
+    {
+      "path": "skills-research/comparisons/per_instance_comparison.csv",
+      "sha256": "1e76eb9eacf88e4b988cb0423f2122bdd913a094df75883e3818d07a315c8395"
+    },
+    {
+      "path": "skills-research/comparisons/skill_portfolio_gap_comparison.csv",
+      "sha256": "6747f88a1d84c74c1b7ad710bbb335a0d072061c9d6e44a617f6b5386454cb0c"
+    },
+    {
+      "path": "skills-research/comparisons/portfolio_vs_direct_gurobi150m.csv",
+      "sha256": "10f9773a767a32d2c7a40570a132060547136a1979366eebea2498bd19c2874a"
+    },
+    {
+      "path": "skills-research/comparisons/model_identity_audit.csv",
+      "sha256": "eac02f3a49400bbd7cb76eaaf4761c8e7c0e3c285ab6c32f57ce62255fd4d390"
+    },
+    {
+      "path": "skills-research/comparisons/direct_gurobi150m_summary.json",
+      "sha256": "d85ce0e3a2eaf233d96f7775c5acf84b9e21d630f6bb784f00c3c29b94168924"
+    },
+    {
+      "path": "skills-research/experiments/primal/README.md",
+      "sha256": "e64a53ffede3e0af5cca5b910866ea01f3a8741c6869cf9a52488b968254917a",
+      "original_sha256": "58bb41e01ec4b69284ca1bde53eb1053f4177b4b796f9ec794d5b7a76032c698",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/dual/source_dual_gurobi_core/report.md",
+      "sha256": "28025a5f3fbb7680274024eb003a8e926846dfb574bd34c447634f8ca2f49bdc"
+    },
+    {
+      "path": "skills-research/experiments/no-skill/report.md",
+      "sha256": "7ddc5e9f3f2b75b4cbe7124eab4ea9f77224637dda7286153b7501038af895c6",
+      "original_sha256": "b823d230cbce5926e05f32924384211a8c10a48f1e4526e1ee2c5b1ca2dbd28d",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/baselines/gurobi150m/README.md",
+      "sha256": "3740272c2980d5a7ef17902adf4ebfdfd541af122600a000df22ca4782692375"
+    },
+    {
+      "path": "skills-research/skills/SKILL_SOURCE_INSTANCES.csv",
+      "sha256": "4aaf286c9f0a6d3e80b9db765291c78695c408f58c6abd4af73e2561a4be2105",
+      "original_sha256": "054ac480009ee58823119c1b4fe4940ad4969e260df252d0edf3ea066559857a",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/primal/sources/skill-used/SKILL.md",
+      "local": "data/skill-study/packages/primal-frozen/SKILL.md",
+      "sha256": "5e74581fa6d833cfe5c834e57b6c2b679a80ef44cde8f108aa8f08261e05e0c0",
+      "original_sha256": "1bab6d94a097dcb4f0506a4b03120aee57fa9c829ca7250ed066fd7782feb341",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/primal/sources/skill-used/agents/openai.yaml",
+      "local": "data/skill-study/packages/primal-frozen/agents/openai.yaml",
+      "sha256": "29c3480a32538f3ed7b00a04effef789985d814c72821dcedca4056b73e0e9ad",
+      "original_sha256": "19043e57e724be21661086c464bedd8588b2f67b249a83983cd1d50e7fa3e159",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/primal/sources/skill-used/references/casebook.md",
+      "local": "data/skill-study/packages/primal-frozen/references/casebook.md",
+      "sha256": "99ee2c18726a32193118c42d7f5beefdb481ae0703803675e560a8e2121f9cc0",
+      "original_sha256": "177273de79fe460002d9654b4e539f131619152a3a80fb4c1f3b152778361bec",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/primal/sources/skill-used/references/instances.json",
+      "local": "data/skill-study/packages/primal-frozen/references/instances.json",
+      "sha256": "34308cb783a5868c5b03764a21aa21b7f4fa2b0f2cd1a415682114cad353fe07",
+      "original_sha256": "98a7f51321e571b6c2fd4fea8f09a1b8780ec50a5c640bbb369fef98533c11f5",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/primal/sources/skill-used/references/instances.md",
+      "local": "data/skill-study/packages/primal-frozen/references/instances.md",
+      "sha256": "46adbd1ece5f7e89aa9b1600fe08089e859ac5d3af50cbbbe1a5c8679fe3a8f1",
+      "original_sha256": "47ba37e6da249b85851a4d451226131a7387b82ef48338ee912ba25a806782d3",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/primal/sources/skill-used/references/search-playbook.md",
+      "local": "data/skill-study/packages/primal-frozen/references/search-playbook.md",
+      "sha256": "d83696ecd4300b3050553c547498712ea140ea5b18e5cfa01ed730a4c7eae65c",
+      "original_sha256": "d39bf202d468303a745c8c3475c988c09fd9ac530ee172064e5fd043cdd82f49",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/primal/sources/skill-used/references/validation-and-measurement.md",
+      "local": "data/skill-study/packages/primal-frozen/references/validation-and-measurement.md",
+      "sha256": "248817a2827ecd4fcaf2de0206705229974e207c2da222b817f4b7322c90de33",
+      "original_sha256": "87109ba132c80c8d0338cf08c051342d9ce3abfb0a354205c27a4887a1e3cae4",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/primal/sources/skill-used/scripts/case_lookup.py",
+      "local": "data/skill-study/packages/primal-frozen/scripts/case_lookup.py",
+      "sha256": "4ee725a020abf38776f41a6de4318444e82cb01732d545b6186cf966909d5434"
+    },
+    {
+      "path": "skills-research/experiments/primal/sources/skill-used/scripts/summarize_runs.py",
+      "local": "data/skill-study/packages/primal-frozen/scripts/summarize_runs.py",
+      "sha256": "f608c57244e9da2eb9a8f2fdcf36e72a1e3f3298a35002ddde0906a13121638c"
+    },
+    {
+      "path": "skills-research/experiments/dual/skills/frozen_20260917/SKILL.md",
+      "local": "data/skill-study/packages/dual-frozen/SKILL.md",
+      "sha256": "61cc3bbe39f9b690ff6b0115cc7bb02475b786e6732af7de727b5b5280d16535"
+    },
+    {
+      "path": "skills-research/experiments/dual/skills/frozen_20260917/agents/openai.yaml",
+      "local": "data/skill-study/packages/dual-frozen/agents/openai.yaml",
+      "sha256": "ab8fa9d718d166da853b46938e9efb3c2a01763a5bab03adeac90d6a00ffdcd1"
+    },
+    {
+      "path": "skills-research/experiments/dual/skills/frozen_20260917/references/bound-validity.md",
+      "local": "data/skill-study/packages/dual-frozen/references/bound-validity.md",
+      "sha256": "3f930445ea8044143ed6d7aebe613c85aa92abe412e9e186e864f4bc62048a7c"
+    },
+    {
+      "path": "skills-research/experiments/dual/skills/frozen_20260917/references/casebook.md",
+      "local": "data/skill-study/packages/dual-frozen/references/casebook.md",
+      "sha256": "f64de46103088357d0b73176fe305c63f2360a18ce6d2467b9b273f8e7a97fa9"
+    },
+    {
+      "path": "skills-research/experiments/dual/skills/frozen_20260917/references/corpus-index.json",
+      "local": "data/skill-study/packages/dual-frozen/references/corpus-index.json",
+      "sha256": "01daa210e4605df5d6e0b7ab10237771a37ef4e2cb424b43f865b537ab8da13f",
+      "original_sha256": "b8a33e831b049974f00cb52d62e32fcb3106753edb9616c926541af7b327d908",
+      "translation": "English prose translation; original experiment file preserved in prior source revision"
+    },
+    {
+      "path": "skills-research/experiments/dual/skills/frozen_20260917/references/dual-playbook.md",
+      "local": "data/skill-study/packages/dual-frozen/references/dual-playbook.md",
+      "sha256": "455c925a432ed9ae6cd5ee9f9cc199e293ba845db768f00511cd94cd3afe9d3b"
+    },
+    {
+      "path": "skills-research/experiments/dual/skills/frozen_20260917/references/linear-certificate.md",
+      "local": "data/skill-study/packages/dual-frozen/references/linear-certificate.md",
+      "sha256": "7a4c15d76fd536497094ea8bf98cf24ebcf83fd65dc92c56c98db383e0ad8632"
+    },
+    {
+      "path": "skills-research/experiments/dual/skills/frozen_20260917/scripts/case_lookup.py",
+      "local": "data/skill-study/packages/dual-frozen/scripts/case_lookup.py",
+      "sha256": "b7374e701db5082f47108d2bc1547b41f4a785420b6fff35d008eaae5fad7a32"
+    },
+    {
+      "path": "skills-research/experiments/dual/skills/frozen_20260917/scripts/verify_linear_bound.py",
+      "local": "data/skill-study/packages/dual-frozen/scripts/verify_linear_bound.py",
+      "sha256": "40e5526f39d3b7cbcfbf005aec0d18cabfbacb44b8b51b1b62bd77a6291d4b90"
+    },
+    {
+      "path": "skills/mip-primal-improve/SKILL.md",
+      "local": "data/skill-study/packages/primal-current/SKILL.md",
+      "sha256": "b2f324a01749f0ddd90955b58e80d8cea6a08908990e3adc98eb21f8c9e4faf7",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-primal-improve/agents/openai.yaml",
+      "local": "data/skill-study/packages/primal-current/agents/openai.yaml",
+      "sha256": "83d1e28c81e9140898ef61d9ac7ee537d6aa62902fe0e3fabbbc9c05475c8cc8",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-primal-improve/references/casebook.md",
+      "local": "data/skill-study/packages/primal-current/references/casebook.md",
+      "sha256": "b6a261de1d4cc7c8eec0d1558eed4a67bde0261ff6e70a1ec594021910cd4c1a",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-primal-improve/references/instances.json",
+      "local": "data/skill-study/packages/primal-current/references/instances.json",
+      "sha256": "ca28912a1cd40275e485fec6c72b77e954f5738cc5173bc820d794e1a20e9b5a",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-primal-improve/references/instances.md",
+      "local": "data/skill-study/packages/primal-current/references/instances.md",
+      "sha256": "bbb8b802cc1f43373c1c86271aeca666c80968c8d32e30d7158649a8a7587da6",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-primal-improve/references/search-playbook.md",
+      "local": "data/skill-study/packages/primal-current/references/search-playbook.md",
+      "sha256": "b2e23060e7b92cc918917399a7e675edc26088bb51242bda7372a341ddd3ad3c",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-primal-improve/references/validation-and-measurement.md",
+      "local": "data/skill-study/packages/primal-current/references/validation-and-measurement.md",
+      "sha256": "58443c1500403a26ef5233f19a65ae734f26caa770a2b2ac9e96ffaa21ab598b",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-primal-improve/scripts/case_lookup.py",
+      "local": "data/skill-study/packages/primal-current/scripts/case_lookup.py",
+      "sha256": "4ee725a020abf38776f41a6de4318444e82cb01732d545b6186cf966909d5434",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-primal-improve/scripts/summarize_runs.py",
+      "local": "data/skill-study/packages/primal-current/scripts/summarize_runs.py",
+      "sha256": "f608c57244e9da2eb9a8f2fdcf36e72a1e3f3298a35002ddde0906a13121638c",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/SKILL.md",
+      "local": "data/skill-study/packages/dual-current/SKILL.md",
+      "sha256": "05b7b95bbb8f0b818a2f57bbd9664c37cb5dc3271219e18774dd0a2f2d547feb",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/agents/openai.yaml",
+      "local": "data/skill-study/packages/dual-current/agents/openai.yaml",
+      "sha256": "4bfa498da9a33491afd3f6574ba50739770caa0c1ad78a193df0e64f2cd229a2",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/references/bound-validity.md",
+      "local": "data/skill-study/packages/dual-current/references/bound-validity.md",
+      "sha256": "a2067655616ba916a6e3164182e9247093f48e25f73ac23d67407c27b3a6cda6",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/references/casebook.md",
+      "local": "data/skill-study/packages/dual-current/references/casebook.md",
+      "sha256": "f64de46103088357d0b73176fe305c63f2360a18ce6d2467b9b273f8e7a97fa9",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/references/corpus-index.json",
+      "local": "data/skill-study/packages/dual-current/references/corpus-index.json",
+      "sha256": "39cd13c7a121ee7115679a721fd724e5122cd6512ffcf71d14fb7b2d5c4b5367",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/references/dual-playbook.md",
+      "local": "data/skill-study/packages/dual-current/references/dual-playbook.md",
+      "sha256": "bf8911fd8848dec77f8a3071a6c8b643d7566fd91a183322ca7e6ae901e83953",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/references/experiment-history.md",
+      "local": "data/skill-study/packages/dual-current/references/experiment-history.md",
+      "sha256": "07db741c04e229224437c9a1f81d4394cd8fad42ec2390fde53a58dc2b12ba0b",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/references/experiment-runs.json",
+      "local": "data/skill-study/packages/dual-current/references/experiment-runs.json",
+      "sha256": "bd3ca9a69dfd0de7b083f3748de25e56c85dcf85396209444cd7704703501749",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/references/linear-certificate.md",
+      "local": "data/skill-study/packages/dual-current/references/linear-certificate.md",
+      "sha256": "7a4c15d76fd536497094ea8bf98cf24ebcf83fd65dc92c56c98db383e0ad8632",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/scripts/case_lookup.py",
+      "local": "data/skill-study/packages/dual-current/scripts/case_lookup.py",
+      "sha256": "b7374e701db5082f47108d2bc1547b41f4a785420b6fff35d008eaae5fad7a32",
+      "source_override": "local-installed-english-skills-20260922"
+    },
+    {
+      "path": "skills/mip-dual-improve/scripts/verify_linear_bound.py",
+      "local": "data/skill-study/packages/dual-current/scripts/verify_linear_bound.py",
+      "sha256": "40e5526f39d3b7cbcfbf005aec0d18cabfbacb44b8b51b1b62bd77a6291d4b90",
+      "source_override": "local-installed-english-skills-20260922"
+    }
+  ],
+  "source_overrides": {
+    "local-installed-english-skills-20260922": {
+      "source": "User-provided local mip-primal-improve and mip-dual-improve skill directories",
+      "date": "2026-09-22",
+      "scope": "primal-current and dual-current packages; frozen experiment packages remain pinned to the original repository commit"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNJSLE077H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JNJSLE077H');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive overview of how much LLM-assisted research helped on 132 open MIPLIB instances, with results classified by verification method and downloadable artifacts.">
+  <meta name="author" content="Yicheng Huang, Wenzhi Gao, Dongdong Ge, Madeleine Udell, Yinyu Ye">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="How Much Can LLMs Help Solve MIPs?">
+  <meta property="og:description" content="A concise interactive overview of 132 open MIPLIB instances, optimality or infeasibility for 34 instances, and a paired workflow comparison.">
+  <title>How Much Can LLMs Help Solve MIPs? | LLM4MIP</title>
+  <link rel="icon" type="image/png" href="assets/llm4mip-icon.png">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Primary navigation">
+      <a class="brand" href="./"><img class="brand-icon" src="assets/llm4mip-icon.png" width="1254" height="1254" alt=""><span>LLM<span class="brand-four">4</span>MIP</span></a>
+      <div class="nav-links">
+        <a href="./" aria-current="page">Overview</a>
+        <a href="instances/">Instances</a>
+        <a href="skill/">Skill comparison</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="manuscript-meta">
+          <p class="eyebrow">LLM-assisted mixed-integer programming</p>
+          <time datetime="2026-09-21">21 September 2026</time>
+        </div>
+        <h1>How much can LLMs help solve MIPs?</h1>
+        <p class="dek">LLM-assisted solver workflows resolved <strong>34 of 132</strong> open MIPLIB instances.</p>
+        <div class="byline">
+          <p class="author-line"><span>Yicheng Huang<sup aria-label="co-lead author">*</sup></span><span>Wenzhi Gao<sup aria-label="co-lead author">*</sup></span><span>Dongdong Ge</span><span>Madeleine Udell</span><span>Yinyu Ye</span></p>
+          <p class="author-note"><sup aria-hidden="true">*</sup> Co-lead authors</p>
+        </div>
+        <div class="hero-actions">
+          <a class="button" href="#overview">View results <span aria-hidden="true">↗</span></a>
+          <a class="button light" href="#skills">Get the skills <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="https://github.com/LLM4MIP/llm4mip.github.io">GitHub <span aria-hidden="true">↗</span></a>
+          <span class="publication-note">Technical report forthcoming</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page-shell" tabindex="-1">
+    <section class="metric-grid" aria-label="Benchmark summary">
+      <article class="metric"><strong>132</strong><span>Open instances studied</span><small>Fixed benchmark set selected from 217 open instances.</small></article>
+      <article class="metric"><strong>34</strong><span>Optimality / infeasibility</span><small>32 optimal and two certified infeasible instances.</small></article>
+      <article class="metric"><strong>29</strong><span>Primal-bound improvements</span><small>25 better incumbents and 4 first feasible solutions.</small></article>
+      <article class="metric"><strong>66</strong><span>Dual-bound improvements</span><small>Relative to 10 hour COPT run.</small></article>
+    </section>
+
+    <div class="home-layout">
+      <nav class="section-rail" aria-label="On this page">
+        <a href="#research-question"><span>01</span> The question</a>
+        <a href="#overview"><span>02</span> Interactive summary</a>
+        <a href="#skills"><span>03</span> Primal &amp; dual skills</a>
+        <a href="#explore"><span>04</span> Further results</a>
+        <a href="#citation"><span>05</span> Citation</a>
+      </nav>
+
+      <div class="content">
+        <section id="research-question" class="section research-intro" aria-labelledby="question-heading">
+          <div class="section-head">
+            <h2 id="question-heading"><span class="section-number" aria-hidden="true">01</span> Can LLMs help solve open MIPs?</h2>
+          </div>
+          <p>Mixed-integer programming (MIP) is a core modeling tool for planning, scheduling, logistics, energy systems, and many real-world applications. However, MIPs are notoriously hard to solve even with state-of-the-art optimization solvers. We ask whether language models can help make progress by accelerating established solver-based workflows. Large language models (LLMs) have recently shown promise in advancing open problems in mathematics. An unresolved MIP instance can likewise be viewed as an "open problem": its variables, constraints, objective, and data define a verifiable computational open problem.</p>
+          <p class="miplib-intro">MIPLIB is a public library of real-world mixed-integer programming instances used to evaluate and compare optimization solvers.</p>
+          <div class="miplib-gallery" role="region" aria-label="MIPLIB benchmark overview" tabindex="0">
+            <figure class="miplib-figure">
+              <a href="https://miplib.zib.de/" aria-label="Visit the MIPLIB 2017 website">
+                <img src="assets/miplib-homepage.png" width="1000" height="600" loading="lazy" alt="Screenshot of the MIPLIB 2017 homepage combining its benchmark explanation and word cloud.">
+              </a>
+              <figcaption><strong>About the benchmark.</strong> MIPLIB is a standard test set for comparing MIP optimizers. Its 240-instance Benchmark Set emphasizes solvability and numerical stability; the larger Collection Set emphasizes diversity.  <a href="https://miplib.zib.de/">Explore MIPLIB&nbsp;↗</a></figcaption>
+            </figure>
+            <figure class="miplib-figure miplib-figure--instances">
+              <a href="https://miplib.zib.de/tag_collection.html" aria-label="Browse the MIPLIB 2017 Collection Set">
+                <img src="assets/miplib-open-instances.png" width="180" height="212" loading="lazy" alt="Screenshot of the MIPLIB Collection Set filtered for open instances, showing open status badges and starred objective values.">
+              </a>
+              <figcaption><strong>Finding open instances.</strong> Filtering the Collection page for “open” reveals unresolved instances, with starred objective values. <a href="https://miplib.zib.de/tag_collection.html">Browse the Collection Set&nbsp;↗</a></figcaption>
+            </figure>
+          </div>
+          <p>Starting from a benchmark of 217 open MIPLIB instances, we studied 132 with LLM-assisted workflows. LLM reasoning helped search for exploitable structure, primal heuristics, and dual certificates; optimization solvers and independent checks supplied numerical bounds and result verification.</p>
+          <aside class="research-takeaway" aria-labelledby="finding-heading">
+            <p id="finding-heading" class="finding-label">Central finding</p>
+            <p class="finding-statement"><strong>LLMs and optimization solvers form an effective research workflow.</strong></p>
+          </aside>
+        </section>
+
+        <section id="overview" class="section" aria-labelledby="overview-heading">
+          <div class="section-head">
+            <h2 id="overview-heading"><span class="section-number" aria-hidden="true">02</span> Results on 132 Open MIPLIB instances</h2>
+          </div>
+          <div class="panel">
+            <div class="tabs" role="group" aria-label="Overview chart view">
+              <button type="button" data-overview="status" aria-pressed="true">Benchmark outcomes</button>
+              <button type="button" data-overview="evidence" aria-pressed="false">Verification method</button>
+              <button type="button" data-overview="skill" aria-pressed="false">Skill comparison</button>
+            </div>
+            <h3 id="overview-title" class="chart-title"></h3>
+            <p id="overview-note" class="chart-note" aria-live="polite"></p>
+            <div id="overview-chart"></div>
+            <table id="overview-data" class="data-list" aria-labelledby="overview-title" aria-describedby="overview-note">
+              <thead><tr><th scope="col">Measure</th><th scope="col">Count</th><th id="overview-explanation-heading" scope="col" hidden>Explanation</th></tr></thead>
+              <tbody></tbody>
+            </table>
+            <noscript><p class="noscript">Enable JavaScript to switch chart views. The headline counts remain available above and on the linked detail pages.</p></noscript>
+          </div>
+        </section>
+
+        <section id="skills" class="section" aria-labelledby="skill-download-heading">
+          <div class="section-head">
+            <h2 id="skill-download-heading"><span class="section-number" aria-hidden="true">03</span> Transferable primal and dual skills</h2>
+          </div>
+          <p>We distilled the instance-level analyses into two complementary skills. Each is evaluated against Vanilla prompting and a solver baseline on the same 20 instances.</p>
+          <div class="skill-downloads">
+            <article>
+              <p class="resource-label">Primal skill</p>
+              <h3>Find better feasible solutions</h3>
+              <p>Identify useful structure and develop primal heuristics to find or improve incumbents.</p>
+              <a href="downloads/primal-current-skill.tar.gz" download>Download primal-skill <span aria-hidden="true">↓</span></a>
+            </article>
+            <article>
+              <p class="resource-label">Dual skill</p>
+              <h3>Strengthen global bounds</h3>
+              <p>Use structural analysis and solver experiments to develop stronger valid dual bounds.</p>
+              <a href="downloads/dual-current-skill.tar.gz" download>Download dual-skill <span aria-hidden="true">↓</span></a>
+            </article>
+          </div>
+          <p class="section-link"><a href="skill/">Read the comparison design and results <span aria-hidden="true">→</span></a></p>
+        </section>
+
+        <section id="explore" class="section" aria-labelledby="explore-heading">
+          <div class="section-head">
+            <h2 id="explore-heading"><span class="section-number" aria-hidden="true">04</span> Explore the detailed results</h2>
+          </div>
+          <div class="research-links">
+            <a href="instances/">
+              <span><strong>The 132-instance catalogue <span class="link-arrow" aria-hidden="true">↗</span></strong><small>Search outcomes, inspect verification methods, and download the computational materials.</small></span>
+            </a>
+            <a href="skill/">
+              <span><strong>The 20-instance skill comparison <span class="link-arrow" aria-hidden="true">↗</span></strong><small>Compare primal and dual bounds with Vanilla prompting and solver baselines.</small></span>
+            </a>
+          </div>
+        </section>
+
+        <section id="citation" class="section cite-section" aria-labelledby="cite-heading">
+          <div class="section-head">
+            <h2 id="cite-heading"><span class="section-number" aria-hidden="true">05</span> Citation</h2>
+            <span class="note">BibTeX · Research website</span>
+          </div>
+          <pre class="bibtex-block" tabindex="0" role="region" aria-label="BibTeX citation"><code>@misc{huang2026llm4mip,
+  author = {Huang, Yicheng and Gao, Wenzhi and Ge, Dongdong and Udell, Madeleine and Ye, Yinyu},
+  title = {How Much Can {LLMs} Help Solve {MIPs}?},
+  year = {2026},
+  month = sep,
+  url = {https://llm4mip.github.io/},
+  note = {Research website. Yicheng Huang and Wenzhi Gao are co-lead authors}
+}</code></pre>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>LLM4MIP <span class="footer-description">Language models for mixed-integer programming</span></span>
+      <a href="https://github.com/LLM4MIP/llm4mip.github.io">Website source <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+  <script src="assets/focused-skill-data.js"></script>
+  <script src="assets/home.js"></script>
+</body>
+</html>

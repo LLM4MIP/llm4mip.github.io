@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNJSLE077H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JNJSLE077H');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Searchable results and downloadable research bundles for 132 studied open MIPLIB instances.">
+  <title>Results for 132 Open MIPLIB Instances | LLM4MIP</title>
+  <link rel="icon" type="image/png" href="../assets/llm4mip-icon.png">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="detail-page instances-page">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Primary navigation">
+      <a class="brand" href="../"><img class="brand-icon" src="../assets/llm4mip-icon.png" width="1254" height="1254" alt=""><span>LLM<span class="brand-four">4</span>MIP</span></a>
+      <div class="nav-links">
+        <a href="../">Overview</a>
+        <a href="./" aria-current="page">Instances</a>
+        <a href="../skill/">Skill comparison</a>
+        <!-- Temporarily hidden: <a href="../solver-replacement/">Replace solvers?</a> -->
+        <!-- Temporarily hidden: <a href="../technical-report.pdf">Report</a> -->
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Benchmark catalogue</p>
+        <h1>Results for 132 open MIPLIB instances</h1>
+        <p class="dek">Results, verification summaries, and computational materials for all 132 studied open MIPLIB instances.</p>
+        <div class="hero-actions">
+          <a class="button" href="#catalogue">Browse the catalogue</a>
+          <a class="button ghost" href="instances.json">Download catalogue JSON</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page-shell" tabindex="-1">
+    <div class="content">
+      <section class="section" aria-labelledby="snapshot-heading">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Results overview</p>
+            <h2 id="snapshot-heading">Optimization status</h2>
+          </div>
+          <p>Click a segment to filter the catalogue</p>
+        </div>
+        <div class="status-strip" role="group" aria-label="Filter by benchmark outcome">
+          <button type="button" data-status-filter="concluded" style="width:24.242424%;background:#8c1515" aria-label="Show 32 instances with certified optimality or infeasibility" aria-pressed="false">32 resolved</button>
+          <button type="button" data-status-filter="verified-open" style="width:71.212121%;background:#006cb8" aria-label="Show 94 verified feasible open instances" aria-pressed="false">94 verified/open</button>
+          <button type="button" data-status-filter="numeric-optimal" style="width:1.515152%;background:#176b5b" aria-label="Show 2 instances that are numerically optimal up to 1e-10 tolerance" aria-pressed="false">2</button>
+          <button type="button" data-status-filter="no-feasible" style="width:3.030303%;background:#77736f" aria-label="Show 4 instances with no feasible point found" aria-pressed="false">4</button>
+        </div>
+        <div class="legend legend-4">
+          <div class="legend-item"><span class="swatch" style="background:#8c1515"></span><span>Certified optimality / infeasibility</span><strong>32</strong></div>
+          <div class="legend-item"><span class="swatch" style="background:#006cb8"></span><span>Verified feasible; open</span><strong>94</strong></div>
+          <div class="legend-item"><span class="swatch" style="background:#176b5b"></span><span>Numerically optimal up to 1e-10 tolerance</span><strong>2</strong></div>
+          <div class="legend-item"><span class="swatch" style="background:#77736f"></span><span>No feasible point found</span><strong>4</strong></div>
+        </div>
+        <p class="note">The 32 resolved instances comprise 30 with certified optimality and two with certified infeasibility. “Open” means global optimality remains unresolved; local optimality, stronger bounds, or incumbent improvements may still be substantial.</p>
+      </section>
+
+      <section id="catalogue" class="section" aria-labelledby="catalogue-heading">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Instance results</p>
+            <h2 id="catalogue-heading">Instance catalogue</h2>
+          </div>
+          <a href="instances.json">Download catalogue JSON</a>
+        </div>
+        <div class="controls">
+          <div class="field">
+            <label for="instance-search">Search instance, result, method, or status</label>
+            <input id="instance-search" type="search" placeholder="Try “parity”, “strict incumbent”, or “fhnw”" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="instance-filter">Benchmark outcome</label>
+            <select id="instance-filter">
+              <option value="all">All 132</option>
+              <option value="concluded">Certified optimality / infeasibility (32)</option>
+              <option value="verified-open">Verified feasible; open (94)</option>
+              <option value="numeric-optimal">Numerically optimal up to 1e-10 tolerance (2)</option>
+              <option value="no-feasible">No feasible point found (4)</option>
+            </select>
+          </div>
+        </div>
+        <p id="instance-count" class="result-count" aria-live="polite"></p>
+        <p class="scroll-hint">Swipe sideways to see every column.</p>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable instance results table">
+          <table class="results-table">
+            <thead><tr><th scope="col">Instance</th><th scope="col">Status</th><th scope="col">Primal bound</th><th scope="col">Dual bound</th><th scope="col">Optimization result and verification</th><th scope="col">Files</th></tr></thead>
+            <tbody id="instance-body"></tbody>
+          </table>
+        </div>
+        <noscript><p class="noscript">The searchable table requires JavaScript. Download <a href="instances.json">the full JSON catalogue</a>, which contains every summary and archive path.</p></noscript>
+      </section>
+
+      <!-- <section class="section" aria-labelledby="scope-heading">
+        <h2 id="scope-heading">Verification scope</h2>
+        <p>These pages describe the repository snapshot, not the live MIPLIB leaderboard. The source base is commit <span class="mono">89a8abd</span> plus the disclosed 18 September reconciliation reviews. Some exact traces are retained externally by hash, some resolved-instance results depend on published theorems, and five retain floating-point or commercial-solver dependence. Each summary leads with the reconciled current status even when older logs are preserved in its bundle.</p>
+      </section> -->
+    </div>
+  </main>
+
+  <footer class="footer"><div class="footer-inner"><span>LLM4MIP · 132-instance catalogue</span><span><a href="../">Overview</a><!-- Temporarily hidden: · <a href="../technical-report.pdf">Technical report</a> --></span></div></footer>
+  <script src="data.js"></script>
+  <script src="instances.js"></script>
+</body>
+</html>

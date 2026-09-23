@@ -1,0 +1,48 @@
+{
+  "model_sha_matches": 20,
+  "portfolio_gap_stats": [
+    {
+      "portfolio": "three_skills",
+      "backend": "all_available",
+      "win": 16,
+      "tie": 1,
+      "loss": 2,
+      "NA": 1,
+      "mean_gap_reduction_pp": "21.1867468465385677204337116465605972244827440087232973299575514638415410877972140237705659"
+    },
+    {
+      "portfolio": "three_skills",
+      "backend": "gurobi_only",
+      "win": 16,
+      "tie": 1,
+      "loss": 2,
+      "NA": 1,
+      "mean_gap_reduction_pp": "21.1865166474048070607750739420142794322765960804579513924543142885230318113476213035879719"
+    },
+    {
+      "portfolio": "primal_dual",
+      "backend": "all_available",
+      "win": 16,
+      "tie": 1,
+      "loss": 2,
+      "NA": 1,
+      "mean_gap_reduction_pp": "19.2930562149413893778022423671238190431337820517598986673911049807057110580444853611326871"
+    },
+    {
+      "portfolio": "primal_dual",
+      "backend": "gurobi_only",
+      "win": 16,
+      "tie": 1,
+      "loss": 2,
+      "NA": 1,
+      "mean_gap_reduction_pp": "19.2762286534223252303051460234938197352247253731238638901038629895969859155383290083844813"
+    }
+  ],
+  "dual_vs_direct_gurobi_D_at_1e_7": {
+    "win": 15,
+    "tie": 1,
+    "loss": 4,
+    "NA": 0
+  },
+  "source_sha256": "6d3a2ff80acc2c8a074dabe46b30cbda6a9eb516b93d01fa6bedc8cc5a7bcd7d"
+}

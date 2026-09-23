@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNJSLE077H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JNJSLE077H');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Comparative analysis of whether LLMs can fully replace optimization solvers, based on the LLM4MIP benchmark and a 20-instance workflow comparison.">
+  <title>Can LLMs Fully Replace Solvers? | LLM4MIP</title>
+  <link rel="icon" type="image/png" href="../assets/llm4mip-icon.png">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="detail-page solver-page">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Primary navigation">
+      <a class="brand" href="../"><img class="brand-icon" src="../assets/llm4mip-icon.png" width="1254" height="1254" alt=""><span>LLM<span class="brand-four">4</span>MIP</span></a>
+      <div class="nav-links">
+        <a href="../">Overview</a>
+        <a href="../instances/">Instances</a>
+        <a href="../skill/">Skill comparison</a>
+        <a href="./" aria-current="page">Replace solvers?</a>
+        <!-- Temporarily hidden: <a href="../technical-report.pdf">Report</a> -->
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Discussion</p>
+        <h1>Can LLMs fully replace solvers?</h1>
+        <p class="dek">In the reported benchmark, LLMs did not replace optimization solvers. The workflow used LLMs to propose structural hypotheses, computational backends to search and bound, and independent checkers to validate results.</p>
+        <div class="hero-actions">
+          <a class="button" href="../skill/">Explore the comparison</a>
+          <a class="button ghost" href="../downloads/skill-comparison.csv">Download results CSV</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page-shell" tabindex="-1">
+    <div class="content">
+      <section class="section verdict" aria-labelledby="verdict-heading">
+        <div class="verdict-copy">
+          <p class="eyebrow">Benchmark conclusion</p>
+          <h2 id="verdict-heading">What the benchmark establishes</h2>
+          <p>The LLM did not independently certify feasibility, compute valid global dual bounds, or validate its own reductions. MILP solvers, SAT engines, exact dynamic programs, exhaustive searches, rational arithmetic, and deterministic original-model audits performed the computational search and verification tasks.</p>
+          <p>This is an empirical finding, not an impossibility theorem. The observed workflow did not replace solvers; the result does not establish that future systems cannot replace a particular computational component.</p>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="roles-heading">
+        <div class="section-head"><div><p class="eyebrow">What “solve” meant</p><h2 id="roles-heading">Roles in the computational workflow</h2></div></div>
+        <div class="division">
+          <article><p class="eyebrow">LLM</p><h3>Interpret and propose</h3><p>Recover formulation semantics, connect matrix patterns to algorithms, propose reductions and invariants, design falsification tests, and coordinate certificate construction.</p></article>
+          <article><p class="eyebrow">Backend</p><h3>Search and bound</h3><p>Find feasible points, optimize reduced models, enumerate finite state spaces, refute cutoffs, and compute numerical lower bounds or exact lower-bound certificates.</p></article>
+          <article><p class="eyebrow">Checker</p><h3>Accept or reject</h3><p>Replay proof traces, verify rational certificates, audit every original row, test mapping directions, and prevent claims from exceeding their verified scope.</p></article>
+        </div>
+        <div class="callout"><p><strong>Acceptance rule:</strong> no benchmark result is accepted solely from an LLM output. A hypothesis is reported as a result only after computational testing and independent validation appropriate to the claim.</p></div>
+      </section>
+
+      <section class="section" aria-labelledby="mixed-heading">
+        <div class="section-head">
+          <div><p class="eyebrow">20-instance comparison</p><h2 id="mixed-heading">Primal and dual bounds favor different workflows</h2></div>
+          <p>Choose a metric. “Skill-guided” means use of one structure-research workflow; it does not mean LLM-only.</p>
+        </div>
+        <div class="panel">
+          <div class="tabs" role="group" aria-label="Comparison metric">
+            <button type="button" data-metric="primal" aria-pressed="true">Primal bound</button>
+            <button type="button" data-metric="dual" aria-pressed="false">Dual bound</button>
+            <button type="button" data-metric="gap" aria-pressed="false">Relative gap</button>
+            <button type="button" data-metric="strict" aria-pressed="false">Strict primal-bound improvements</button>
+            <button type="button" data-metric="closure" aria-pressed="false">Certified optimality</button>
+          </div>
+          <h3 id="metric-title" class="chart-title"></h3>
+          <p id="metric-note" class="chart-note" aria-live="polite"></p>
+          <div id="metric-chart"></div>
+        </div>
+        <p>The structure-guided arm produced the better primal bound on 11 of 20 instances, four strict primal-bound improvements over its frozen public baseline, and certified global optimality for two instances. The comparison arm produced the stronger dual bound on 12 of 20 and the smaller relative gap on 11. Improving primal bounds does not replace global dual bounding; strong branch-and-bound performance does not by itself yield a portable optimality certificate.</p>
+        <p class="note">Six skill-arm primal bounds were tolerance-indexed. The two comparison-study certified global optima—<span class="mono">ns1456591</span> and <span class="mono">neos-3682128-sandon</span>—belong to a separate comparison dataset and are not added to the main benchmark count of 30 resolved instances.</p>
+      </section>
+
+      <section class="section" aria-labelledby="verification-heading">
+        <div class="section-head">
+          <div><p class="eyebrow">Benchmark-wide validation results</p><h2 id="verification-heading">Thirty certified optimality or infeasibility results across six verification methods</h2></div>
+          <p>This chart classifies how each result was verified; it does not assign discovery credit.</p>
+        </div>
+        <div class="panel">
+          <div class="stack" role="img" aria-label="18 portable exact certificates, 1 checked proof trace, 3 exhaustive exact verifications, 3 published-theorem transfers, 3 floating-point zero-gap verifications, 2 mixed computational validation results">
+            <div class="stack-segment" style="width:60%;background:#8c1515">18</div>
+            <div class="stack-segment" style="width:3.333%;background:#b1040e"></div>
+            <div class="stack-segment" style="width:10%;background:#176b5b">3</div>
+            <div class="stack-segment" style="width:10%;background:#620059">3</div>
+            <div class="stack-segment" style="width:10%;background:#006cb8">3</div>
+            <div class="stack-segment" style="width:6.667%;background:#8A4F00">2</div>
+          </div>
+          <div class="legend legend-6">
+            <div class="legend-item"><span class="swatch" style="background:#8c1515"></span><span>Portable exact certificate</span><strong>18</strong></div>
+            <div class="legend-item"><span class="swatch" style="background:#b1040e"></span><span>Checked proof trace</span><strong>1</strong></div>
+            <div class="legend-item"><span class="swatch" style="background:#176b5b"></span><span>Exhaustive exact verification</span><strong>3</strong></div>
+            <div class="legend-item"><span class="swatch" style="background:#620059"></span><span>Published-theorem transfer</span><strong>3</strong></div>
+            <div class="legend-item"><span class="swatch" style="background:#006cb8"></span><span>Floating-point zero-gap verification</span><strong>3</strong></div>
+            <div class="legend-item"><span class="swatch" style="background:#8A4F00"></span><span>Mixed computational validation</span><strong>2</strong></div>
+          </div>
+        </div>
+        <div class="callout green"><p>Eighteen resolved-instance artifacts can be replayed without a commercial MILP solver once the artifact has been constructed. This supports portable post hoc verification; it does not demonstrate LLM-only discovery. Five resolved-instance results retain floating-point or commercial-solver dependence, and one exact proof uses a large external trace identified by its hash.</p></div>
+      </section>
+
+      <section class="section" aria-labelledby="inspect-heading">
+        <div class="section-head"><div><p class="eyebrow">Paired benchmark results</p><h2 id="inspect-heading">Instance-level bound comparison</h2></div><a href="../downloads/skill-comparison.csv">Download CSV</a></div>
+        <div class="controls">
+          <div class="field"><label for="comparison-search">Search instance, method, or final status</label><input id="comparison-search" type="search" placeholder="Try “configuration” or “graphdraw”" autocomplete="off"></div>
+          <div class="field"><label for="comparison-filter">Outcome filter</label><select id="comparison-filter"><option value="all">All 20</option><option value="skill-primal">Skill better primal bound</option><option value="skill-dual">Skill better dual bound</option><option value="comparison-dual">Comparison better dual bound</option><option value="strict">Skill strict baseline improvement</option><option value="exact">Skill certified global optimum</option><option value="tolerance">Tolerance-indexed skill primal bound</option></select></div>
+        </div>
+        <p id="comparison-count" class="result-count" aria-live="polite"></p>
+        <p class="scroll-hint">Swipe sideways to see every column.</p>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable solver-replacement comparison table"><table class="results-table"><thead><tr><th scope="col">Instance</th><th scope="col">Batch</th><th scope="col">Better primal bound</th><th scope="col">Better dual bound</th><th scope="col">Smaller relative gap</th><th scope="col">Skill bounds</th><th scope="col">Comparison bounds</th><th scope="col">Skill method</th></tr></thead><tbody id="comparison-body"></tbody></table></div>
+        <noscript><p class="noscript">The filterable table requires JavaScript. The complete values are available in the downloadable CSV.</p></noscript>
+      </section>
+
+      <section class="section" aria-labelledby="future-heading">
+        <div class="section-head"><div><p class="eyebrow">Requirements for a controlled benchmark</p><h2 id="future-heading">Design of a controlled solver-replacement study</h2></div></div>
+        <p>A causal test should freeze identical MPS hashes, machines, solver versions, threads, seeds, starts, external information, tolerances, and wall-clock budgets. It should also reserve separate budgets for structural analysis, primal construction, dual search, proof production, and independent verification—then score unsupported claims and verification failures, not only final objective values.</p>
+        <div class="download-grid">
+          <article class="download-card"><h3>Practical recommendation</h3><p>Use the LLM to enlarge the hypothesis space and compress human research overhead. Use the best available computational backend for search and proof. Keep acceptance outside both.</p></article>
+          <article class="download-card"><h3>Read the underlying study</h3><p>The full skill package, comparison dataset, CSV, audit JSON, and methods report are available on the comparison page.</p><a class="button small" href="../skill/">Open skill comparison</a></article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="footer-inner"><span>LLM4MIP · solver-replacement analysis</span><span><a href="../">Overview</a> · <a href="../skill/">Skill comparison</a></span></div></footer>
+  <script src="../assets/comparison-data.js"></script>
+  <script src="../assets/comparison.js"></script>
+</body>
+</html>

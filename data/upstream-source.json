@@ -1,0 +1,1053 @@
+{
+  "repository": "https://github.com/Huangyc98/LLM4MIP",
+  "branch": "main",
+  "commit": "b48994ab3cb51808a4d94a3d8c1b46caadd9bc6f",
+  "base": "ca20f51",
+  "method": "GitHub compare API and raw files; verify Git blob SHA-1",
+  "files": [
+    {
+      "path": "README.md",
+      "blob": "075febc59b2b52a857c22690c3b5e71f09b56e16"
+    },
+    {
+      "path": "assets/comparison.js",
+      "blob": "7e12052500c4a40807cb972aea39eb8dc0e81f93"
+    },
+    {
+      "path": "assets/home.js",
+      "blob": "f8b9864e345d43cf65cfeb14e09c34848734602e"
+    },
+    {
+      "path": "assets/site.css",
+      "blob": "fe061216f1b6267e8b0c654ab12be59cc7cbb796"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt.tar.gz",
+      "blob": "a844088d18e32239544a32fc382a57ba4c62efd1"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/LICENSE",
+      "blob": "91d6f7b62a0bdaf4ba0f8c32e524cf5883545012"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/SKILL.md",
+      "blob": "d3419d3d548e49bf29af1693e875f99d3d38c4c9"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/agents/openai.yaml",
+      "blob": "4764836c566667f0d1c12033f31cdd0d7be2a534"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/references/decision-trace-audit.md",
+      "blob": "63d0311733b777d234f1944fef418e94c3f0e732"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/references/evidence-and-stopping.md",
+      "blob": "bb92fa2de909824064aaf351b7a0d57c52dfdb02"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/references/output-templates.md",
+      "blob": "3fda1f65c8acd453ce79ed95dc7d07730c5249af"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/references/repository-casebook.md",
+      "blob": "624ceda78427997875277c4f0474c458f07479d0"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/references/structure-routing.md",
+      "blob": "f8010a1dd48d0793e69f8da4b3899b10614d4d29"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/references/technique-catalog.md",
+      "blob": "00a5866b97a6ebab36eebd22986c98306889f493"
+    },
+    {
+      "path": "downloads/milp-structure-research-copt/scripts/profile_mip_structure.py",
+      "blob": "5b3222ec0f7879292d0be80018301513220ae1af"
+    },
+    {
+      "path": "downloads/milp-structure-research-gurobi.tar.gz",
+      "blob": "95da605cdf0d3acf725fad781f2a5e845dd0c8d0"
+    },
+    {
+      "path": "downloads/milp-structure-research.tar.gz",
+      "blob": "95da605cdf0d3acf725fad781f2a5e845dd0c8d0"
+    },
+    {
+      "path": "downloads/milp-structure-research/LICENSE",
+      "blob": "91d6f7b62a0bdaf4ba0f8c32e524cf5883545012"
+    },
+    {
+      "path": "downloads/milp-structure-research/SKILL.md",
+      "blob": "50dd359825a9c479ad46d776b9a7309bfc68ca4e"
+    },
+    {
+      "path": "downloads/milp-structure-research/agents/openai.yaml",
+      "blob": "7c80f8f2297e723bf5016e3d3ef8d36dc3b99aa8"
+    },
+    {
+      "path": "downloads/milp-structure-research/references/decision-trace-audit.md",
+      "blob": "63d0311733b777d234f1944fef418e94c3f0e732"
+    },
+    {
+      "path": "downloads/milp-structure-research/references/evidence-and-stopping.md",
+      "blob": "bb92fa2de909824064aaf351b7a0d57c52dfdb02"
+    },
+    {
+      "path": "downloads/milp-structure-research/references/output-templates.md",
+      "blob": "3fda1f65c8acd453ce79ed95dc7d07730c5249af"
+    },
+    {
+      "path": "downloads/milp-structure-research/references/repository-casebook.md",
+      "blob": "624ceda78427997875277c4f0474c458f07479d0"
+    },
+    {
+      "path": "downloads/milp-structure-research/references/structure-routing.md",
+      "blob": "f8010a1dd48d0793e69f8da4b3899b10614d4d29"
+    },
+    {
+      "path": "downloads/milp-structure-research/references/technique-catalog.md",
+      "blob": "00a5866b97a6ebab36eebd22986c98306889f493"
+    },
+    {
+      "path": "downloads/milp-structure-research/scripts/profile_mip_structure.py",
+      "blob": "bb6263ee2b576be511ce6b895048d37b30ba2869"
+    },
+    {
+      "path": "downloads/skill-comparison-audit.json",
+      "blob": "18265726457024a1a37774eeb0f3f854e13b45d3"
+    },
+    {
+      "path": "downloads/skill-comparison-source.md",
+      "blob": "8e8b8813dac3c0aa406620bbb320f41fa34ecd87"
+    },
+    {
+      "path": "downloads/skill-experiment-evidence.tar.gz",
+      "blob": "937ff590cdc288e0ac86c4e11efc973eaf69b948"
+    },
+    {
+      "path": "index.html",
+      "blob": "636b446cce96612ee507d1da2dbf54f26e03b12f"
+    },
+    {
+      "path": "instances/data.js",
+      "blob": "68f85f3d4b4f5392314ddabd8cd824df37aa202e"
+    },
+    {
+      "path": "instances/details/a2864-99blp/a2864-99blp-findings.tar.gz",
+      "blob": "c1b39bb29849e311fb134b24e4d7f6ff46212b62"
+    },
+    {
+      "path": "instances/details/a2864-99blp/summary.md",
+      "blob": "fe3fc4ca1a028a41032610ce2cf49d48dfc73cf0"
+    },
+    {
+      "path": "instances/details/allcolor58/allcolor58-findings.tar.gz",
+      "blob": "0e536a42337348d975dff29892728c0c4dd8f5bc"
+    },
+    {
+      "path": "instances/details/allcolor58/summary.md",
+      "blob": "395ce56efa277fa86afe53e676ec280b9703812c"
+    },
+    {
+      "path": "instances/details/assign1-10-4/assign1-10-4-findings.tar.gz",
+      "blob": "544b39c084e515c5c3954b7ce2788b2038aed727"
+    },
+    {
+      "path": "instances/details/assign1-10-4/summary.md",
+      "blob": "d39308d42596c0f5b482eb64193387ed06f23509"
+    },
+    {
+      "path": "instances/details/bab3/bab3-findings.tar.gz",
+      "blob": "fcba1d2e51828d81d1b600d2a79380c0fd2a2628"
+    },
+    {
+      "path": "instances/details/bab3/summary.md",
+      "blob": "31ce3bedb0cace5b66d6d2c955dfb7698e9f18f6"
+    },
+    {
+      "path": "instances/details/bley_xs1/bley_xs1-findings.tar.gz",
+      "blob": "ce9b2c7ea868302c5db3d007a60ca48346771f8b"
+    },
+    {
+      "path": "instances/details/bley_xs1/summary.md",
+      "blob": "7abc6ca3595f6fed6beabe6966989abc5bf516d8"
+    },
+    {
+      "path": "instances/details/bley_xs1noM/bley_xs1noM-findings.tar.gz",
+      "blob": "fbcc65ee41bc5d51cece15b735f1d4c187a745f1"
+    },
+    {
+      "path": "instances/details/bley_xs1noM/summary.md",
+      "blob": "3cee040fe4d7c0aa572b357074cb276ba6978742"
+    },
+    {
+      "path": "instances/details/bppc6-06/bppc6-06-findings.tar.gz",
+      "blob": "e5cb11985b85f5a5a0beb464db00e4a5e61f3547"
+    },
+    {
+      "path": "instances/details/bppc6-06/summary.md",
+      "blob": "b9f7e8cec692c69b0a672e54405948bca842dbba"
+    },
+    {
+      "path": "instances/details/cdc7-4-3-2/cdc7-4-3-2-findings.tar.gz",
+      "blob": "0685a8639062630b04f2af3a2ef6ac3dcfeb48a5"
+    },
+    {
+      "path": "instances/details/cdc7-4-3-2/summary.md",
+      "blob": "f2438aa5f737c6fb6c615d9b277c2038ef775e41"
+    },
+    {
+      "path": "instances/details/circ10-3/circ10-3-findings.tar.gz",
+      "blob": "408bf7c85bce41df93938b1f184bd8b0a6453b89"
+    },
+    {
+      "path": "instances/details/circ10-3/summary.md",
+      "blob": "f9095c5869db287181cc8f0f2840464979e1198a"
+    },
+    {
+      "path": "instances/details/cmflsp40-36-2-10/cmflsp40-36-2-10-findings.tar.gz",
+      "blob": "38f1fe38a008cad6325d45cf5cb5f96cfc71fc94"
+    },
+    {
+      "path": "instances/details/cmflsp40-36-2-10/summary.md",
+      "blob": "450d00b856888869e54d204af5218ef0dc614cd4"
+    },
+    {
+      "path": "instances/details/comp12-2idx/comp12-2idx-findings.tar.gz",
+      "blob": "2618f78123290e4ee0486a79c289a7291a610d91"
+    },
+    {
+      "path": "instances/details/comp12-2idx/summary.md",
+      "blob": "025ce464a8e4c6b93a92ceaa9ceb304d42fcefcb"
+    },
+    {
+      "path": "instances/details/core2586-950/core2586-950-findings.tar.gz",
+      "blob": "e98907879f9c9b6a85a36ca3d4f79694da8e1534"
+    },
+    {
+      "path": "instances/details/core2586-950/summary.md",
+      "blob": "ac14a3b5e11ccfb53f28e911ef3959bcde27ab5a"
+    },
+    {
+      "path": "instances/details/core4284-1064/core4284-1064-findings.tar.gz",
+      "blob": "d5fef83323c6d1c8f128a04f13c18b9416514a55"
+    },
+    {
+      "path": "instances/details/core4284-1064/summary.md",
+      "blob": "a8529b151674fbe156388d45352dce6a0ca92cdc"
+    },
+    {
+      "path": "instances/details/core4872-1529/core4872-1529-findings.tar.gz",
+      "blob": "b0c59e95a2f3657b9e02c8e695e66cc1812a8c86"
+    },
+    {
+      "path": "instances/details/core4872-1529/summary.md",
+      "blob": "d77998c89421d240592a4bada66e33d1fa618a24"
+    },
+    {
+      "path": "instances/details/cvrpa-n64k9vrpi/cvrpa-n64k9vrpi-findings.tar.gz",
+      "blob": "9c119563bfbedbcfc940e8b4a38148bc317bbda6"
+    },
+    {
+      "path": "instances/details/cvrpa-n64k9vrpi/summary.md",
+      "blob": "dc42341ea3603204af3752fa1057ca41b97f48d1"
+    },
+    {
+      "path": "instances/details/cvrpb-n45k5vrpi/cvrpb-n45k5vrpi-findings.tar.gz",
+      "blob": "c5714d10bb67af67919cf1847a02478ae76ed3e0"
+    },
+    {
+      "path": "instances/details/cvrpb-n45k5vrpi/summary.md",
+      "blob": "7bbac61bc4e7b8f61a739e89d257a54a0edeed28"
+    },
+    {
+      "path": "instances/details/cvrpp-n16k8vrpi/cvrpp-n16k8vrpi-findings.tar.gz",
+      "blob": "12bca96e4556b1dc4d96851246225397ce9e9467"
+    },
+    {
+      "path": "instances/details/cvrpp-n16k8vrpi/summary.md",
+      "blob": "23f96797834ca1fb92abb3ea3b627028b50595b3"
+    },
+    {
+      "path": "instances/details/d20200/d20200-findings.tar.gz",
+      "blob": "5a717c786bfbfa09dea0cd25b4302edaf42f0d7c"
+    },
+    {
+      "path": "instances/details/d20200/summary.md",
+      "blob": "ae8631a44a4522080f1bf2ac717ea4dd92cad03f"
+    },
+    {
+      "path": "instances/details/dano3mip/dano3mip-findings.tar.gz",
+      "blob": "732bb81b90683e21a036a227b057a71e47bf2642"
+    },
+    {
+      "path": "instances/details/dano3mip/summary.md",
+      "blob": "8a9f48009ce489495b5176c50cc44524d635e12b"
+    },
+    {
+      "path": "instances/details/datt256/datt256-findings.tar.gz",
+      "blob": "f7e98fb8fe96f23eacba42525e7b587113416174"
+    },
+    {
+      "path": "instances/details/datt256/summary.md",
+      "blob": "4a710d62b685e9eb11f832d2d86167a70ffcfd33"
+    },
+    {
+      "path": "instances/details/dfn-bwin-DBE/dfn-bwin-DBE-findings.tar.gz",
+      "blob": "c8eb1053d7914adb114c63a6e81a547c2827143f"
+    },
+    {
+      "path": "instances/details/dfn-bwin-DBE/summary.md",
+      "blob": "0474a09c1b853389786aee9f96f8abf4d137bf9e"
+    },
+    {
+      "path": "instances/details/dws012-01/dws012-01-findings.tar.gz",
+      "blob": "b6de865f90fdf75328e01a5e9c19b0c797e8f175"
+    },
+    {
+      "path": "instances/details/dws012-01/summary.md",
+      "blob": "2548c61eedd9f774584ef1e42e3744dfbc58da19"
+    },
+    {
+      "path": "instances/details/dws012-02/dws012-02-findings.tar.gz",
+      "blob": "4922833b8a99281dfad459dcfe7b1c885f211238"
+    },
+    {
+      "path": "instances/details/dws012-02/summary.md",
+      "blob": "87ba8e9cb9513ff60815b4d2e6a434d395ae9f34"
+    },
+    {
+      "path": "instances/details/eva1aprime5x5opt/eva1aprime5x5opt-findings.tar.gz",
+      "blob": "9bcbc75b261398693983f0fcfa0c72f8ed699ca3"
+    },
+    {
+      "path": "instances/details/eva1aprime5x5opt/summary.md",
+      "blob": "830db495fd3da8c5f5fb19252328cd16e314b570"
+    },
+    {
+      "path": "instances/details/ex1010-pi/ex1010-pi-findings.tar.gz",
+      "blob": "86fe15f6c4e835abed9a6670b75bf3762d32edc7"
+    },
+    {
+      "path": "instances/details/ex1010-pi/summary.md",
+      "blob": "fbe6fb6216c599c2ff56944c1fa5a63aa4380c74"
+    },
+    {
+      "path": "instances/details/f2000/f2000-findings.tar.gz",
+      "blob": "c6c5d8fc8d75c7964305f84bbcb13365893c31cd"
+    },
+    {
+      "path": "instances/details/f2000/summary.md",
+      "blob": "79f9ce052d387286fd7123c4ae3cb05218d71763"
+    },
+    {
+      "path": "instances/details/fastxgemm-n3r21s3t6/fastxgemm-n3r21s3t6-findings.tar.gz",
+      "blob": "b945ae43dc8fef86ba2a2fd63735a7f1fbaecd8a"
+    },
+    {
+      "path": "instances/details/fastxgemm-n3r21s3t6/summary.md",
+      "blob": "bcf58aa042a4f606384a1bf9d40e9b67b59b1eee"
+    },
+    {
+      "path": "instances/details/fastxgemm-n3r22s4t6/fastxgemm-n3r22s4t6-findings.tar.gz",
+      "blob": "b39030c25a015549d4f91c2c24f726e6c875d0fd"
+    },
+    {
+      "path": "instances/details/fastxgemm-n3r22s4t6/summary.md",
+      "blob": "de366ef837aac1b397f1e795bf593b9223c2c6a9"
+    },
+    {
+      "path": "instances/details/fastxgemm-n3r23s5t6/fastxgemm-n3r23s5t6-findings.tar.gz",
+      "blob": "c220e99bb05307dd982bec89d9a959a8606d13e1"
+    },
+    {
+      "path": "instances/details/fastxgemm-n3r23s5t6/summary.md",
+      "blob": "970beedc4e4f0c0044499a6be61938459ac30a42"
+    },
+    {
+      "path": "instances/details/fhnw-binpack4-58/fhnw-binpack4-58-findings.tar.gz",
+      "blob": "d11e2ed368eef26a61311fb4afa7f0f1821d5211"
+    },
+    {
+      "path": "instances/details/fhnw-binpack4-58/summary.md",
+      "blob": "fd9b0dcdb042837a1331ad143f8f39c83bcc6ff0"
+    },
+    {
+      "path": "instances/details/fhnw-binschedule0/fhnw-binschedule0-findings.tar.gz",
+      "blob": "3888de862737c0b7703902ec42c9239a23bb496f"
+    },
+    {
+      "path": "instances/details/fhnw-binschedule0/summary.md",
+      "blob": "5e2588fdae8cc65df104e9f3c3e90dd4267d7beb"
+    },
+    {
+      "path": "instances/details/fhnw-binschedule1/fhnw-binschedule1-findings.tar.gz",
+      "blob": "5dba343b2adc31f1444968793b4e63f53b8922df"
+    },
+    {
+      "path": "instances/details/fhnw-binschedule1/summary.md",
+      "blob": "bfae99ff702e138f8217e0cc3c47a5703485a759"
+    },
+    {
+      "path": "instances/details/fhnw-binschedule2/fhnw-binschedule2-findings.tar.gz",
+      "blob": "51ccdfa036653513d66a1cb6a7a8c89f7987e82c"
+    },
+    {
+      "path": "instances/details/fhnw-binschedule2/summary.md",
+      "blob": "27104a56cd1080cec2c36ada2f36b4f2812630fd"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-paira100/fhnw-schedule-paira100-findings.tar.gz",
+      "blob": "4df54aebfe2fcf60f4f80bf1ebeedfd1ab039e10"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-paira100/summary.md",
+      "blob": "b4c0a6c84df574a7472f695e43fbf1c303a8b9f5"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-paira200/fhnw-schedule-paira200-findings.tar.gz",
+      "blob": "68c7ca4a4ad6f7042b6dd952feb3be212cee376c"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-paira200/summary.md",
+      "blob": "18f2f5161a9ab4a9b9d53cdc2312cf9bf971513f"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-paira400/fhnw-schedule-paira400-findings.tar.gz",
+      "blob": "d1dc3c655501160c02e7f764bec419ad36f864ce"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-paira400/summary.md",
+      "blob": "e08fdf8c24cc2ba2b8be8c41df30188a5b58df30"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-pairb200/fhnw-schedule-pairb200-findings.tar.gz",
+      "blob": "83d9144340827378d53f79c6821b9eda93cb290d"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-pairb200/summary.md",
+      "blob": "48f78c90174e62467d4ac8df6c78805bc2dd6d25"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-pairb400/fhnw-schedule-pairb400-findings.tar.gz",
+      "blob": "d4bf08c82ea90b7ec8403e8379e04f0e62c67306"
+    },
+    {
+      "path": "instances/details/fhnw-schedule-pairb400/summary.md",
+      "blob": "ecaf7aea7a1530fd12bc39acb192883a983ba316"
+    },
+    {
+      "path": "instances/details/genus-g31-8/genus-g31-8-findings.tar.gz",
+      "blob": "6f266e5df82fbf93ffdcf5714c3f1c93f5c63ff8"
+    },
+    {
+      "path": "instances/details/genus-g31-8/summary.md",
+      "blob": "f90dcc5bd59f5100051c499372b848e196453827"
+    },
+    {
+      "path": "instances/details/genus-g61-25/genus-g61-25-findings.tar.gz",
+      "blob": "de5e4206d466a3cd3256c6a0c7ccce43b0d600d9"
+    },
+    {
+      "path": "instances/details/genus-g61-25/summary.md",
+      "blob": "8b9844b89b629e19bc2e514bc70b5da0960e9325"
+    },
+    {
+      "path": "instances/details/genus-sym-g31-8/genus-sym-g31-8-findings.tar.gz",
+      "blob": "b2bd17454e942192f383bfa1af9e6c160156d24c"
+    },
+    {
+      "path": "instances/details/genus-sym-g31-8/summary.md",
+      "blob": "9c3e9812074a1fc595c3b39c2179940dec59c7d5"
+    },
+    {
+      "path": "instances/details/genus-sym-g62-2/genus-sym-g62-2-findings.tar.gz",
+      "blob": "71fd052490bda6536eda4d22f43c6c0031af7aab"
+    },
+    {
+      "path": "instances/details/genus-sym-g62-2/summary.md",
+      "blob": "94ec36151c5d3e9357530e770232e9991dcabcd5"
+    },
+    {
+      "path": "instances/details/genus-sym-grafo5708-48/genus-sym-grafo5708-48-findings.tar.gz",
+      "blob": "ce7fd65a4c359b481928b7d5df821732889209d2"
+    },
+    {
+      "path": "instances/details/genus-sym-grafo5708-48/summary.md",
+      "blob": "9c5cfa5c6ea4619b8d576926474d751d294dfded"
+    },
+    {
+      "path": "instances/details/ger50-17-ptp-pop-3t/ger50-17-ptp-pop-3t-findings.tar.gz",
+      "blob": "0f4a57ae00df376cb5ba7af010e30ed534b8a9d9"
+    },
+    {
+      "path": "instances/details/ger50-17-ptp-pop-3t/summary.md",
+      "blob": "41647e6757589bcab87a7fd2bf15ee747d904ac6"
+    },
+    {
+      "path": "instances/details/gmut-76-40/gmut-76-40-findings.tar.gz",
+      "blob": "54640d00f50acd2f5a36b5970f2e7fb69663596e"
+    },
+    {
+      "path": "instances/details/gmut-76-40/summary.md",
+      "blob": "13bbc3e4bebb124d1c9b01128f7fb5974ee846b1"
+    },
+    {
+      "path": "instances/details/gmut-76-50/gmut-76-50-findings.tar.gz",
+      "blob": "25ae5f5d6c638a62d1dd95b16b6ec2030d2d2b04"
+    },
+    {
+      "path": "instances/details/gmut-76-50/summary.md",
+      "blob": "37d5ba86d4182f69f01da23b6e0fc6f259a30eb8"
+    },
+    {
+      "path": "instances/details/graph40-20-1rand/graph40-20-1rand-findings.tar.gz",
+      "blob": "8dd04e64098a6b5b3d105952d691300f6d2821d1"
+    },
+    {
+      "path": "instances/details/graph40-20-1rand/summary.md",
+      "blob": "2937973c1b470e979d14f2702570e44a1d931c9d"
+    },
+    {
+      "path": "instances/details/graph40-40-1rand/graph40-40-1rand-findings.tar.gz",
+      "blob": "768fd20c53c04d72b2b762788621e54d349ad21a"
+    },
+    {
+      "path": "instances/details/graph40-40-1rand/summary.md",
+      "blob": "b468390a330a7e9f7494a36d73592c5a1e9ba9a7"
+    },
+    {
+      "path": "instances/details/graph40-80-1rand/graph40-80-1rand-findings.tar.gz",
+      "blob": "fbcb3ad8a8d47121db993a7f2f9cd834c27309bd"
+    },
+    {
+      "path": "instances/details/graph40-80-1rand/summary.md",
+      "blob": "6686661d1dddde4bb57cb27c246d51e7be4e41bd"
+    },
+    {
+      "path": "instances/details/graphdraw-mainerd/graphdraw-mainerd-findings.tar.gz",
+      "blob": "ff776e77e552bcec72091935b0d65c5465ee8601"
+    },
+    {
+      "path": "instances/details/graphdraw-mainerd/summary.md",
+      "blob": "3e2068c08ddce8151d8d6b3f10f98b9426c10c19"
+    },
+    {
+      "path": "instances/details/graphdraw-opmanager/graphdraw-opmanager-findings.tar.gz",
+      "blob": "1b347f088bbca72b30a13119773e40f0b16f6601"
+    },
+    {
+      "path": "instances/details/graphdraw-opmanager/summary.md",
+      "blob": "f122b05719a51ff90d0ed633fba46c3a0df10a0c"
+    },
+    {
+      "path": "instances/details/gsvm2rl11/gsvm2rl11-findings.tar.gz",
+      "blob": "0089afe4a32fff9e6d122c1e16327a4cd9528573"
+    },
+    {
+      "path": "instances/details/gsvm2rl11/summary.md",
+      "blob": "adfd851e9653367df9e85eec8baa00488f837ff0"
+    },
+    {
+      "path": "instances/details/gsvm2rl9/gsvm2rl9-findings.tar.gz",
+      "blob": "ec942c6daa464bc7a41692c0d935fe815ec4e2a2"
+    },
+    {
+      "path": "instances/details/gsvm2rl9/summary.md",
+      "blob": "64941653f78a80d57f86a25fe3a759cdd03f8606"
+    },
+    {
+      "path": "instances/details/ivu06/ivu06-findings.tar.gz",
+      "blob": "0c91b01c8563540c28cf9f5ab5ec214d8615dc4a"
+    },
+    {
+      "path": "instances/details/ivu06/summary.md",
+      "blob": "bcb89e0589d7cc5cb9dbb671e96abf90038700e5"
+    },
+    {
+      "path": "instances/details/liu/liu-findings.tar.gz",
+      "blob": "4866086f86090a3c44912ed145093e8f0e0657d7"
+    },
+    {
+      "path": "instances/details/liu/summary.md",
+      "blob": "9d81d72f36a2e961b7b8dc8a63b7e4e7ea4e0a1d"
+    },
+    {
+      "path": "instances/details/lr1dr02vc05v8a-t360/lr1dr02vc05v8a-t360-findings.tar.gz",
+      "blob": "dcb6573bb9a59d19524962fc8a013a39ff2aa8f4"
+    },
+    {
+      "path": "instances/details/lr1dr02vc05v8a-t360/summary.md",
+      "blob": "58b3a158307858c8a097c656b2e6e3bbb496a487"
+    },
+    {
+      "path": "instances/details/milo-v12-6-r1-75-1/milo-v12-6-r1-75-1-findings.tar.gz",
+      "blob": "84d93b042d40fb8e493ada6b85ecc432746051af"
+    },
+    {
+      "path": "instances/details/milo-v12-6-r1-75-1/summary.md",
+      "blob": "9fc67a2d27cee6b962f22b483cdc51bdefcd18f3"
+    },
+    {
+      "path": "instances/details/milo-v13-4-3d-4-0/milo-v13-4-3d-4-0-findings.tar.gz",
+      "blob": "e157d889b0608ece41bf3288f81476592ded3fcd"
+    },
+    {
+      "path": "instances/details/milo-v13-4-3d-4-0/summary.md",
+      "blob": "1952e67f55efe432cb3bea921bc4aafb4586d007"
+    },
+    {
+      "path": "instances/details/mining/mining-findings.tar.gz",
+      "blob": "d1c05c8afa6957e054412259d41d24ce7c84c44d"
+    },
+    {
+      "path": "instances/details/mining/summary.md",
+      "blob": "d78d56f07a5dffe0b1e6526896a3b25659c7063d"
+    },
+    {
+      "path": "instances/details/minutedispatchstrategy/minutedispatchstrategy-findings.tar.gz",
+      "blob": "24db10657a68c7bcf8b5b186418c144aa2f4330c"
+    },
+    {
+      "path": "instances/details/minutedispatchstrategy/summary.md",
+      "blob": "08cdbc1837e5dd34774d662b4999666e9039c4ce"
+    },
+    {
+      "path": "instances/details/n3700/n3700-findings.tar.gz",
+      "blob": "aca6ae1d9a6886081d685d6304eebd208c46e3c4"
+    },
+    {
+      "path": "instances/details/n3700/summary.md",
+      "blob": "cd8cee1553050ff39fcc8ac8ab97f771cb66c971"
+    },
+    {
+      "path": "instances/details/nag/nag-findings.tar.gz",
+      "blob": "e8427aaa08a66b015ec229d7259722157e1db429"
+    },
+    {
+      "path": "instances/details/nag/summary.md",
+      "blob": "166d4ab8fad606d0617425ddc2821d76860379f8"
+    },
+    {
+      "path": "instances/details/neos-2629914-sudost/neos-2629914-sudost-findings.tar.gz",
+      "blob": "6096d28faf46f7e43f43e3e8347692c567a1a69a"
+    },
+    {
+      "path": "instances/details/neos-2629914-sudost/summary.md",
+      "blob": "161825566b9cd1e6c3b8b9421dfc0c483a845395"
+    },
+    {
+      "path": "instances/details/neos-2978205-isar/neos-2978205-isar-findings.tar.gz",
+      "blob": "c7f3c8633edd48540e1a2c970fe35022d48ccdb5"
+    },
+    {
+      "path": "instances/details/neos-2978205-isar/summary.md",
+      "blob": "3e89a0daa37b336072a42df6fc7ac63eea84bf0a"
+    },
+    {
+      "path": "instances/details/neos-3009394-lami/neos-3009394-lami-findings.tar.gz",
+      "blob": "290adb81ac8f98ad086e0cf09d2f7ac35d3a6b31"
+    },
+    {
+      "path": "instances/details/neos-3009394-lami/summary.md",
+      "blob": "1ba9bcf669b9f11c32b702072d99e757393bc473"
+    },
+    {
+      "path": "instances/details/neos-3355120-tarago/neos-3355120-tarago-findings.tar.gz",
+      "blob": "681d829023c8ba5279fdac83ce923a39a2e95a8f"
+    },
+    {
+      "path": "instances/details/neos-3355120-tarago/summary.md",
+      "blob": "542d988a2cbcd0203105f6927da0defea62cdb71"
+    },
+    {
+      "path": "instances/details/neos-3355323-arnon/neos-3355323-arnon-findings.tar.gz",
+      "blob": "cce5174668d5bdd6e5d69daabdef67610b5e6a9e"
+    },
+    {
+      "path": "instances/details/neos-3355323-arnon/summary.md",
+      "blob": "c7ed8d22b3ab0d10f7bcef4f77b767db13bc732a"
+    },
+    {
+      "path": "instances/details/neos-3594536-henty/neos-3594536-henty-findings.tar.gz",
+      "blob": "186c1059aaf74ceaee6c0457df217417fb6e9961"
+    },
+    {
+      "path": "instances/details/neos-3594536-henty/summary.md",
+      "blob": "f69587d72774f532fab5065a214c750d62dc6119"
+    },
+    {
+      "path": "instances/details/neos-3603137-hoteo/neos-3603137-hoteo-findings.tar.gz",
+      "blob": "c8b5a30fe44eeed109e83c80bb4a0536f7e8c3b1"
+    },
+    {
+      "path": "instances/details/neos-3603137-hoteo/summary.md",
+      "blob": "55574436cfed6f168fad59c4b6013ecabffea48c"
+    },
+    {
+      "path": "instances/details/neos-3634244-kauru/neos-3634244-kauru-findings.tar.gz",
+      "blob": "461d83427027094f317f78313c441dfa289379f6"
+    },
+    {
+      "path": "instances/details/neos-3634244-kauru/summary.md",
+      "blob": "26d3cdb9d54b69f74f4c687934fdfbdd0320cd5f"
+    },
+    {
+      "path": "instances/details/neos-3691541-lonja/neos-3691541-lonja-findings.tar.gz",
+      "blob": "40578b242f8783dcfddb4363e0331eca5ba3dea7"
+    },
+    {
+      "path": "instances/details/neos-3691541-lonja/summary.md",
+      "blob": "b8b128e596b1bf1840d94e6cf675d25bbe81c7f3"
+    },
+    {
+      "path": "instances/details/neos-4355351-swalm/neos-4355351-swalm-findings.tar.gz",
+      "blob": "07e727cd45201648109e2595289c9742d2efe3e1"
+    },
+    {
+      "path": "instances/details/neos-4355351-swalm/summary.md",
+      "blob": "84342ceea96c188cdf2b864b58d0c81b864f5b04"
+    },
+    {
+      "path": "instances/details/neos-4360552-sangro/neos-4360552-sangro-findings.tar.gz",
+      "blob": "e66f39d44905f58f73b9b81def49013415cabdd2"
+    },
+    {
+      "path": "instances/details/neos-4360552-sangro/summary.md",
+      "blob": "81382c435ee8cbef017480a9be5d43130f93cbb2"
+    },
+    {
+      "path": "instances/details/neos-4533806-waima/neos-4533806-waima-findings.tar.gz",
+      "blob": "56599c59c090ff92e2ae4a3a01debc2169d1b728"
+    },
+    {
+      "path": "instances/details/neos-4533806-waima/summary.md",
+      "blob": "97c4107447999edab54322f6a3b06129760feff6"
+    },
+    {
+      "path": "instances/details/neos-5045105-creuse/neos-5045105-creuse-findings.tar.gz",
+      "blob": "dbbbfbc76480c4db5685cd7f7caa53cf74f01229"
+    },
+    {
+      "path": "instances/details/neos-5045105-creuse/summary.md",
+      "blob": "a2034e874c6fad277d94e34f2d76ad91e8eb25c4"
+    },
+    {
+      "path": "instances/details/neos-5266653-tugela/neos-5266653-tugela-findings.tar.gz",
+      "blob": "f2023346aa9fb2eacf115dac21d01133a04187f2"
+    },
+    {
+      "path": "instances/details/neos-5266653-tugela/summary.md",
+      "blob": "81a348ed3c706d84867407078922a752263eb138"
+    },
+    {
+      "path": "instances/details/nj1/nj1-findings.tar.gz",
+      "blob": "cb8fb193a1867840dc785d9c0773ad5bd3741453"
+    },
+    {
+      "path": "instances/details/nj1/summary.md",
+      "blob": "5b6efb6ff79e74ca404698f69afcb8a3eef71de9"
+    },
+    {
+      "path": "instances/details/nj2/nj2-findings.tar.gz",
+      "blob": "5913e50c259477b5aa91dd757c8cfcd608eef866"
+    },
+    {
+      "path": "instances/details/nj2/summary.md",
+      "blob": "04c5ef2abe02b95c90694a3af82bd802574abf0b"
+    },
+    {
+      "path": "instances/details/nj3/nj3-findings.tar.gz",
+      "blob": "fbcb03d311f84af874c32e99387e27d033e0990d"
+    },
+    {
+      "path": "instances/details/nj3/summary.md",
+      "blob": "c90a4cbdda23ba52782296cfaa2a35e8bac73fe4"
+    },
+    {
+      "path": "instances/details/ns1631475/ns1631475-findings.tar.gz",
+      "blob": "ff997f21550d5aa70f8e0debe388ea3e2ffbb714"
+    },
+    {
+      "path": "instances/details/ns1631475/summary.md",
+      "blob": "1a11991864e67b734236bccae31a2d915d0e84e7"
+    },
+    {
+      "path": "instances/details/ns1828997/ns1828997-findings.tar.gz",
+      "blob": "4b44c7e1293b0608d9fe5ade298c189a30603ad2"
+    },
+    {
+      "path": "instances/details/ns1828997/summary.md",
+      "blob": "4b4da9f48b9f9ce109218155247ef3480d0920aa"
+    },
+    {
+      "path": "instances/details/ns1905797/ns1905797-findings.tar.gz",
+      "blob": "ab69e287cf65502eba7ad3d1030ab21231be95b0"
+    },
+    {
+      "path": "instances/details/ns1905797/summary.md",
+      "blob": "2228e1a81898116d168344684e22d2cf8c3597a6"
+    },
+    {
+      "path": "instances/details/ns2122698/ns2122698-findings.tar.gz",
+      "blob": "35e7b8a83d0f926926373197ee3b10ba7ebfed8c"
+    },
+    {
+      "path": "instances/details/ns2122698/summary.md",
+      "blob": "d3c58799c93722543f3e3031b6d876c01ebbf84f"
+    },
+    {
+      "path": "instances/details/pb-gfrd-pnc/pb-gfrd-pnc-findings.tar.gz",
+      "blob": "2bb892135af4ef8cdb2773ecfcd4983909d4e7b7"
+    },
+    {
+      "path": "instances/details/pb-gfrd-pnc/summary.md",
+      "blob": "b9f0bd8ab5ad361c6b4ae334b215123ca4ed5517"
+    },
+    {
+      "path": "instances/details/pb-grow22/pb-grow22-findings.tar.gz",
+      "blob": "1095b7f9ba6173db1381ed3dc4eef0627d3a0c7e"
+    },
+    {
+      "path": "instances/details/pb-grow22/summary.md",
+      "blob": "c59322206ebeb7cfff9e68b98fd3330c1d8031b4"
+    },
+    {
+      "path": "instances/details/polygonpack4-15/polygonpack4-15-findings.tar.gz",
+      "blob": "090c9cbb05a2ce44a9b2ba5d83e4ee39e233a501"
+    },
+    {
+      "path": "instances/details/polygonpack4-15/summary.md",
+      "blob": "535ccced6ee9bd29133878f74077b05e45f96637"
+    },
+    {
+      "path": "instances/details/polygonpack4-7/polygonpack4-7-findings.tar.gz",
+      "blob": "b87b967724ceee8825960c52b74b132ae2a0be37"
+    },
+    {
+      "path": "instances/details/polygonpack4-7/summary.md",
+      "blob": "cd6168685695a9854eed0000c8fba29dac88e185"
+    },
+    {
+      "path": "instances/details/polygonpack5-15/polygonpack5-15-findings.tar.gz",
+      "blob": "233f9d23cc06d8d7950e376fd9552c86894b6b13"
+    },
+    {
+      "path": "instances/details/polygonpack5-15/summary.md",
+      "blob": "c36e7a5693fde2df1ef7660569f60de844adc868"
+    },
+    {
+      "path": "instances/details/pythago7825/pythago7825-findings.tar.gz",
+      "blob": "f3a475f139eacc9f4e32fc357485564e0d4db024"
+    },
+    {
+      "path": "instances/details/pythago7825/summary.md",
+      "blob": "0eea59aaedc2cf783682fe59e9036f2d659e249c"
+    },
+    {
+      "path": "instances/details/ramos3/ramos3-findings.tar.gz",
+      "blob": "63aa2ca450b0c485b5c86acc1224441a8cb7a37d"
+    },
+    {
+      "path": "instances/details/ramos3/summary.md",
+      "blob": "eeb64de7cf82b58df9be5dedc1da27ab1f9b70b9"
+    },
+    {
+      "path": "instances/details/rmine11/rmine11-findings.tar.gz",
+      "blob": "72b1b7a23b467feedaef576835cd148055bb38b0"
+    },
+    {
+      "path": "instances/details/rmine11/summary.md",
+      "blob": "df9eda2e39f852314949ada5675b9bdfb8c34040"
+    },
+    {
+      "path": "instances/details/rmine13/rmine13-findings.tar.gz",
+      "blob": "b09345c5cac3f5e2517a6240132c24a9f6270318"
+    },
+    {
+      "path": "instances/details/rmine13/summary.md",
+      "blob": "a252d7615101377fbda5ca9c040797b8bad632e8"
+    },
+    {
+      "path": "instances/details/rmine15/rmine15-findings.tar.gz",
+      "blob": "6471c81c8b90857867dcbd09cd6e5bf26aadcc3a"
+    },
+    {
+      "path": "instances/details/rmine15/summary.md",
+      "blob": "79f35913d944d05b720f8e75c74d24a9cb732627"
+    },
+    {
+      "path": "instances/details/rmine21/rmine21-findings.tar.gz",
+      "blob": "71c0f5c47472491783b2c9e6648f29c5c375e86c"
+    },
+    {
+      "path": "instances/details/rmine21/summary.md",
+      "blob": "65549b8e541871db688ca1d1098ac7162d92eeec"
+    },
+    {
+      "path": "instances/details/rmine25/rmine25-findings.tar.gz",
+      "blob": "d5db3f7cfc7489294cbf8c044256bb8c68fa87af"
+    },
+    {
+      "path": "instances/details/rmine25/summary.md",
+      "blob": "0b13fd9ac9c21925c4d2e086c964e763013fe60f"
+    },
+    {
+      "path": "instances/details/s82/s82-findings.tar.gz",
+      "blob": "eff1bf9e7370402717574221696be719a59220d6"
+    },
+    {
+      "path": "instances/details/s82/summary.md",
+      "blob": "bad46a91fb40b4ce5595e31b8ad3e361863ac0a9"
+    },
+    {
+      "path": "instances/details/scpj4scip/scpj4scip-findings.tar.gz",
+      "blob": "4e932af769fdfd43e88921b92042449cbc195a5c"
+    },
+    {
+      "path": "instances/details/scpj4scip/summary.md",
+      "blob": "b76e350746cf1b4a1ca2a14c96b8ff69aa0183ab"
+    },
+    {
+      "path": "instances/details/scpk4/scpk4-findings.tar.gz",
+      "blob": "882ba14c6dcc8e6ca8bbce143df701fb03cfed04"
+    },
+    {
+      "path": "instances/details/scpk4/summary.md",
+      "blob": "2f003b1018b033a7427628e6cff3bff59b606ea5"
+    },
+    {
+      "path": "instances/details/scpl4/scpl4-findings.tar.gz",
+      "blob": "c899efa9c16fb632d6d4161e8de55cd5ff9c19d4"
+    },
+    {
+      "path": "instances/details/scpl4/summary.md",
+      "blob": "137ab85ae2823167bcc6c8db5d5fce44d766531f"
+    },
+    {
+      "path": "instances/details/set3-09/set3-09-findings.tar.gz",
+      "blob": "1ba8f3a7a3dfebdc6ac730d043113fb1eb5b5551"
+    },
+    {
+      "path": "instances/details/set3-09/summary.md",
+      "blob": "b8da1c740b6e28d417dd05843acea9246323a0aa"
+    },
+    {
+      "path": "instances/details/shs1042/shs1042-findings.tar.gz",
+      "blob": "fd65043aa729ec82cb9835a2f59a2cea40e2bd65"
+    },
+    {
+      "path": "instances/details/shs1042/summary.md",
+      "blob": "0bbbf7e08b7278aef5b6089a72aef0b89aea87c5"
+    },
+    {
+      "path": "instances/details/siena1/siena1-findings.tar.gz",
+      "blob": "d8551b4c5cebf4b7f1eb38e89720292d74217d09"
+    },
+    {
+      "path": "instances/details/siena1/summary.md",
+      "blob": "ef4bd8ae62b9d81f2b384c4f7f08cf0512251b65"
+    },
+    {
+      "path": "instances/details/sing11/sing11-findings.tar.gz",
+      "blob": "5ad297764e188da7ed67aaa0b03eed5f49537b1e"
+    },
+    {
+      "path": "instances/details/sing11/summary.md",
+      "blob": "2d278643d0ee4c7ed7734d522b01a40b3bf91a60"
+    },
+    {
+      "path": "instances/details/sing17/sing17-findings.tar.gz",
+      "blob": "823e59ca0b979b70fcf64549b44c8f048558581d"
+    },
+    {
+      "path": "instances/details/sing17/summary.md",
+      "blob": "1177740b331375f2b9cb4d9934d883a8c4e18c5b"
+    },
+    {
+      "path": "instances/details/sing5/sing5-findings.tar.gz",
+      "blob": "f6a177072ef63a2984d76992eec4b5b51cb426bb"
+    },
+    {
+      "path": "instances/details/sing5/summary.md",
+      "blob": "bba24a336053c33d5aa2880e2c102566fb78c5be"
+    },
+    {
+      "path": "instances/details/sorrell7/sorrell7-findings.tar.gz",
+      "blob": "931ccf67f4b7e22d4e4d97979a4b19872422dbfb"
+    },
+    {
+      "path": "instances/details/sorrell7/summary.md",
+      "blob": "4287cf9a77a4cbfe7c995d8892e46d04948e0636"
+    },
+    {
+      "path": "instances/details/supportcase30/summary.md",
+      "blob": "88138e0c71f9f33da076fc015700bc9c06011ca2"
+    },
+    {
+      "path": "instances/details/supportcase30/supportcase30-findings.tar.gz",
+      "blob": "3304e88ce11d3621717dafc3a38c17b57f1f6ac2"
+    },
+    {
+      "path": "instances/details/supportcase39/summary.md",
+      "blob": "2852b6f008f9a9121e20058b2d0a6c8c85a9cf56"
+    },
+    {
+      "path": "instances/details/supportcase39/supportcase39-findings.tar.gz",
+      "blob": "8b11943087b7683cedf79a4c37d50762611bedac"
+    },
+    {
+      "path": "instances/details/t1722/summary.md",
+      "blob": "f608b7de6dadbf6393b557585e260246c1c8a008"
+    },
+    {
+      "path": "instances/details/t1722/t1722-findings.tar.gz",
+      "blob": "24fffdb627aa0f303e65cfc64d3c9eb663780c3d"
+    },
+    {
+      "path": "instances/details/tokyometro/summary.md",
+      "blob": "e41b88ff041d849eb1b7251ba3aa37e4f5d8c25d"
+    },
+    {
+      "path": "instances/details/tokyometro/tokyometro-findings.tar.gz",
+      "blob": "5ec1f007302ca0e168b96225afddc9f6fe55db18"
+    },
+    {
+      "path": "instances/details/xmas10-2/summary.md",
+      "blob": "8cd11485e09858c9a954802e5e8f8640394f9856"
+    },
+    {
+      "path": "instances/details/xmas10-2/xmas10-2-findings.tar.gz",
+      "blob": "2f021dc5f665714f9a53df72e923c6b7e28c95e2"
+    },
+    {
+      "path": "instances/details/z26/summary.md",
+      "blob": "b605da159be487cb186b4d49591bf786afda5498"
+    },
+    {
+      "path": "instances/details/z26/z26-findings.tar.gz",
+      "blob": "090490f1dc8cd267863fb87845b2d83fc33551e1"
+    },
+    {
+      "path": "instances/index.html",
+      "blob": "fc96a76e58a5d0bacf2bef96a28d60a7484fc669"
+    },
+    {
+      "path": "instances/instances.js",
+      "blob": "b1b4b79b28fecdc6f4c8f3ff8f3a3c0079d49b3b"
+    },
+    {
+      "path": "instances/instances.json",
+      "blob": "a24fed91b1ca0f333c31640dee030bfe681ef3b3"
+    },
+    {
+      "path": "skill/index.html",
+      "blob": "cdb1a8e674ac31f2406de42f1f03851437215eab"
+    },
+    {
+      "path": "solver-replacement/index.html",
+      "blob": "a173d9fda85bfdb8978ca864381565c26e150ff8"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "MIP Primal Improvement"
+  short_description: "Improve and validate MIP primal solutions with structural search"
+  default_prompt: "Use $mip-primal-improve to continuously improve and independently validate primal solutions throughout the available budget, trying COPT first for general MILP work and recording any fallback to Gurobi, suitable cuOPT, or another compatible backend."
+policy:
+  allow_implicit_invocation: true
