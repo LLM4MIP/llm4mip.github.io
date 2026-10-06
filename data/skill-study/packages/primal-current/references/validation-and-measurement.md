@@ -77,7 +77,7 @@ A numerical improvement smaller than the predeclared `min_improvement` remains i
 
 ## 4. How to test whether the skill is faster
 
-The repository history is a heterogeneous research record. Algorithms, seeds, CPUs, starts, and budgets differ. Neither 22/112 nor 23/112 estimates GPT's success rate, and dividing a 188-second reduced-model run by a different ten-hour end-to-end study does not establish a speedup.
+The repository history is a heterogeneous research record. Algorithms, seeds, CPUs, starts, and budgets differ. Neither 22/112 nor 23/112 estimates LLM's success rate, and dividing a 188-second reduced-model run by a different ten-hour end-to-end study does not establish a speedup.
 
 Use the following design for a controlled comparison:
 
@@ -85,7 +85,7 @@ Use the following design for a controlled comparison:
 2. Compare a cold baseline, a solver baseline with the same start, and the skill policy separately. This distinguishes the value of a stronger seed from faster search after the seed.
 3. Make the primary outcome the best-primal trajectory over the same full budget and the final verified best at the budget limit. Also record the times of the first verified feasible solution, first strict improvement, and first predeclared threshold-reaching improvement. First improvement is a metric, not a stopping condition; both sides continue until the common total budget or another valid termination condition.
 4. Retain unsuccessful runs as right-censored at the budget limit instead of deleting them from timing averages. Report success counts, full-instance distributions, and time curves, not only the mean over successful cases.
-5. Record time spent on input, structural analysis, GPT tokens or API calls, construction, solving, lifting, validation, and human preparation. Operator wall time multiplied by worker count is an allocation estimate rather than observed CPU time. Do not add concurrent wall intervals.
+5. Record time spent on input, structural analysis, LLM tokens or API calls, construction, solving, lifting, validation, and human preparation. Operator wall time multiplied by worker count is an allocation estimate rather than observed CPU time. Do not add concurrent wall intervals.
 6. Split training or development and test data by underlying instance family. Do not place related `nj` or FHNW A/B formulations across the split. Use multiple seeds to assess stability.
 7. Run ablations without sibling transfer, structural neighborhoods, kicks, and persistent negative-result memory. Compare independently verified primal values rather than solver-reported values alone.
 

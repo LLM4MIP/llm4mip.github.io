@@ -5,7 +5,7 @@ description: "Continuously improve and validate feasible solutions for hard MILP
 
 # Find Better, Verifiable MIP Primal Solutions
 
-Optimize the **verified primal trajectory and final best feasible value over the entire available budget**, while also seeking early improvements. The first improvement is an intermediate milestone, not a completion condition. GPT identifies the decision structure, designs moves, and implements mappings; solvers, CP, DP, and graph algorithms perform concrete searches; an independent checker decides whether a candidate may replace the incumbent. Do not change the objective into proving optimality or improving a lower bound.
+Optimize the **verified primal trajectory and final best feasible value over the entire available budget**, while also seeking early improvements. The first improvement is an intermediate milestone, not a completion condition. LLM identifies the decision structure, designs moves, and implements mappings; solvers, CP, DP, and graph algorithms perform concrete searches; an independent checker decides whether a candidate may replace the incumbent. Do not change the objective into proving optimality or improving a lower bound.
 
 ## Primal-First Task Contract
 

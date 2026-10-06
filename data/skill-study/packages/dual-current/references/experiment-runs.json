@@ -1,7 +1,7 @@
 {
   "schema": "mip-dual-improve-controlled-experiment-index-v1",
   "updated_at": "2026-09-20T20:00:00+08:00",
-  "handoff_root_altman": "/data/operationgpt/huangyicheng_temp/dual_skill_handoff_20260920T1957CST",
+  "handoff_root_altman": "LOCAL_ARTIFACT",
   "experiments": [
     {
       "experiment_id": "miplib20_dual_skill_20260917T0231CST",
@@ -16,7 +16,10 @@
       "max_concurrency": 4,
       "numeric_improvement_instances": 20,
       "certified_improvement_instances": 9,
-      "exact_closures": ["ns1456591", "neos-3682128-sandon"],
+      "exact_closures": [
+        "ns1456591",
+        "neos-3682128-sandon"
+      ],
       "frozen_skill_entrypoint_sha256": "61cc3bbe39f9b690ff6b0115cc7bb02475b786e6732af7de727b5b5280d16535",
       "canonical_summary_sha256": "6a10c08ae5287a4f5758d095c0bb2cbd23b4b5d637aedd7cef01457e42612848",
       "canonical_report_sha256": "28025a5f3fbb7680274024eb003a8e926846dfb574bd34c447634f8ca2f49bdc",
@@ -29,12 +32,20 @@
       "arm_type": "backend_replay",
       "skill_family": "dual",
       "instances": 18,
-      "excluded_exact_closures": ["ns1456591", "neos-3682128-sandon"],
+      "excluded_exact_closures": [
+        "ns1456591",
+        "neos-3682128-sandon"
+      ],
       "solver_backend": "COPT",
       "solver_version": "8.0.4",
       "threads_per_instance": 8,
       "barriers_passed": 5,
-      "comparison_to_source": {"stronger": 2, "equal": 3, "weaker": 13, "unavailable": 0},
+      "comparison_to_source": {
+        "stronger": 2,
+        "equal": 3,
+        "weaker": 13,
+        "unavailable": 0
+      },
       "canonical_summary_sha256": "6584fb0c16fbad95fc155fe0a0dedad77da1befebf226c6bd8452050527ae0bb",
       "canonical_comparison_sha256": "74e0ee996f01e9dc1e7bc12400e326e2655b6ed2dec19deaaf7bea4191f96da5",
       "final_audit_passed": true,

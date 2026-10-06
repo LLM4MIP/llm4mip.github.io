@@ -12,7 +12,7 @@ Use the strongest wording supported, and no stronger:
 6. **Portable exact certificate** — an independent checker validates the proof without trusting the optimizing solver.
 7. **Theorem transfer** — exact local crosswalk plus an external published theorem/result.
 
-Never collapse these levels into a single “proved by GPT” count.
+Never collapse these levels into a single “proved by LLM” count.
 
 ## Minimum validation
 

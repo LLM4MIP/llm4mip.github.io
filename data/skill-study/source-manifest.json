@@ -5,7 +5,7 @@
   "files": [
     {
       "path": "skills-research/comparisons/per_instance_comparison.csv",
-      "sha256": "1e76eb9eacf88e4b988cb0423f2122bdd913a094df75883e3818d07a315c8395"
+      "sha256": "a257ade831bf98c817193949c2549489447233fc0cd008b4ee2ce1ca5e16b5c5"
     },
     {
       "path": "skills-research/comparisons/skill_portfolio_gap_comparison.csv",
@@ -25,34 +25,34 @@
     },
     {
       "path": "skills-research/experiments/primal/README.md",
-      "sha256": "e64a53ffede3e0af5cca5b910866ea01f3a8741c6869cf9a52488b968254917a",
+      "sha256": "7e3a7e01b76cc822c775f01356ff1feb7ff5078d537ed3707b8bc1d1e3354cfd",
       "original_sha256": "58bb41e01ec4b69284ca1bde53eb1053f4177b4b796f9ec794d5b7a76032c698",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
     {
       "path": "skills-research/experiments/dual/source_dual_gurobi_core/report.md",
-      "sha256": "28025a5f3fbb7680274024eb003a8e926846dfb574bd34c447634f8ca2f49bdc"
+      "sha256": "1fd122706a5b719de1bb6150f0b03fe821345aeb7c718808b10f6e768d79c7c1"
     },
     {
       "path": "skills-research/experiments/no-skill/report.md",
-      "sha256": "7ddc5e9f3f2b75b4cbe7124eab4ea9f77224637dda7286153b7501038af895c6",
+      "sha256": "93903c69f2add3368ad9ce70af27b590ccd4107e56372cf5768918b8d6d82997",
       "original_sha256": "b823d230cbce5926e05f32924384211a8c10a48f1e4526e1ee2c5b1ca2dbd28d",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
     {
       "path": "skills-research/experiments/baselines/gurobi150m/README.md",
-      "sha256": "3740272c2980d5a7ef17902adf4ebfdfd541af122600a000df22ca4782692375"
+      "sha256": "b4e2df22759788ba1bb1fbcecf2fa4154a22f5e6777c17f574dd125978b7c34a"
     },
     {
       "path": "skills-research/skills/SKILL_SOURCE_INSTANCES.csv",
-      "sha256": "4aaf286c9f0a6d3e80b9db765291c78695c408f58c6abd4af73e2561a4be2105",
+      "sha256": "cd5aca59772201e74911e95d67265d664b23b8ab7bfb7e182318d1b61f9ae5f6",
       "original_sha256": "054ac480009ee58823119c1b4fe4940ad4969e260df252d0edf3ea066559857a",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
     {
       "path": "skills-research/experiments/primal/sources/skill-used/SKILL.md",
       "local": "data/skill-study/packages/primal-frozen/SKILL.md",
-      "sha256": "5e74581fa6d833cfe5c834e57b6c2b679a80ef44cde8f108aa8f08261e05e0c0",
+      "sha256": "0b1517af76548e225342f7ec7c9a816b92587db0278dd0f39bc51135e4de5e47",
       "original_sha256": "1bab6d94a097dcb4f0506a4b03120aee57fa9c829ca7250ed066fd7782feb341",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
@@ -66,35 +66,35 @@
     {
       "path": "skills-research/experiments/primal/sources/skill-used/references/casebook.md",
       "local": "data/skill-study/packages/primal-frozen/references/casebook.md",
-      "sha256": "99ee2c18726a32193118c42d7f5beefdb481ae0703803675e560a8e2121f9cc0",
+      "sha256": "52e696ec38b6ae97a9d50ec2603f3a08d6622bfab401ddabd3874da4066ee38e",
       "original_sha256": "177273de79fe460002d9654b4e539f131619152a3a80fb4c1f3b152778361bec",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
     {
       "path": "skills-research/experiments/primal/sources/skill-used/references/instances.json",
       "local": "data/skill-study/packages/primal-frozen/references/instances.json",
-      "sha256": "34308cb783a5868c5b03764a21aa21b7f4fa2b0f2cd1a415682114cad353fe07",
+      "sha256": "1a715bb5d655608eefd88f8483ca459bc6faa6b4a0974e46fe49e40907837429",
       "original_sha256": "98a7f51321e571b6c2fd4fea8f09a1b8780ec50a5c640bbb369fef98533c11f5",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
     {
       "path": "skills-research/experiments/primal/sources/skill-used/references/instances.md",
       "local": "data/skill-study/packages/primal-frozen/references/instances.md",
-      "sha256": "46adbd1ece5f7e89aa9b1600fe08089e859ac5d3af50cbbbe1a5c8679fe3a8f1",
+      "sha256": "4b344cb3ae949b9b551966c12674f171073716c4fb1c3a92a37ccdc6c8b96e2e",
       "original_sha256": "47ba37e6da249b85851a4d451226131a7387b82ef48338ee912ba25a806782d3",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
     {
       "path": "skills-research/experiments/primal/sources/skill-used/references/search-playbook.md",
       "local": "data/skill-study/packages/primal-frozen/references/search-playbook.md",
-      "sha256": "d83696ecd4300b3050553c547498712ea140ea5b18e5cfa01ed730a4c7eae65c",
+      "sha256": "9f83ffc50cf9267df6e7345606f65fc9b9d5fa9647a4fb898c9c488eb32335c8",
       "original_sha256": "d39bf202d468303a745c8c3475c988c09fd9ac530ee172064e5fd043cdd82f49",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
     {
       "path": "skills-research/experiments/primal/sources/skill-used/references/validation-and-measurement.md",
       "local": "data/skill-study/packages/primal-frozen/references/validation-and-measurement.md",
-      "sha256": "248817a2827ecd4fcaf2de0206705229974e207c2da222b817f4b7322c90de33",
+      "sha256": "44cef9cfb3706b4117787a6c6079550c55d0b0cdf735a86272399fec039f071d",
       "original_sha256": "87109ba132c80c8d0338cf08c051342d9ce3abfb0a354205c27a4887a1e3cae4",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
@@ -131,7 +131,7 @@
     {
       "path": "skills-research/experiments/dual/skills/frozen_20260917/references/corpus-index.json",
       "local": "data/skill-study/packages/dual-frozen/references/corpus-index.json",
-      "sha256": "01daa210e4605df5d6e0b7ab10237771a37ef4e2cb424b43f865b537ab8da13f",
+      "sha256": "763a0f749eb6a536cd94a2543ea3361d32ba8296de20b5c30c6f0da00a03eb60",
       "original_sha256": "b8a33e831b049974f00cb52d62e32fcb3106753edb9616c926541af7b327d908",
       "translation": "English prose translation; original experiment file preserved in prior source revision"
     },
@@ -158,7 +158,7 @@
     {
       "path": "skills/mip-primal-improve/SKILL.md",
       "local": "data/skill-study/packages/primal-current/SKILL.md",
-      "sha256": "b2f324a01749f0ddd90955b58e80d8cea6a08908990e3adc98eb21f8c9e4faf7",
+      "sha256": "ad68f5fea484857c1cdeab8d9b149beb00fe058dd46302af00cc49107fe127c0",
       "source_override": "local-installed-english-skills-20260922"
     },
     {
@@ -170,31 +170,31 @@
     {
       "path": "skills/mip-primal-improve/references/casebook.md",
       "local": "data/skill-study/packages/primal-current/references/casebook.md",
-      "sha256": "b6a261de1d4cc7c8eec0d1558eed4a67bde0261ff6e70a1ec594021910cd4c1a",
+      "sha256": "4a2de9b8a1800d6187b26303a24cd98c16755d955e6da3aaf4f17dc7cf86c441",
       "source_override": "local-installed-english-skills-20260922"
     },
     {
       "path": "skills/mip-primal-improve/references/instances.json",
       "local": "data/skill-study/packages/primal-current/references/instances.json",
-      "sha256": "ca28912a1cd40275e485fec6c72b77e954f5738cc5173bc820d794e1a20e9b5a",
+      "sha256": "c902774acee6d11b6beb33ed9ba631acb3ed7903e174b7f0afcd6b3c67943f34",
       "source_override": "local-installed-english-skills-20260922"
     },
     {
       "path": "skills/mip-primal-improve/references/instances.md",
       "local": "data/skill-study/packages/primal-current/references/instances.md",
-      "sha256": "bbb8b802cc1f43373c1c86271aeca666c80968c8d32e30d7158649a8a7587da6",
+      "sha256": "b2e566f5ed95c9a13df4d75bcd477482c3c8e52c5f08d22477ddc69cf4e32e8d",
       "source_override": "local-installed-english-skills-20260922"
     },
     {
       "path": "skills/mip-primal-improve/references/search-playbook.md",
       "local": "data/skill-study/packages/primal-current/references/search-playbook.md",
-      "sha256": "b2e23060e7b92cc918917399a7e675edc26088bb51242bda7372a341ddd3ad3c",
+      "sha256": "3bb7266f7e696f0778a9d1c6f6eaf236371a658624dedbd842c319b2384ff16c",
       "source_override": "local-installed-english-skills-20260922"
     },
     {
       "path": "skills/mip-primal-improve/references/validation-and-measurement.md",
       "local": "data/skill-study/packages/primal-current/references/validation-and-measurement.md",
-      "sha256": "58443c1500403a26ef5233f19a65ae734f26caa770a2b2ac9e96ffaa21ab598b",
+      "sha256": "e26bc26cc9eeb28162d27f2ade5d989d30383494477df9015d42c372dd819786",
       "source_override": "local-installed-english-skills-20260922"
     },
     {
@@ -236,7 +236,7 @@
     {
       "path": "skills/mip-dual-improve/references/corpus-index.json",
       "local": "data/skill-study/packages/dual-current/references/corpus-index.json",
-      "sha256": "39cd13c7a121ee7115679a721fd724e5122cd6512ffcf71d14fb7b2d5c4b5367",
+      "sha256": "7e3ea98882504e569640ffb41da85d7db71dcec1d44f98eef92e0ba4747df107",
       "source_override": "local-installed-english-skills-20260922"
     },
     {
@@ -248,13 +248,13 @@
     {
       "path": "skills/mip-dual-improve/references/experiment-history.md",
       "local": "data/skill-study/packages/dual-current/references/experiment-history.md",
-      "sha256": "07db741c04e229224437c9a1f81d4394cd8fad42ec2390fde53a58dc2b12ba0b",
+      "sha256": "b4bea162098aaf330d63fd401228f3c2850cf26c673241fbce81400ba8ada1e2",
       "source_override": "local-installed-english-skills-20260922"
     },
     {
       "path": "skills/mip-dual-improve/references/experiment-runs.json",
       "local": "data/skill-study/packages/dual-current/references/experiment-runs.json",
-      "sha256": "bd3ca9a69dfd0de7b083f3748de25e56c85dcf85396209444cd7704703501749",
+      "sha256": "464692efc253c84d57d9fc95b19868efa051877f7f1874ee69d243ad389ec851",
       "source_override": "local-installed-english-skills-20260922"
     },
     {
@@ -282,5 +282,6 @@
       "date": "2026-09-22",
       "scope": "primal-current and dual-current packages; frozen experiment packages remain pinned to the original repository commit"
     }
-  }
+  },
+  "public_copy_note": "Published text is privacy-sanitized. Current hashes describe the public copies; original experiment hashes remain historical references. Numerical results and solver acceptance criteria are unchanged."
 }

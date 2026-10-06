@@ -1,6 +1,6 @@
 # Mechanisms Behind Success and No-Improvement Controls
 
-All repository links are pinned to `b329d3812c5acf51733e0e9f7baabdda7b1008d2` and were accessed on 2026-09-14. The explanations of why a mechanism may be reusable are mechanism analyses; they are not evidence of the original GPT's decision rationale or of a causal speedup. Reported times are historical records, not timings from the current reproduction.
+All repository links are pinned to `b329d3812c5acf51733e0e9f7baabdda7b1008d2` and were accessed on 2026-09-14. The explanations of why a mechanism may be reusable are mechanism analyses; they are not evidence of the original LLM's decision rationale or of a causal speedup. Reported times are historical records, not timings from the current reproduction.
 
 ## Align the Statistics First
 
@@ -15,7 +15,7 @@ Sources: [latest README results table](https://github.com/Huangyc98/MIPLIB_openp
 
 ## Mechanisms for All 23 Instances in the Project Table
 
-| Instance | Result | Action That Produced the Improvement | Lesson for GPT / Attribution Boundary |
+| Instance | Result | Action That Produced the Improvement | Lesson for LLM / Attribution Boundary |
 |---|---|---|---|
 | allcolor58 | 258→42 | Started from the public `allcolor10` construction, ran an exact residual configuration search, and released capacity types | Fixed capacities stalled after covering 55/58 stores; allowing capacity changes completed the construction. This was an external seed plus a project construction, so the result cannot be attributed solely to the parity lower bound |
 | circ10-3 | 256→242 | Recovered the CIRC10 scheduling encoding, then constructed and validated a 242 witness | Use the original problem literature, constructions, and mappings; there is no need to start from an anonymous MPS alone |

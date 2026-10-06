@@ -1,6 +1,6 @@
 # Decision-trace audit
 
-Use this reference when the task asks why an earlier GPT/agent chose a route, or when archived prompts, controller state, chats, and reports disagree.
+Use this reference when the task asks why an earlier LLM/agent chose a route, or when archived prompts, controller state, chats, and reports disagree.
 
 ## Authority order
 

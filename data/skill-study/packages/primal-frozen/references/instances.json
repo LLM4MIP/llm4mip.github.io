@@ -99,7 +99,7 @@
       "repository_global_conclusion": true,
       "next_primal_route": "A global conclusion is archived. Verify its evidence for the same original model before doing any further primal search; no better primal needs to be sought once it is confirmed.",
       "transferable_route": "Start from a sibling configuration; release capacity classes and generate new configurations instead of selecting only from the old dictionary.",
-      "limitation": "Both the old capacity fixation and the 97-configuration dictionary failed locally. Success required allowing new capacities and configurations; the post hoc parity proof must not be presented as the GPT agent's earlier motivation.",
+      "limitation": "Both the old capacity fixation and the 97-configuration dictionary failed locally. Success required allowing new capacities and configurations; the post hoc parity proof must not be presented as the LLM agent's earlier motivation.",
       "project_comparison": {
         "baseline": "258",
         "copt_10h": "6695",

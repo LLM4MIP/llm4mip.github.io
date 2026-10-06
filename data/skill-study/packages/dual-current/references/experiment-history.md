@@ -18,13 +18,13 @@ Read this reference only when reproducing, comparing, or extending the controlle
 - Scope: the 18 non-closed instances only. Each accepted final terminal model from the Gurobi-driven campaign was frozen byte-for-byte; the terminal backend changed to COPT 8.0.4. Per-instance terminal time limit, 8 threads, batch order, mapping, and postprocessing were retained.
 - Outcome relative to the source Gurobi strongest bound: COPT/replacement stronger on 2 instances (`graphdraw-grafo2`, `zeil`), equal on 3 (`polygonpack4-10`, `scpm1`, `supportcase22`), and weaker on 13. Twelve retained solver-independent fallbacks were checked; none displaced the COPT terminal value.
 - Evidence: all 18 results and five strict batch barriers passed the final end-to-end audit. Canonical `summary.csv` SHA-256 is `6584fb0c16fbad95fc155fe0a0dedad77da1befebf226c6bd8452050527ae0bb`; `comparison.csv` SHA-256 is `74e0ee996f01e9dc1e7bc12400e326e2655b6ed2dec19deaaf7bea4191f96da5`.
-- Interpretation: this is a backend replay of routes selected during Gurobi-driven research. It is not a blind solver benchmark. The source used Xeon 8358 / Ubuntu 20.04.6, while the replay used Xeon 8469C / Ubuntu 22.04.3; solver-specific settings were recorded as direct, approximate, unavailable, or model transformations.
+- Interpretation: this is a backend replay of routes selected during Gurobi-driven research. It is not a blind solver benchmark. Compute-environment details are omitted; solver-specific settings were recorded as direct, approximate, unavailable, or model transformations.
 
 ## Handoff locations
 
-- AI-facing dossier on altman: `/data/operationgpt/huangyicheng_temp/dual_skill_handoff_20260920T1957CST`
-- Full COPT replay on altman: `/data/operationgpt/huangyicheng_temp/miplib20_dual_skill_copt_replay_20260920T0212CST`
-- Original full Dual Skill evidence, local snapshot: `D:/sufe/AI4MIP/miplib20_dual_skill_20260917T0231CST`
-- Original execution tree recorded by the campaign: `/data1/wyc/miplib20_dual_skill_20260917T0231CST` on `euler4`.
+- AI-facing dossier on COMPUTE_HOST: `LOCAL_ARTIFACT`
+- Full COPT replay on COMPUTE_HOST: `LOCAL_ARTIFACT`
+- Original full Dual Skill evidence, local snapshot: `LOCAL_ARTIFACT`
+- Original execution tree recorded by the campaign: `LOCAL_ARTIFACT` on `COMPUTE_HOST`.
 
 For later general-skill or primal-skill comparisons, join on instance name **and original MPS SHA-256**. Compare minimization dual bounds by larger-is-stronger and primal bounds by smaller-is-better. Keep numerical global bounds, independently certified bounds, and verified primal values in separate fields; compute a joint gap only when both endpoints are valid for the same original model.

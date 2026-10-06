@@ -15,7 +15,7 @@ Search in this order: existing repository solutions, all official revisions, sib
 - **External data:** For CVRP, first reconcile customers, distance rounding, demands, capacity, and fleet-size semantics. Given routes can provide an upper bound whenever they lift to a feasible original-model solution; obtaining that upper bound does not require first proving that every original solution projects into the external model.
 - **Symmetric labels:** For `nj`, relabel the same partition to satisfy the target formulation, then regenerate roots and flows. Do not arbitrarily add every possible root-ordering constraint.
 
-A strong external solution may help the user obtain a better primal quickly, but its provenance must not be labeled as an original GPT construction.
+A strong external solution may help the user obtain a better primal quickly, but its provenance must not be labeled as an original LLM construction.
 
 ## 2. No Incumbent: Decompose Feasibility into Constructible Invariants
 

@@ -402,7 +402,7 @@
         "decision": "Accepted",
         "evidence": "Exact original-MPS projection plus an external fixed-fleet result and historical numerical exclusions",
         "method": "Cover all fleet sizes: use the external result 751 for K=5 and successful Gurobi exclusions for K>=6.",
-        "limits": "Accepted under a standard allowing external results and reasonable solver logs. The external fixed-5-vehicle computation and commercial searches for K>=6 were not rerun in this audit. The timed-out original-MPS COPT log on altman is not a successful exclusion; objective 0 in a cutoff feasibility model is not a routing lower bound.",
+        "limits": "Accepted under a standard allowing external results and reasonable solver logs. The external fixed-5-vehicle computation and commercial searches for K>=6 were not rerun in this audit. The timed-out original-MPS COPT log on COMPUTE_HOST is not a successful exclusion; objective 0 in a cutoff feasibility model is not a routing lower bound.",
         "latest_commercial_rerun": {
           "status": "TIME_LIMIT",
           "seconds": 60,

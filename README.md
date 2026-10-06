@@ -35,9 +35,14 @@ No solver or network access is required to rebuild from the checked-in inputs:
 python scripts/build_site_data.py
 python scripts/validate_results.py
 python scripts/check_english_content.py
+python scripts/check_public_content.py
 ```
 
 The 20-instance experiment has its own source manifest and acceptance criteria.
 Updating the full-study catalogue does not change that experiment's results.
+
+Public reports and download bundles omit identifying model configurations and
+compute-environment details. Current source manifests describe the sanitized
+public copies; original experiment hashes remain historical references.
 
 GitHub Pages publishes the `main` branch root at https://llm4mip.github.io/.

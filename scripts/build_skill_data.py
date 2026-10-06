@@ -1,4 +1,4 @@
-"""Build focused primal/dual comparisons from pinned, byte-preserved study tables."""
+"""Build focused comparisons from hash-verified, privacy-sanitized study tables."""
 from pathlib import Path
 from collections import Counter
 from decimal import Decimal, getcontext
@@ -114,9 +114,11 @@ def main():
     for folder in (ROOT/'data/skill-study/packages').iterdir():
         files=[(p.relative_to(folder).as_posix(),p) for p in folder.rglob('*') if p.is_file()]
         files.append(('LICENSE',ROOT/'LICENSE'))
+        if folder.name.endswith('-frozen'):
+            files.append(('ENGLISH-TRANSLATION.md',ROOT/'docs/english-localization.md'))
         archive(ROOT/f'downloads/{folder.name}-skill.tar.gz',files)
     evidence=ROOT/'data/skill-study'
-    archive(ROOT/'downloads/primal-dual-evidence.tar.gz',[(p.relative_to(ROOT).as_posix(),p) for p in evidence.rglob('*') if p.is_file()]+[('scripts/build_skill_data.py',Path(__file__)),('LICENSE',ROOT/'LICENSE')])
+    archive(ROOT/'downloads/primal-dual-evidence.tar.gz',[(p.relative_to(ROOT).as_posix(),p) for p in evidence.rglob('*') if p.is_file()]+[('scripts/build_skill_data.py',Path(__file__)),('LICENSE',ROOT/'LICENSE'),('ENGLISH-TRANSLATION.md',ROOT/'docs/english-localization.md'),('data/english-localization-manifest.json',ROOT/'data/english-localization-manifest.json')])
     print(json.dumps(stats))
 
 if __name__=='__main__':main()

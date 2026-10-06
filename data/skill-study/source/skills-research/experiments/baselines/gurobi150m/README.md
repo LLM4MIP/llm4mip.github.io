@@ -1,7 +1,7 @@
 # Gurobi 20-instance run
 
-Started 2026-09-20 approximately 01:14 China time on euler4 as wyc.
-Remote directory: `/data1/wyc/gurobi20_20260920T011104`.
+Started 2026-09-20 approximately 01:14 China time on COMPUTE_HOST as COMPUTE_HOST.
+Remote directory: `LOCAL_ARTIFACT`.
 
 Five batches, in the user-provided order, four instances each. Every model uses Gurobi 13.0.2, Threads=8 and TimeLimit=9000 seconds. Default search settings and Seed=0; original MPS only, no warm starts or previous cuts. A batch barrier waits for all four processes before starting the next batch. Total maximum solver time is approximately 12.5 hours plus loading, output, and resource-wait overhead; early termination may reduce this.
 
@@ -21,4 +21,4 @@ The model's numerical solution-quality violations are saved with the final resul
 
 `sync_results.ps1` polls status and summaries every five minutes and downloads all instance outputs after remote completion. It requires the local machine to remain awake and connected; remote computation continues independently. `SYNC_COMPLETE.txt` indicates successful final download. The script can be restarted safely if the local machine sleeps or reboots.
 
-Read remote progress: `ssh euler4 'cat /data1/wyc/gurobi20_20260920T011104/state.json'`.
+Remote progress was read from the archived experiment state.

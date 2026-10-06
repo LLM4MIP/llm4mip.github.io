@@ -13,7 +13,7 @@ This experiment used the skill frozen on 2026-09-14. The currently distributed r
 
 The freeze version is in [`sources/skill-used/` ](sources/skill-used/), the current version is in [`skills/mip-primal-improve/` ](../../../skills/mip-primal-improve/)]. The default sequence of the current skill is: Pre-detect COPT; COPT missing; License unavailable or unable to maintain the model semantics, then search for Gurobi; CuOPT under applicable conditions, and other compatible backend.
 
-The experiment was actually primarily conducted at Euler4 using Gurobi 13.0.2. Altman's COPT 8.0.4 passed the four parallel small model capability test and served as a public model source and an optional back-end; it did not become the main back-end of the final 20 instance experiment.
+The experiment was actually primarily conducted at COMPUTE_HOST using Gurobi 13.0.2. COMPUTE_HOST's COPT 8.0.4 passed the four parallel small model capability test and served as a public model source and an optional back-end; it did not become the main back-end of the final 20 instance experiment.
 
 ##  Fixed protocol
 
@@ -25,7 +25,7 @@ The experiment was actually primarily conducted at Euler4 using Gurobi 13.0.2. A
 -  Schedule: 5 fixed batch, each batch 4 instance; evidence integrity barrier between batches
 -  Maximum concurrency: 4 for a different instance
 -  Base Seeds: 20260911; the actual seeds and parameters of each phase are maintained in a complete running list
--  Euler4 Per instance Resources: 12 CPU slot, Gurobi `SoftMemLimit=80` decimal GB; declared global upper limit is 48 slots, 320 GiB
+-  COMPUTE_HOST Per instance Resources: 12 CPU slot, Gurobi `SoftMemLimit=80` decimal GB; declared global upper limit is 48 slots, 320 GiB
 -  Significantly improved threshold: directional improvement strict greater than `max(1e-6, 1e-9 × max(1, |verified baseline|))`
 -  Data isolation: prohibited from reading the prompt, script, log, solution, report and objective instance of other skill experiments, internal research; objective case queries of skill are closed
 
@@ -109,16 +109,16 @@ This experiment examined only primal feasible solution and incumbent improvement
 6.  `instances/<name>/best.sol.gz` is the final primespace solution for deterministic compression. SHA-256 after solution compression must be equal to `validation.json` and `source_sha256` in [`artifact_manifest.jsonl` ](artifact_manifest.jsonl)].
 7.  When the original log, model, phase ledger, or restart state is required, move to the complete archive according to the artifact manifest.
 
-The complete work is archived at Euler4:
+The complete work is archived at COMPUTE_HOST:
 
 ```text
-/data1/wyc/mip_primal_skill20_20260914T2328CST
+LOCAL_ARTIFACT
 ```
 
 The current Windows transport mirror:
 
 ```text
-D:\sufe\AI4MIP\reports\mip_primal_skill20_20260914T2328CST
+LOCAL_ARTIFACT
 ```
 
 Local snapshot statistics for 29,868 files, 4,210,303,507 bytes. Git packs only retain core evidence of about 4.8 MiB, machine tables and compressed final solution; original logs, MPS, solution pools and intermediate files are positioned by path, size and SHA-256 index.

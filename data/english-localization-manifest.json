@@ -19,13 +19,13 @@
       "archive": null,
       "path": "data/skill-study/packages/dual-frozen/references/corpus-index.json",
       "sha": "b8a33e831b049974f00cb52d62e32fcb3106753edb9616c926541af7b327d908",
-      "translated_sha256": "01daa210e4605df5d6e0b7ab10237771a37ef4e2cb424b43f865b537ab8da13f"
+      "translated_sha256": "763a0f749eb6a536cd94a2543ea3361d32ba8296de20b5c30c6f0da00a03eb60"
     },
     {
       "archive": null,
       "path": "data/skill-study/packages/primal-frozen/SKILL.md",
       "sha": "1bab6d94a097dcb4f0506a4b03120aee57fa9c829ca7250ed066fd7782feb341",
-      "translated_sha256": "5e74581fa6d833cfe5c834e57b6c2b679a80ef44cde8f108aa8f08261e05e0c0"
+      "translated_sha256": "0b1517af76548e225342f7ec7c9a816b92587db0278dd0f39bc51135e4de5e47"
     },
     {
       "archive": null,
@@ -37,67 +37,67 @@
       "archive": null,
       "path": "data/skill-study/packages/primal-frozen/references/casebook.md",
       "sha": "177273de79fe460002d9654b4e539f131619152a3a80fb4c1f3b152778361bec",
-      "translated_sha256": "99ee2c18726a32193118c42d7f5beefdb481ae0703803675e560a8e2121f9cc0"
+      "translated_sha256": "52e696ec38b6ae97a9d50ec2603f3a08d6622bfab401ddabd3874da4066ee38e"
     },
     {
       "archive": null,
       "path": "data/skill-study/packages/primal-frozen/references/instances.json",
       "sha": "98a7f51321e571b6c2fd4fea8f09a1b8780ec50a5c640bbb369fef98533c11f5",
-      "translated_sha256": "34308cb783a5868c5b03764a21aa21b7f4fa2b0f2cd1a415682114cad353fe07"
+      "translated_sha256": "1a715bb5d655608eefd88f8483ca459bc6faa6b4a0974e46fe49e40907837429"
     },
     {
       "archive": null,
       "path": "data/skill-study/packages/primal-frozen/references/instances.md",
       "sha": "47ba37e6da249b85851a4d451226131a7387b82ef48338ee912ba25a806782d3",
-      "translated_sha256": "46adbd1ece5f7e89aa9b1600fe08089e859ac5d3af50cbbbe1a5c8679fe3a8f1"
+      "translated_sha256": "4b344cb3ae949b9b551966c12674f171073716c4fb1c3a92a37ccdc6c8b96e2e"
     },
     {
       "archive": null,
       "path": "data/skill-study/packages/primal-frozen/references/search-playbook.md",
       "sha": "d39bf202d468303a745c8c3475c988c09fd9ac530ee172064e5fd043cdd82f49",
-      "translated_sha256": "d83696ecd4300b3050553c547498712ea140ea5b18e5cfa01ed730a4c7eae65c"
+      "translated_sha256": "9f83ffc50cf9267df6e7345606f65fc9b9d5fa9647a4fb898c9c488eb32335c8"
     },
     {
       "archive": null,
       "path": "data/skill-study/packages/primal-frozen/references/validation-and-measurement.md",
       "sha": "87109ba132c80c8d0338cf08c051342d9ce3abfb0a354205c27a4887a1e3cae4",
-      "translated_sha256": "248817a2827ecd4fcaf2de0206705229974e207c2da222b817f4b7322c90de33"
+      "translated_sha256": "44cef9cfb3706b4117787a6c6079550c55d0b0cdf735a86272399fec039f071d"
     },
     {
       "archive": null,
       "path": "data/skill-study/source/skills-research/experiments/no-skill/report.md",
       "sha": "b823d230cbce5926e05f32924384211a8c10a48f1e4526e1ee2c5b1ca2dbd28d",
-      "translated_sha256": "7ddc5e9f3f2b75b4cbe7124eab4ea9f77224637dda7286153b7501038af895c6"
+      "translated_sha256": "93903c69f2add3368ad9ce70af27b590ccd4107e56372cf5768918b8d6d82997"
     },
     {
       "archive": null,
       "path": "data/skill-study/source/skills-research/experiments/primal/README.md",
       "sha": "58bb41e01ec4b69284ca1bde53eb1053f4177b4b796f9ec794d5b7a76032c698",
-      "translated_sha256": "e64a53ffede3e0af5cca5b910866ea01f3a8741c6869cf9a52488b968254917a"
+      "translated_sha256": "7e3a7e01b76cc822c775f01356ff1feb7ff5078d537ed3707b8bc1d1e3354cfd"
     },
     {
       "archive": null,
       "path": "data/skill-study/source/skills-research/skills/SKILL_SOURCE_INSTANCES.csv",
       "sha": "054ac480009ee58823119c1b4fe4940ad4969e260df252d0edf3ea066559857a",
-      "translated_sha256": "4aaf286c9f0a6d3e80b9db765291c78695c408f58c6abd4af73e2561a4be2105"
+      "translated_sha256": "cd5aca59772201e74911e95d67265d664b23b8ab7bfb7e182318d1b61f9ae5f6"
     },
     {
       "archive": "downloads/dual-frozen-skill.tar.gz",
       "path": "references/corpus-index.json",
       "sha": "b8a33e831b049974f00cb52d62e32fcb3106753edb9616c926541af7b327d908",
-      "translated_sha256": "01daa210e4605df5d6e0b7ab10237771a37ef4e2cb424b43f865b537ab8da13f"
+      "translated_sha256": "763a0f749eb6a536cd94a2543ea3361d32ba8296de20b5c30c6f0da00a03eb60"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/packages/dual-frozen/references/corpus-index.json",
       "sha": "b8a33e831b049974f00cb52d62e32fcb3106753edb9616c926541af7b327d908",
-      "translated_sha256": "01daa210e4605df5d6e0b7ab10237771a37ef4e2cb424b43f865b537ab8da13f"
+      "translated_sha256": "763a0f749eb6a536cd94a2543ea3361d32ba8296de20b5c30c6f0da00a03eb60"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/packages/primal-frozen/SKILL.md",
       "sha": "1bab6d94a097dcb4f0506a4b03120aee57fa9c829ca7250ed066fd7782feb341",
-      "translated_sha256": "5e74581fa6d833cfe5c834e57b6c2b679a80ef44cde8f108aa8f08261e05e0c0"
+      "translated_sha256": "0b1517af76548e225342f7ec7c9a816b92587db0278dd0f39bc51135e4de5e47"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
@@ -109,55 +109,55 @@
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/packages/primal-frozen/references/casebook.md",
       "sha": "177273de79fe460002d9654b4e539f131619152a3a80fb4c1f3b152778361bec",
-      "translated_sha256": "99ee2c18726a32193118c42d7f5beefdb481ae0703803675e560a8e2121f9cc0"
+      "translated_sha256": "52e696ec38b6ae97a9d50ec2603f3a08d6622bfab401ddabd3874da4066ee38e"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/packages/primal-frozen/references/instances.json",
       "sha": "98a7f51321e571b6c2fd4fea8f09a1b8780ec50a5c640bbb369fef98533c11f5",
-      "translated_sha256": "34308cb783a5868c5b03764a21aa21b7f4fa2b0f2cd1a415682114cad353fe07"
+      "translated_sha256": "1a715bb5d655608eefd88f8483ca459bc6faa6b4a0974e46fe49e40907837429"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/packages/primal-frozen/references/instances.md",
       "sha": "47ba37e6da249b85851a4d451226131a7387b82ef48338ee912ba25a806782d3",
-      "translated_sha256": "46adbd1ece5f7e89aa9b1600fe08089e859ac5d3af50cbbbe1a5c8679fe3a8f1"
+      "translated_sha256": "4b344cb3ae949b9b551966c12674f171073716c4fb1c3a92a37ccdc6c8b96e2e"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/packages/primal-frozen/references/search-playbook.md",
       "sha": "d39bf202d468303a745c8c3475c988c09fd9ac530ee172064e5fd043cdd82f49",
-      "translated_sha256": "d83696ecd4300b3050553c547498712ea140ea5b18e5cfa01ed730a4c7eae65c"
+      "translated_sha256": "9f83ffc50cf9267df6e7345606f65fc9b9d5fa9647a4fb898c9c488eb32335c8"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/packages/primal-frozen/references/validation-and-measurement.md",
       "sha": "87109ba132c80c8d0338cf08c051342d9ce3abfb0a354205c27a4887a1e3cae4",
-      "translated_sha256": "248817a2827ecd4fcaf2de0206705229974e207c2da222b817f4b7322c90de33"
+      "translated_sha256": "44cef9cfb3706b4117787a6c6079550c55d0b0cdf735a86272399fec039f071d"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/source/skills-research/experiments/no-skill/report.md",
       "sha": "b823d230cbce5926e05f32924384211a8c10a48f1e4526e1ee2c5b1ca2dbd28d",
-      "translated_sha256": "7ddc5e9f3f2b75b4cbe7124eab4ea9f77224637dda7286153b7501038af895c6"
+      "translated_sha256": "93903c69f2add3368ad9ce70af27b590ccd4107e56372cf5768918b8d6d82997"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/source/skills-research/experiments/primal/README.md",
       "sha": "58bb41e01ec4b69284ca1bde53eb1053f4177b4b796f9ec794d5b7a76032c698",
-      "translated_sha256": "e64a53ffede3e0af5cca5b910866ea01f3a8741c6869cf9a52488b968254917a"
+      "translated_sha256": "7e3a7e01b76cc822c775f01356ff1feb7ff5078d537ed3707b8bc1d1e3354cfd"
     },
     {
       "archive": "downloads/primal-dual-evidence.tar.gz",
       "path": "data/skill-study/source/skills-research/skills/SKILL_SOURCE_INSTANCES.csv",
       "sha": "054ac480009ee58823119c1b4fe4940ad4969e260df252d0edf3ea066559857a",
-      "translated_sha256": "4aaf286c9f0a6d3e80b9db765291c78695c408f58c6abd4af73e2561a4be2105"
+      "translated_sha256": "cd5aca59772201e74911e95d67265d664b23b8ab7bfb7e182318d1b61f9ae5f6"
     },
     {
       "archive": "downloads/primal-frozen-skill.tar.gz",
       "path": "SKILL.md",
       "sha": "1bab6d94a097dcb4f0506a4b03120aee57fa9c829ca7250ed066fd7782feb341",
-      "translated_sha256": "5e74581fa6d833cfe5c834e57b6c2b679a80ef44cde8f108aa8f08261e05e0c0"
+      "translated_sha256": "0b1517af76548e225342f7ec7c9a816b92587db0278dd0f39bc51135e4de5e47"
     },
     {
       "archive": "downloads/primal-frozen-skill.tar.gz",
@@ -169,31 +169,31 @@
       "archive": "downloads/primal-frozen-skill.tar.gz",
       "path": "references/casebook.md",
       "sha": "177273de79fe460002d9654b4e539f131619152a3a80fb4c1f3b152778361bec",
-      "translated_sha256": "99ee2c18726a32193118c42d7f5beefdb481ae0703803675e560a8e2121f9cc0"
+      "translated_sha256": "52e696ec38b6ae97a9d50ec2603f3a08d6622bfab401ddabd3874da4066ee38e"
     },
     {
       "archive": "downloads/primal-frozen-skill.tar.gz",
       "path": "references/instances.json",
       "sha": "98a7f51321e571b6c2fd4fea8f09a1b8780ec50a5c640bbb369fef98533c11f5",
-      "translated_sha256": "34308cb783a5868c5b03764a21aa21b7f4fa2b0f2cd1a415682114cad353fe07"
+      "translated_sha256": "1a715bb5d655608eefd88f8483ca459bc6faa6b4a0974e46fe49e40907837429"
     },
     {
       "archive": "downloads/primal-frozen-skill.tar.gz",
       "path": "references/instances.md",
       "sha": "47ba37e6da249b85851a4d451226131a7387b82ef48338ee912ba25a806782d3",
-      "translated_sha256": "46adbd1ece5f7e89aa9b1600fe08089e859ac5d3af50cbbbe1a5c8679fe3a8f1"
+      "translated_sha256": "4b344cb3ae949b9b551966c12674f171073716c4fb1c3a92a37ccdc6c8b96e2e"
     },
     {
       "archive": "downloads/primal-frozen-skill.tar.gz",
       "path": "references/search-playbook.md",
       "sha": "d39bf202d468303a745c8c3475c988c09fd9ac530ee172064e5fd043cdd82f49",
-      "translated_sha256": "d83696ecd4300b3050553c547498712ea140ea5b18e5cfa01ed730a4c7eae65c"
+      "translated_sha256": "9f83ffc50cf9267df6e7345606f65fc9b9d5fa9647a4fb898c9c488eb32335c8"
     },
     {
       "archive": "downloads/primal-frozen-skill.tar.gz",
       "path": "references/validation-and-measurement.md",
       "sha": "87109ba132c80c8d0338cf08c051342d9ce3abfb0a354205c27a4887a1e3cae4",
-      "translated_sha256": "248817a2827ecd4fcaf2de0206705229974e207c2da222b817f4b7322c90de33"
+      "translated_sha256": "44cef9cfb3706b4117787a6c6079550c55d0b0cdf735a86272399fec039f071d"
     },
     {
       "archive": null,
@@ -241,13 +241,13 @@
       "archive": "downloads/skill-experiment-evidence.tar.gz",
       "path": "milp-structure-skill-effect-20260913/sources/no-skill-report.md",
       "sha": "14e279ff9d049e1baede8d9482102e4f1e4dfa9610b238ffbfce2eeb2f2fc897",
-      "translated_sha256": "e3f3238cd2ae25c9577b8ac64aa66ec3d6423b45b20c7843b6142cf5c78afed0"
+      "translated_sha256": "6a14ad2909ecdec068250d48922c000204cab7cb47e9322f6e64a6a4fd96713c"
     },
     {
       "archive": "downloads/skill-experiment-evidence.tar.gz",
       "path": "milp-structure-skill-effect-20260913/sources/skill-report.zh.md",
       "sha": "adc8d3a81b07f5885a5a872c69d0abf00174606a36ec267546a2e6343817cb3e",
-      "translated_sha256": "488910c65105a2aa5989063ba0280b6e9196cb314108d89db399f83b8e1eae07"
+      "translated_sha256": "8b5d04e563a81487b82812c81cc4dfc0020d48ce3d72e571b0e9400c5648aedc"
     },
     {
       "archive": null,
