@@ -198,7 +198,7 @@ p { margin: 0 0 1rem; text-align: justify; }
 .legend.legend-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .legend.legend-6 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .legend + .note { margin-top: 1rem; }
-.legend-item { display: grid; grid-template-columns: 8px minmax(0, 1fr) auto; align-items: start; gap: 0.5rem; color: var(--muted); font-size: 0.76rem; line-height: 1.5; }
+.legend-item { display: grid; grid-template-columns: 8px minmax(0, max-content) max-content; justify-content: start; align-items: start; gap: 0.5rem; color: var(--muted); font-size: 0.76rem; line-height: 1.5; }
 .swatch { width: 8px; height: 8px; margin-top: 0.4em; border-radius: 1px; }
 .legend-item strong { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
 .bar-list { display: grid; gap: 0.9rem; }
