@@ -54,6 +54,8 @@ def replace_block(text, key, replacement):
 
 def main():
     rows=read('data/campaign-catalogue.json'); metrics=read('data/campaign-metrics.json')
+    display_summaries=read('data/campaign-display-summaries.json')
+    assert set(display_summaries)<=set(r['instance'] for r in rows)
     assert len(rows)==len({r['instance'] for r in rows})==metrics['instances']
     assert sum(r['primal_improvement'] for r in rows)==metrics['primal_improvements']
     assert sum(r['dual_improvement'] for r in rows)==metrics['dual_improvements']
@@ -111,10 +113,13 @@ in its own result. These are project results against fixed baselines, not a live
         archive=folder/f'{name}-findings.tar.gz'; bundle(archive,{f'{name}-findings/{k}':v for k,v in files.items()})
         all_files[f'instances/{name}/summary.md']=summary.encode()
         all_files[f'instances/{name}/result.json']=row_json.encode()
+        details=' '.join(filter(None,[row['evidence'],row['notes']]))
+        brief=display_summaries.get(name,details)
+        assert brief and len(brief)<=180, (name,'Provide a concise display summary')
         records.append(dict(instance=name,status=status,statusLabel=conclusion,conclusion=row['conclusion'],
             bestResult=row['final_primal'],bestBound=row['final_dual'],
             bestResultDisplay={'value':row['primal_display']},bestBoundDisplay={'value':row['dual_display']},
-            studyStatus=' '.join(filter(None,[row['evidence'],row['notes']])),
+            studyStatus=details,resultSummary=brief,
             evidenceGrade=grade,evidenceLevel=GRADES[grade][0] if grade else None,
             primalImprovement=row['primal_improvement'],dualImprovement=row['dual_improvement'],
             miplibPrimal=row['v36_primal'],coptDual=row['copt10h_dual'],primalDelta=row['primal_gain'],dualDelta=row['dual_gain'],

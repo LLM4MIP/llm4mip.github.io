@@ -66,7 +66,7 @@
       if (status === "resolved" && record.status === "open") return false;
       if (!["all", "resolved", "primal-improved", "dual-improved"].includes(status) && record.status !== status) return false;
       if (!term) return true;
-      return [record.instance, record.bestResult, record.bestBound, record.studyStatus, record.globalMethod, record.evidenceLevel]
+      return [record.instance, record.bestResult, record.bestBound, record.resultSummary, record.studyStatus, record.globalMethod, record.evidenceLevel]
         .filter(Boolean).join(" ").toLowerCase().includes(term);
     });
 
@@ -84,7 +84,7 @@
         statusCell,
         measureCell(record.bestResultDisplay),
         measureCell(record.bestBoundDisplay),
-        cell(record.studyStatus, "finding"),
+        cell(record.resultSummary ?? record.studyStatus, "finding"),
         linksCell(record)
       );
       body.append(row);

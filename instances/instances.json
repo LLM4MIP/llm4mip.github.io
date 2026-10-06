@@ -13,6 +13,7 @@
       "value": "-257"
     },
     "studyStatus": "Optimal, exact geometry crosswalk + published theorem; theorem computation not replayed locally",
+    "resultSummary": "Optimal, exact geometry crosswalk + published theorem; theorem computation not replayed locally",
     "evidenceGrade": "LT",
     "evidenceLevel": "Published-theorem transfer",
     "primalImprovement": false,
@@ -42,6 +43,7 @@
       "value": "42"
     },
     "studyStatus": "Optimal, exact parity certificate and validated witness",
+    "resultSummary": "Optimal, exact parity certificate and validated witness",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": true,
@@ -71,6 +73,7 @@
       "value": "422"
     },
     "studyStatus": "Optimal, exact certificate",
+    "resultSummary": "Optimal, exact certificate",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -100,6 +103,7 @@
       "value": "no new bound"
     },
     "studyStatus": "Exact fixed-unassigned 224-block categorical neighborhood closed; global optimum open",
+    "resultSummary": "Exact fixed-unassigned 224-block categorical neighborhood closed; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -129,6 +133,7 @@
       "value": "3850713.469655116"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
+    "resultSummary": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -158,6 +163,7 @@
       "value": "3532608.74061"
     },
     "studyStatus": "Feasible; global optimum open",
+    "resultSummary": "Feasible; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -187,6 +193,7 @@
       "value": "3344924.0428"
     },
     "studyStatus": "Equivalent Big-M strengthening improves same-budget numerical bound by 554.6058; global optimum open",
+    "resultSummary": "Equivalent Big-M strengthening improves same-budget numerical bound by 554.6058; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -216,6 +223,7 @@
       "value": "-373603474.459638"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
+    "resultSummary": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -245,6 +253,7 @@
       "value": "208"
     },
     "studyStatus": "Optimal, tight-profile CNF/LRAT certificate and exact witness",
+    "resultSummary": "Optimal, tight-profile CNF/LRAT certificate and exact witness",
     "evidenceGrade": "HP",
     "evidenceLevel": "Checked proof trace",
     "primalImprovement": false,
@@ -274,6 +283,7 @@
       "value": "-381"
     },
     "studyStatus": "Feasible; all exchanges through 4→5 ruled out",
+    "resultSummary": "Feasible; all exchanges through 4→5 ruled out",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -303,6 +313,7 @@
       "value": "-27006692630251240"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; public-pattern repair plus OR-hull bounded-box Lagrangian certificate and bounded structural falsification",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; public-pattern repair plus OR-hull bounded-box Lagrangian certificate and bounded structural falsification",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -332,6 +343,7 @@
       "value": "242"
     },
     "studyStatus": "Optimal, exact MPS crosswalk + published exhaustive result",
+    "resultSummary": "Optimal, exact MPS crosswalk + published exhaustive result",
     "evidenceGrade": "LT",
     "evidenceLevel": "Published-theorem transfer",
     "primalImprovement": true,
@@ -361,6 +373,7 @@
       "value": "65928415.306808524"
     },
     "studyStatus": "985 exact item/period neighborhoods closed; 0.7883% global gap; no strict primal improvement",
+    "resultSummary": "985 exact item/period neighborhoods closed; 0.7883% global gap; no strict primal improvement",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -390,6 +403,7 @@
       "value": "73054818.85442139"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; exact fixed-pattern LP recourse plus declared Y/Z neighborhoods and untouched-original confirmation Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Fixed-pattern LP recourse and local neighborhoods; numerical witness not uniformly revalidated.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -419,6 +433,7 @@
       "value": "165"
     },
     "studyStatus": "Feasible; global optimum open; prior radius-10 local result retained",
+    "resultSummary": "Feasible; global optimum open; prior radius-10 local result retained",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -448,6 +463,7 @@
       "value": "937"
     },
     "studyStatus": "Exact set-cover reduction `OPT = 87 + OPT(hard)`; 0.7415% numerical gap; global optimum open",
+    "resultSummary": "Exact set-cover reduction `OPT = 87 + OPT(hard)`; 0.7415% numerical gap; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -477,6 +493,7 @@
       "value": "1055"
     },
     "studyStatus": "Exact set-cover reduction and independently checked dual certificate; global optimum open",
+    "resultSummary": "Exact set-cover reduction and independently checked dual certificate; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -506,6 +523,7 @@
       "value": "932"
     },
     "studyStatus": "Independently replayed disjoint-row-packing certificate; global optimum open",
+    "resultSummary": "Independently replayed disjoint-row-packing certificate; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -535,6 +553,7 @@
       "value": "1401"
     },
     "studyStatus": "Optimal, mixed database/computational evidence; exact MPS projection and rational 17+ bound, but no portable complete lower-bound trace",
+    "resultSummary": "Optimal, mixed database/computational evidence; exact MPS projection and rational 17+ bound, but no portable complete lower-bound trace",
     "evidenceGrade": "MX",
     "evidenceLevel": "Mixed computational evidence",
     "primalImprovement": true,
@@ -564,6 +583,7 @@
       "value": "751"
     },
     "studyStatus": "Optimal, mixed database/computational evidence; no portable exact lower-bound trace",
+    "resultSummary": "Optimal, mixed database/computational evidence; no portable exact lower-bound trace",
     "evidenceGrade": "MX",
     "evidenceLevel": "Mixed computational evidence",
     "primalImprovement": true,
@@ -593,6 +613,7 @@
       "value": "450"
     },
     "studyStatus": "Optimal, exact dynamic program",
+    "resultSummary": "Optimal, exact dynamic program",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -622,6 +643,7 @@
       "value": "12232"
     },
     "studyStatus": "Custom tree incomplete: 33 pending subtrees; no new bound",
+    "resultSummary": "Custom tree incomplete: 33 pending subtrees; no new bound",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -651,6 +673,7 @@
       "value": "578.2171855753"
     },
     "studyStatus": "Feasible; global optimum open",
+    "resultSummary": "Feasible; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -680,6 +703,7 @@
       "value": "local infeasibility certificates"
     },
     "studyStatus": "Global feasibility open",
+    "resultSummary": "Global feasibility open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -709,6 +733,7 @@
       "value": "1748926.03079"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; exact structural quotient and rational certificate chain, audited restricted neighborhoods, and matched untouched-original control",
+    "resultSummary": "Structural quotient and rational certificates; numerical primal witness not uniformly revalidated.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -738,6 +763,7 @@
       "value": "73623.79"
     },
     "studyStatus": "Optimal, exact spanning-tree DP and cost exclusion",
+    "resultSummary": "Optimal, exact spanning-tree DP and cost exclusion",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -767,6 +793,7 @@
       "value": "2707908.7433635984"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded. Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Open; numerical primal and global-bound results. No new project-attributed primal improvement.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -796,6 +823,7 @@
       "value": "11601762.345761254"
     },
     "studyStatus": "The final original-validated primal improves the frozen 18311711.896662273 baseline by 45872.44636634365. The dual is the completed full-original LP optimum 11601762.345761254. Research ended within its original clock, but the initial evidence seal missed the deadline. A later artifact-only repair made zero optimization calls: late_delivery=true and within_original_hard_deadline=false. The published sparse SOL deletes only exactly zero entries from the dense archived SOL, preserving the represented point.",
+    "resultSummary": "Improved feasible solution, checked on the original model; full-model LP lower bound.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -825,6 +853,7 @@
       "value": "178.14457882305123"
     },
     "studyStatus": "The global numerical lower bound is the minimum over a source-audited exhaustive dummy-count/parity partition, including syndrome-class trees. The conditional class bound alone is insufficient. Separate exact source/price certificates prove 118.008983109. The exact feasible primal remains 194.49841415; solver tolerance polishing is recorded separately. Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Numerical global bound from exhaustive partitions; separate exact certificate. Exact primal unchanged.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -854,6 +883,7 @@
       "value": "44641.72316928"
     },
     "studyStatus": "Fixed-design recourse optimum and exact projection blueprint; 45.5792% numerical gap; global optimum open",
+    "resultSummary": "Fixed-design recourse optimum and exact projection blueprint; 45.5792% numerical gap; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -883,6 +913,7 @@
       "value": "23459.58492171858"
     },
     "studyStatus": "Sibling-design transplant improves MIPLIB v36 by 449.99998531942; global optimum open",
+    "resultSummary": "Sibling-design transplant improves MIPLIB v36 by 449.99998531942; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -912,6 +943,7 @@
       "value": "114206.30519394217"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
+    "resultSummary": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -941,6 +973,7 @@
       "value": "-458.919072061"
     },
     "studyStatus": "Feasible; no `1e-6` improvement within bit radius 8; global optimum open",
+    "resultSummary": "Feasible; no `1e-6` improvement within bit radius 8; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -970,6 +1003,7 @@
       "value": "-96.70380539695806"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; material-choice structure recovery, strict fixed-pattern recourse, conflict cliques, symmetry-aware exact/local neighborhoods, redundant indicators, cardinality shell, and strict untouched-original control",
+    "resultSummary": "Material-choice reduction and local search; numerical witness not uniformly revalidated.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -999,6 +1033,7 @@
       "value": "224"
     },
     "studyStatus": "Exact kernelization; global optimum open",
+    "resultSummary": "Exact kernelization; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1028,6 +1063,7 @@
       "value": "1332"
     },
     "studyStatus": "Feasible minimum-prime-implicant witness; global optimum open",
+    "resultSummary": "Feasible minimum-prime-implicant witness; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1057,6 +1093,7 @@
       "value": "93"
     },
     "studyStatus": "Project-derived improvement from attributed external construction; global optimum open",
+    "resultSummary": "Project-derived improvement from attributed external construction; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -1086,6 +1123,7 @@
       "value": "90"
     },
     "studyStatus": "Project-derived improvement from attributed external construction; global optimum open",
+    "resultSummary": "Project-derived improvement from attributed external construction; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -1115,6 +1153,7 @@
       "value": "90"
     },
     "studyStatus": "Strict interval `[90,153]`; LB is our proof, UB is excluded from our primal count; global optimum open Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Proved interval [90, 153]; upper bound excluded from project primal counts. Optimality remains open.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1144,6 +1183,7 @@
       "value": "geometric contradiction"
     },
     "studyStatus": "Infeasible, exact certificate",
+    "resultSummary": "Infeasible, exact certificate",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -1173,6 +1213,7 @@
       "value": "15958"
     },
     "studyStatus": "Optimal, exact interval-order path-cover certificate",
+    "resultSummary": "Optimal, exact interval-order path-cover certificate",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": true,
@@ -1202,6 +1243,7 @@
       "value": "55158"
     },
     "studyStatus": "Optimal, exact interval-order path-cover certificate",
+    "resultSummary": "Optimal, exact interval-order path-cover certificate",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": true,
@@ -1231,6 +1273,7 @@
       "value": "2428"
     },
     "studyStatus": "Optimal, exact endpoint clique/parity certificate",
+    "resultSummary": "Optimal, exact endpoint clique/parity certificate",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -1260,6 +1303,7 @@
       "value": "-15.113116512593401992"
     },
     "studyStatus": "Computational optimum; official lower headline is nonintegral, so no numerical primal improvement is claimed Reported numerical lower bound marginally exceeds primal; retain numerical qualification and do not clamp source values.",
+    "resultSummary": "Computational optimum with a small numerical primal-dual discrepancy; no primal improvement claimed.",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -1289,6 +1333,7 @@
       "value": "-19.36996120464520581"
     },
     "studyStatus": "Computational optimum; independent rerun and original-MPS audit",
+    "resultSummary": "Computational optimum; independent rerun and original-MPS audit",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": true,
@@ -1318,6 +1363,7 @@
       "value": "-36.276966742368865136"
     },
     "studyStatus": "Computational optimum; two master runs and Pair-A/Pair-B full-row audits",
+    "resultSummary": "Computational optimum; two master runs and Pair-A/Pair-B full-row audits",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": true,
@@ -1347,6 +1393,7 @@
       "value": "-19.36996120464520581"
     },
     "studyStatus": "Computational optimum; independent rerun and Pair-A cross-check, no portable formal lower-bound proof",
+    "resultSummary": "Computational optimum; independent rerun and Pair-A cross-check, no portable formal lower-bound proof",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": true,
@@ -1376,6 +1423,7 @@
       "value": "-36.276966742368865136"
     },
     "studyStatus": "Computational optimum; two safe runs, cross-formulation audit, invalid old cuts explicitly rejected",
+    "resultSummary": "Computational optimum; two safe runs, cross-formulation audit, invalid old cuts explicitly rejected",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": true,
@@ -1405,6 +1453,7 @@
       "value": "291.52653003486193"
     },
     "studyStatus": "Solver numerical global optimality; not an exact arithmetic or Lean proof All4 original public vectors fail1e-9; fixed rounded integers/full original continuous repair converge to about291.5265336024; repair is not claimed as a new primal record Reported numerical lower bound marginally exceeds primal; retain numerical qualification and do not clamp source values.",
+    "resultSummary": "Numerical optimality under solver tolerances; repaired primal, with no new public primal record claimed.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -1434,6 +1483,7 @@
       "value": "-23"
     },
     "studyStatus": "P=D=-23; primal row residual 1e-15 < 1e-10 accepted policy; not literal-zero feasibility",
+    "resultSummary": "P=D=-23; primal row residual 1e-15 < 1e-10 accepted policy; not literal-zero feasibility",
     "evidenceGrade": "TC",
     "evidenceLevel": "Tolerance-accepted closure",
     "primalImprovement": false,
@@ -1463,6 +1513,7 @@
       "value": "-42"
     },
     "studyStatus": "Complete 44-face exclusion; 42-face target unresolved",
+    "resultSummary": "Complete 44-face exclusion; 42-face target unresolved",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1492,6 +1543,7 @@
       "value": "-23"
     },
     "studyStatus": "P=D=-23; primal row residual 1e-15 < 1e-10 accepted policy; not literal-zero feasibility",
+    "resultSummary": "P=D=-23; primal row residual 1e-15 < 1e-10 accepted policy; not literal-zero feasibility",
     "evidenceGrade": "TC",
     "evidenceLevel": "Tolerance-accepted closure",
     "primalImprovement": false,
@@ -1521,6 +1573,7 @@
       "value": "-40"
     },
     "studyStatus": "Complete short-face catalogue and rational dual; optimum open",
+    "resultSummary": "Complete short-face catalogue and rational dual; optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1550,6 +1603,7 @@
       "value": "-21"
     },
     "studyStatus": "Optimal, specialized exact exhaustive computation; no standalone proof trace",
+    "resultSummary": "Optimal, specialized exact exhaustive computation; no standalone proof trace",
     "evidenceGrade": "EX",
     "evidenceLevel": "Exhaustive exact verification",
     "primalImprovement": false,
@@ -1579,6 +1633,7 @@
       "value": "5183.93592586653"
     },
     "studyStatus": "Exact flow scaling; conflicting Gurobi 13 zero-gap output rejected; 0.7767% numerical gap; global optimum open",
+    "resultSummary": "Exact flow scaling; conflicting Gurobi 13 zero-gap output rejected; 0.7767% numerical gap; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1608,6 +1663,7 @@
       "value": "3934.3152"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; audited rounded logical cutset strengthening",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; audited rounded logical cutset strengthening",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1637,6 +1693,7 @@
       "value": "4038.441"
     },
     "studyStatus": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 0",
+    "resultSummary": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 0",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -1666,6 +1723,7 @@
       "value": "-14171086.31587"
     },
     "studyStatus": "Exact-decimal primal audit; 0.0114% numerical gap; global optimum open",
+    "resultSummary": "Exact-decimal primal audit; 0.0114% numerical gap; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1695,6 +1753,7 @@
       "value": "no new certified global bound"
     },
     "studyStatus": "Public lower-looking witness is nonintegral; no incumbent improvement claimed",
+    "resultSummary": "Public lower-looking witness is nonintegral; no incumbent improvement claimed",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1724,6 +1783,7 @@
       "value": "-15 published, graph identity not certified"
     },
     "studyStatus": "Feasible; global optimality not locally certified",
+    "resultSummary": "Feasible; global optimality not locally certified",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1753,6 +1813,7 @@
       "value": "-9"
     },
     "studyStatus": "Optimal, original-MPS/CNF/LRAT certificate",
+    "resultSummary": "Optimal, original-MPS/CNF/LRAT certificate",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -1782,6 +1843,7 @@
       "value": "-7"
     },
     "studyStatus": "Optimal, original-MPS/CNF/LRAT certificate",
+    "resultSummary": "Optimal, original-MPS/CNF/LRAT certificate",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -1811,6 +1873,7 @@
       "value": "53513.5"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; objective-graph degree and disconnected-component restricted LNS with original-MPS replay",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; objective-graph degree and disconnected-component restricted LNS with original-MPS replay",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -1840,6 +1903,7 @@
       "value": "31882"
     },
     "studyStatus": "New global geometric proof; historical six-rectangle local exclusion remains separate; global optimum open",
+    "resultSummary": "New global geometric proof; historical six-rectangle local exclusion remains separate; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1869,6 +1933,7 @@
       "value": "58950"
     },
     "studyStatus": "New global geometric proof; historical four-rectangle local exclusion remains separate; global optimum open",
+    "resultSummary": "New global geometric proof; historical four-rectangle local exclusion remains separate; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1898,6 +1963,7 @@
       "value": "2096.755457820071"
     },
     "studyStatus": "Feasible; sparse-exchange prototypes tested; global optimum open",
+    "resultSummary": "Feasible; sparse-exchange prototypes tested; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1927,6 +1993,7 @@
       "value": "12.099305681214467"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
+    "resultSummary": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1956,6 +2023,7 @@
       "value": "2289.659530409"
     },
     "studyStatus": "Feasible; no official-target improvement within `z` radius 8; global optimum open",
+    "resultSummary": "Feasible; no official-target improvement within `z` radius 8; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -1985,6 +2053,7 @@
       "value": "-44339.653641111276"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
+    "resultSummary": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2014,6 +2083,7 @@
       "value": "-44844.32868377851"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
+    "resultSummary": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2043,6 +2113,7 @@
       "value": "135.900242315"
     },
     "studyStatus": "Exact rational dual checked against all columns; global optimum open",
+    "resultSummary": "Exact rational dual checked against all columns; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2072,6 +2143,7 @@
       "value": "135.44891253182323"
     },
     "studyStatus": "The selected 111-duty original 0/1 partition improves the frozen primal 140.74366634 to 140.412332083, with zero original row/domain residuals. Completed original-model COPT gives numerical dual 135.44891253182323. Separate exact raw-source branch-and-price replay proves 67723688451/500000000 by exhaustive region coverage and the minimum over the surviving frontier. Restricted column-pool bounds are excluded.",
+    "resultSummary": "Improved primal with zero original-model residuals; numerical dual and separate exact branch-and-price certificate.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2101,6 +2173,7 @@
       "value": "885"
     },
     "studyStatus": "Validated original partition exchanges improve frozen primal 912.70015745 to 911.94105059. Exact reduced-cost exclusion preserves every solution in the cap-885 region; completed COPT INFEASIBLE in that region, together with the outside-cap cover, proves numerical global lower bound 885. Display the floating excess 885.0000000000076 as 885. The independent exact parity-price certificate is 884462983177/1000000000. Advisory reduced costs used for primal proposals are not asserted dual-feasible.",
+    "resultSummary": "Verified primal improvement; numerical lower bound 885 and separate exact parity-price certificate.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2130,6 +2203,7 @@
       "value": "230"
     },
     "studyStatus": "Two raw-source auditors prove integrality-preserving relaxation of 2734670 assignment columns: 1780414 unique binary-margin intersections and 954256 forced zeros. All original rows/domains/objective are retained. An equivalent global model adds 7920 source-proved gated-day cuts. Completed clean COPT API bound 229.199999999994 rounds to 230 using the exact 5Z objective lattice. F=0,z<=1710 pilots are conditional and cannot supply a standalone global bound. The primal 1715 is unchanged.",
+    "resultSummary": "Source-audited relaxation and cuts give lower bound 230 via the objective lattice. Primal unchanged.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2159,6 +2233,7 @@
       "value": "1074"
     },
     "studyStatus": "Feasible; target-1,080 critical-path study closes two restricted neighborhoods, but global optimum remains open",
+    "resultSummary": "Feasible; target-1,080 critical-path study closes two restricted neighborhoods, but global optimum remains open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2188,6 +2263,7 @@
       "value": "no new bound"
     },
     "studyStatus": "Route RVND/ILS and capacity-preserving compound exchanges tested; global optimum open",
+    "resultSummary": "Route RVND/ILS and capacity-preserving compound exchanges tested; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2217,6 +2293,7 @@
       "value": "247852.13666420686"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
+    "resultSummary": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2246,6 +2323,7 @@
       "value": "985808.9916935659"
     },
     "studyStatus": "Not established; numerical global bound and independently exact count-split bound are separate",
+    "resultSummary": "Not established; numerical global bound and independently exact count-split bound are separate",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2275,6 +2353,7 @@
       "value": "-30627.15922614767"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
+    "resultSummary": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2304,6 +2383,7 @@
       "value": "1125907.0416245167"
     },
     "studyStatus": "2.4138% numerical gap; 5,236 fixed-topology tests; global optimum open",
+    "resultSummary": "2.4138% numerical gap; 5,236 fixed-topology tests; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2333,6 +2413,7 @@
       "value": "221230.41433552347"
     },
     "studyStatus": "Same verified design; prior member-radius-7 result retained; global optimum open",
+    "resultSummary": "Same verified design; prior member-radius-7 result retained; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2362,6 +2443,7 @@
       "value": "-835361895.5863052144840282387439"
     },
     "studyStatus": "Exact certified interval; 0.2126642740% gap; global optimum open",
+    "resultSummary": "Exact certified interval; 0.2126642740% gap; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2391,6 +2473,7 @@
       "value": "3109.9034777596576"
     },
     "studyStatus": "Repository computational closure; official page still `open`; strict primal audit, not yet incorporated into or confirmed by MIPLIB, and no portable exact lower-bound certificate",
+    "resultSummary": "Repository computational closure; official page still `open`; strict primal audit, not yet incorporated into or confirmed by MIPLIB, and no portable exact lower-bound certificate",
     "evidenceGrade": "NS",
     "evidenceLevel": "Floating-point zero-gap verification",
     "primalImprovement": false,
@@ -2420,6 +2503,7 @@
       "value": "107995.45322036758"
     },
     "studyStatus": "UMTS station/user and power-repair neighborhoods produce no material primal improvement. Original-row scaling and audited power/conflict/clique inequalities strengthen the numerical global bound. The final integer decisions equal the repaired baseline decisions.",
+    "resultSummary": "Audited power and conflict cuts strengthen the numerical bound. No material primal improvement.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2449,6 +2533,7 @@
       "value": "1063103.147061621"
     },
     "studyStatus": "Feasible; fixed-charge/network repair tested; global optimum open",
+    "resultSummary": "Feasible; fixed-charge/network repair tested; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2478,6 +2563,7 @@
       "value": "1129725"
     },
     "studyStatus": "Joint fixed-charge transportation neighborhoods improve the primal by4301. Complete integer star pricing gives an exact Lagrangian bound1129724.250837; the proved integer-optimum property strengthens it to1129725.",
+    "resultSummary": "Transportation neighborhoods improve primal; exact star pricing and integer rounding certify the dual bound.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2507,6 +2593,7 @@
       "value": "1102426"
     },
     "studyStatus": "Joint component rewiring and flow repair improve the primal by1482. Complete exact transportation star pricing gives1102425.083897, strengthened to1102426 using the proved integer-optimum property.",
+    "resultSummary": "Flow repair improves primal; exact transportation star pricing certifies the rounded integer lower bound.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2536,6 +2623,7 @@
       "value": "1146484"
     },
     "studyStatus": "Exact all-quantity source/sink star DP certificate and original source mapping",
+    "resultSummary": "Exact all-quantity source/sink star DP certificate and original source mapping",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2565,6 +2653,7 @@
       "value": "1166799"
     },
     "studyStatus": "Balanced blocks and joint flow/activation moves improve the primal by4333. Quantity-dependent cost splitting and two independent star DPs certify1166798.995818, hence the integer bound1166799.",
+    "resultSummary": "Joint flow and activation moves improve primal; two independent dynamic programs certify the lower bound.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2594,6 +2683,7 @@
       "value": "550.5405405405405"
     },
     "studyStatus": "Feasible under the stated tolerance; global optimum open",
+    "resultSummary": "Feasible under the stated tolerance; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2623,6 +2713,7 @@
       "value": "13794494287.470173"
     },
     "studyStatus": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 1809.2635440826416 Use the archived exact primal value rather than the rounded or numerical catalogue display; the original display is retained separately.",
+    "resultSummary": "Exact primal witness retained; numerical solver verification and supplementary certificate.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2652,6 +2743,7 @@
       "value": "22629.32917678247"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
+    "resultSummary": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -2681,6 +2773,7 @@
       "value": "3067.067291069953"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
+    "resultSummary": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2710,6 +2803,7 @@
       "value": "20707.76431845254"
     },
     "studyStatus": "7462 exact copy eliminations; 960 complementary pairs; four-link joint neighborhoods, near-point recourse and periodic search; 99 audited local-cost valid inequalities added individually to complete model",
+    "resultSummary": "Exact copy elimination and complementary pairs; joint neighborhoods and audited valid inequalities.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2739,6 +2833,7 @@
       "value": "48180"
     },
     "studyStatus": "Optimal, exact QAP/cut-enumeration certificate",
+    "resultSummary": "Optimal, exact QAP/cut-enumeration certificate",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -2768,6 +2863,7 @@
       "value": "443920829.19063455"
     },
     "studyStatus": "The lower bound is numerical COPT on a full source-audited global model, with structural signatures and exported row/domain/objective checks. The original feasible incumbent is unchanged. Reduced or fixed primal neighborhoods are excluded from global aggregation.",
+    "resultSummary": "Numerical global bound from the complete audited model; feasible incumbent unchanged.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2797,6 +2893,7 @@
       "value": "-11.925808687"
     },
     "studyStatus": "Optimal, computational global conclusion; exact symmetry quotient and lift with no portable formal lower-bound trace",
+    "resultSummary": "Optimal, computational global conclusion; exact symmetry quotient and lift with no portable formal lower-bound trace",
     "evidenceGrade": "NS",
     "evidenceLevel": "Floating-point zero-gap verification",
     "primalImprovement": false,
@@ -2826,6 +2923,7 @@
       "value": "12"
     },
     "studyStatus": "All13392 dense mode rows are audited. An equivalent item-pattern model closes under both COPT and Gurobi. A solver-independent proof then excludes all four possible improving omission sets using141 finite infeasibility states and6564 independently checked branches.",
+    "resultSummary": "Optimality proved by finite exhaustive exclusion, with independently checked branches.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -2855,6 +2953,7 @@
       "value": "5.5"
     },
     "studyStatus": "Optimal, exact Hall/matching certificate",
+    "resultSummary": "Optimal, exact Hall/matching certificate",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -2884,6 +2983,7 @@
       "value": "-34902"
     },
     "studyStatus": "The original model implies a rooted binary tree with exact ancestry. A Huffman lower bound plus a tail/cherry correction gives -34902, attained by an independently checked original witness.",
+    "resultSummary": "Huffman-based lower bound matches an independently checked original-model witness.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": true,
@@ -2913,6 +3013,7 @@
       "value": "-11123832.676970437"
     },
     "studyStatus": "Feasible; incumbent-centered binary exchange attempted; 0.1163% gap remains",
+    "resultSummary": "Feasible; incumbent-centered binary exchange attempted; 0.1163% gap remains",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2942,6 +3043,7 @@
       "value": "no infeasibility certificate"
     },
     "studyStatus": "Exact order-CSP/CNF search remains unknown",
+    "resultSummary": "Exact order-CSP/CNF search remains unknown",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -2971,6 +3073,7 @@
       "value": "401092"
     },
     "studyStatus": "Computational optimum; exact primal audit, no portable exact lower-bound certificate",
+    "resultSummary": "Computational optimum; exact primal audit, no portable exact lower-bound certificate",
     "evidenceGrade": "NS",
     "evidenceLevel": "Floating-point zero-gap verification",
     "primalImprovement": true,
@@ -3000,6 +3103,7 @@
       "value": "CP and SAT UNKNOWN"
     },
     "studyStatus": "Global feasibility open; no UNSAT proof",
+    "resultSummary": "Global feasibility open; no UNSAT proof",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3029,6 +3133,7 @@
       "value": "-1048730.8"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded. Use strict original-model optimum -1048730.8. The catalogue display -1048730.9379120774 is a tolerance incumbent, retained separately.",
+    "resultSummary": "Strict original-model optimum -1048730.8; tolerance-only incumbent kept separate.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -3058,6 +3163,7 @@
       "value": "no new certified global bound"
     },
     "studyStatus": "Equitable-minimax-clustering recovery; no incumbent improvement claimed",
+    "resultSummary": "Equitable-minimax-clustering recovery; no incumbent improvement claimed",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3087,6 +3193,7 @@
       "value": "34666770"
     },
     "studyStatus": "exact closure witness; complete machine-configuration enumeration with exact rational duals and an exact original-MPS lift",
+    "resultSummary": "exact closure witness; complete machine-configuration enumeration with exact rational duals and an exact original-MPS lift",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -3116,6 +3223,7 @@
       "value": "no new certified global bound"
     },
     "studyStatus": "Exact subset witnesses plus complete-hint CP-SAT; public lower-valued pattern fails zero-tolerance feasibility; global optimum open",
+    "resultSummary": "Exact subset witnesses plus complete-hint CP-SAT; public lower-valued pattern fails zero-tolerance feasibility; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3145,6 +3253,7 @@
       "value": "517.4"
     },
     "studyStatus": "Complete exact integer DP with source mapping and valid optimum-lattice rounding",
+    "resultSummary": "Complete exact integer DP with source mapping and valid optimum-lattice rounding",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3174,6 +3283,7 @@
       "value": "56490.87734419854"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally. Improves repaired campaign start, but does not beat v36 headline 157909.0677610051.",
+    "resultSummary": "Strict rational witness improves the repaired starting point, but does not beat MIPLIB v36; dual evidence graded separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3203,6 +3313,7 @@
       "value": "31528.00000001231"
     },
     "studyStatus": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 18738.199999999997",
+    "resultSummary": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 18738.199999999997",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -3232,6 +3343,7 @@
       "value": "5099038.414253532"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
+    "resultSummary": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3261,6 +3373,7 @@
       "value": "5468401.531838727"
     },
     "studyStatus": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 89455.0",
+    "resultSummary": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 89455.0",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3290,6 +3403,7 @@
       "value": "62.376611386884534"
     },
     "studyStatus": "Exact interval propagation on both binary-gated branches justifies tightening 617068 big-M rows. The independent export audit verifies the complete matrix, bounds, types and objective. Full tight-M COPT tree gives global numerical bound 62.376611386884534, compared with initial 62.35413501686672. Primal is unchanged; local transplant bounds are excluded.",
+    "resultSummary": "Exact big-M tightening and a complete-model audit support the numerical global bound. Primal unchanged.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3319,6 +3433,7 @@
       "value": "3017171.1907786024"
     },
     "studyStatus": "Solver numerical optimality, not exact arithmetic optimality",
+    "resultSummary": "Solver numerical optimality, not exact arithmetic optimality",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": true,
@@ -3348,6 +3463,7 @@
       "value": "27570.100000000024"
     },
     "studyStatus": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 462.5",
+    "resultSummary": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 462.5",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3377,6 +3493,7 @@
       "value": "33.45763"
     },
     "studyStatus": "Optimal, exact state-Steiner DP and zero-violation witness",
+    "resultSummary": "Optimal, exact state-Steiner DP and zero-violation witness",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -3406,6 +3523,7 @@
       "value": "32225.700099"
     },
     "studyStatus": "An exact rational source audit and service/procurement/inventory dynamic program give the matching lower bound 32225.700099. The official headline conflicts with this hashed model; its explanation remains unresolved. Official headline 4206.140099965 has no downloaded witness and conflicts with the certified optimum of the hashed downloaded model; reason unresolved; no public-record improvement claimed.",
+    "resultSummary": "Exact optimum for the hashed source model; conflict with the public record remains unresolved.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -3435,6 +3553,7 @@
       "value": "-8"
     },
     "studyStatus": "Optimal, exact active-layer quotient and A=9 relaxed infeasibility",
+    "resultSummary": "Optimal, exact active-layer quotient and A=9 relaxed infeasibility",
     "evidenceGrade": "EX",
     "evidenceLevel": "Exhaustive exact verification",
     "primalImprovement": false,
@@ -3464,6 +3583,7 @@
       "value": "524657.381878"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
+    "resultSummary": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3493,6 +3613,7 @@
       "value": "3956"
     },
     "studyStatus": "Exact aggregation and path-component LNS completed; no improvement; global optimum open",
+    "resultSummary": "Exact aggregation and path-component LNS completed; no improvement; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3522,6 +3643,7 @@
       "value": "15474160.819061"
     },
     "studyStatus": "Source-audited 800-job/200-machine flowshop single-job insertion descent improves primal from 26040609 to 23331046. Reconstruct the full original variable vector and verify all original rows/domains. Job head/tail inequalities plus nested-prefix assignment potentials prove the exact dual 15474160819061/1000000; the independent certificate checker verifies all 640000 potential inequalities. Relaxation optima are not original-model optimality results.",
+    "resultSummary": "Flowshop insertion search improves the verified primal; assignment potentials certify an exact dual bound.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -3551,6 +3673,7 @@
       "value": "6021"
     },
     "studyStatus": "Exact original witness and independent DP lower certificate; unequal bounds leave the problem open",
+    "resultSummary": "Exact original witness and independent DP lower certificate; unequal bounds leave the problem open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3580,6 +3703,7 @@
       "value": "3759"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
+    "resultSummary": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -3609,6 +3733,7 @@
       "value": "5684"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
+    "resultSummary": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -3638,6 +3763,7 @@
       "value": "27214.4801"
     },
     "studyStatus": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 0",
+    "resultSummary": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 0",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -3667,6 +3793,7 @@
       "value": "5701917.817099073"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded. Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Open; numerical primal and global-bound results. No new project-attributed primal improvement.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3696,6 +3823,7 @@
       "value": "4654300"
     },
     "studyStatus": "Public headline4654484.555290672 fails strict original feasibility. Its canonical strict repair is4654500, which was not improved. Numerical4654300 uses an audited objective100 lattice and cutoff transfer; independent exact certificate proves4654200.",
+    "resultSummary": "Strictly repaired primal unchanged; numerical lower bound 4654300 and separate exact certificate at 4654200.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3725,6 +3853,7 @@
       "value": "19.932229270717"
     },
     "studyStatus": "Feasible under solver tolerances; combined observed gap 3.1071%; strict verification and global optimum open",
+    "resultSummary": "Feasible under solver tolerances; combined observed gap 3.1071%; strict verification and global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3754,6 +3883,7 @@
       "value": "686532411.3768101"
     },
     "studyStatus": "Concurrent primal/dual, up to 8 cores per role, 2-2.5 hours; latest public seed also improved; no optimality proof",
+    "resultSummary": "Concurrent primal/dual, up to 8 cores per role, 2-2.5 hours; latest public seed also improved; no optimality proof",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -3783,6 +3913,7 @@
       "value": "2494433.172719"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
+    "resultSummary": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -3812,6 +3943,7 @@
       "value": "42.54"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; incumbent-capped exact mode-4 projection plus exact route exchange and assignment-radius search",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; incumbent-capped exact mode-4 projection plus exact route exchange and assignment-radius search",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -3841,6 +3973,7 @@
       "value": "no new certified global bound"
     },
     "studyStatus": "Three-vehicle-block LNS and two exact original-MPS audits; improves MIPLIB by 247.6265848893; global optimum open",
+    "resultSummary": "Three-vehicle-block LNS and two exact original-MPS audits; improves MIPLIB by 247.6265848893; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -3870,6 +4003,7 @@
       "value": "49843"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
+    "resultSummary": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -3899,6 +4033,7 @@
       "value": "no new nontrivial strict global lower bound"
     },
     "studyStatus": "Tree/compound search, 21 pair, 39 anchor-fixed triple, and 67 anchor-fixed quad closures, plus a zero-tolerance audit; global optimum open",
+    "resultSummary": "Tree/compound search, 21 pair, 39 anchor-fixed triple, and 67 anchor-fixed quad closures, plus a zero-tolerance audit; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -3928,6 +4063,7 @@
       "value": "no new nontrivial strict global lower bound"
     },
     "studyStatus": "Exact lift, local-neighborhood closures, and zero-tolerance audit; global optimum open",
+    "resultSummary": "Exact lift, local-neighborhood closures, and zero-tolerance audit; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -3957,6 +4093,7 @@
       "value": "no new nontrivial strict global lower bound"
     },
     "studyStatus": "Exact `nj2 -> nj3` projection, label anchoring, local-neighborhood closures, and zero-tolerance audit; global optimum open",
+    "resultSummary": "Exact `nj2 -> nj3` projection, label anchoring, local-neighborhood closures, and zero-tolerance audit; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -3986,6 +4123,7 @@
       "value": "988.14128344"
     },
     "studyStatus": "exact closure witness; exact route quotient; Held-Karp/set-partition DP; rational complete-master dual; original-MPS lift",
+    "resultSummary": "exact closure witness; exact route quotient; Held-Karp/set-partition DP; rational complete-master dual; original-MPS lift",
     "evidenceGrade": "PE",
     "evidenceLevel": "Portable exact certificate",
     "primalImprovement": false,
@@ -4015,6 +4153,7 @@
       "value": "11100"
     },
     "studyStatus": "Optimal, exact cyclic-cutwidth enumeration and audited witness",
+    "resultSummary": "Optimal, exact cyclic-cutwidth enumeration and audited witness",
     "evidenceGrade": "EX",
     "evidenceLevel": "Exhaustive exact verification",
     "primalImprovement": false,
@@ -4044,6 +4183,7 @@
       "value": "2626815.66620823"
     },
     "studyStatus": "The original uncapacitated commodity-flow structure permits a487-arc shortest-path reduction. Exact station pricing and4163 independently checked conditional exclusions preserve an optimum. The strongest numerical dual is2626815.66620823; a separate exact certificate gives2612880.60890689.",
+    "resultSummary": "Shortest-path reduction and exact station pricing; strongest numerical dual kept separate from the exact certificate.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4073,6 +4213,7 @@
       "value": "-932.7213054566289"
     },
     "studyStatus": "68 projects across40 periods; direct gates compact redundant cumulative constraints; whole-group all-period neighborhood improved original feasible point; pricing group schedules in parallel",
+    "resultSummary": "Project-structure reduction and group neighborhoods improve a verified feasible solution; schedule pricing supports bounds.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -4102,6 +4243,7 @@
       "value": "no new lower-bound-8 certificate"
     },
     "studyStatus": "Exact 375-choice projection and cutoff-7 CNF; exact search remains unknown",
+    "resultSummary": "Exact 375-choice projection and cutoff-7 CNF; exact search remains unknown",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4131,6 +4273,7 @@
       "value": "548"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
+    "resultSummary": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -4160,6 +4303,7 @@
       "value": "32.6971654879775"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; exact connectivity projection; transpose/tree optimum-value equivalence; incumbent-cutoff interval big-M tightening",
+    "resultSummary": "Exact connectivity projection and valid big-M tightening; numerical witness not uniformly revalidated.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -4189,6 +4333,7 @@
       "value": "23.69999969999989"
     },
     "studyStatus": "Primal improvement is measured against the strictly repaired public baseline, not the infeasible public serialization. Raw objectives of weakened derived models are not original primal improvements.",
+    "resultSummary": "Primal improvement measured against the strictly repaired public solution; weakened-model objectives excluded.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -4218,6 +4363,7 @@
       "value": "12.38858"
     },
     "studyStatus": "Serialized file passes zero-tolerance Fraction audit; 11.40% numerical gap; global optimum open",
+    "resultSummary": "Serialized file passes zero-tolerance Fraction audit; 11.40% numerical gap; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -4247,6 +4393,7 @@
       "value": "62785.565316"
     },
     "studyStatus": "Exact primal/dual interval; global optimum open",
+    "resultSummary": "Exact primal/dual interval; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4276,6 +4423,7 @@
       "value": "77460"
     },
     "studyStatus": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 0",
+    "resultSummary": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 0",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -4305,6 +4453,7 @@
       "value": "821466"
     },
     "studyStatus": "The source arc graph forces increasing pickups followed by increasing deliveries, with at most15 requests per vehicle. Complete exact pricing covers2760 subproblems. Two independent Python integer DPs reproduce the certificate821466, matching the original feasible witness.",
+    "resultSummary": "Exact pricing and two independent integer dynamic programs prove optimality with a matching original-model witness.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -4334,6 +4483,7 @@
       "value": "17512125.696420353"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
+    "resultSummary": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4363,6 +4513,7 @@
       "value": "73.61064224600001"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
+    "resultSummary": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": true,
@@ -4392,6 +4543,7 @@
       "value": "8566"
     },
     "studyStatus": "Exact identical-column quotient removes 9,944 variables; 3.1434% numerical gap; global optimum open",
+    "resultSummary": "Exact identical-column quotient removes 9,944 variables; 3.1434% numerical gap; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4421,6 +4573,7 @@
       "value": "-449546"
     },
     "studyStatus": "Exact symmetry quotient; numerical 10-unit interval without portable cutoff proof; global optimum open",
+    "resultSummary": "Exact symmetry quotient; numerical 10-unit interval without portable cutoff proof; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4450,6 +4603,7 @@
       "value": "701882"
     },
     "studyStatus": "Exact integer certificate and complete original witness",
+    "resultSummary": "Exact integer certificate and complete original witness",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -4479,6 +4633,7 @@
       "value": "564039"
     },
     "studyStatus": "Exact original-model optimum: a source-derived voucher projection proves a lower bound of 564039 and an independently checked original integer witness attains it. This conclusion comes from the finite combinatorial proof, not the earlier COPT bound 495580.380952381. Read reports/PROOF.md for the implication chain and Lean obligations.",
+    "resultSummary": "Exact voucher-projection lower bound matches a checked original integer witness, proving optimality.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -4508,6 +4663,7 @@
       "value": "-58365098.476"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
+    "resultSummary": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -4537,6 +4693,7 @@
       "value": "-76521127.37712"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; projection-equivalent canonical slice links plus core local branching",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; projection-equivalent canonical slice links plus core local branching",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4566,6 +4723,7 @@
       "value": "no new global lower bound"
     },
     "studyStatus": "Exact recovered geometry, radius/object neighborhoods and mask screening; no MIPLIB headline improvement; global optimum open",
+    "resultSummary": "Exact recovered geometry, radius/object neighborhoods and mask screening; no MIPLIB headline improvement; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4595,6 +4753,7 @@
       "value": "no new global lower bound"
     },
     "studyStatus": "Full submitted-MPS geometry audit; no strict incumbent improvement; global optimum open",
+    "resultSummary": "Full submitted-MPS geometry audit; no strict incumbent improvement; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4624,6 +4783,7 @@
       "value": "no new global lower bound"
     },
     "studyStatus": "Improves the only audited official literal-zero solution but not the MIPLIB tolerance headline; global optimum open",
+    "resultSummary": "Improves the only audited official literal-zero solution but not the MIPLIB tolerance headline; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4653,6 +4813,7 @@
       "value": "3382"
     },
     "studyStatus": "Exact original-source audit, integer reparameterization, complete cutoff exclusion and full strict original witness Historical COPT lower bound exceeds the archived feasible primal. Kept as a baseline inconsistency, not a valid superiority comparison.",
+    "resultSummary": "Exact cutoff exclusion and strict witness establish optimality; historical COPT baseline is inconsistent.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -4682,6 +4843,7 @@
       "value": "published UNSAT theorem"
     },
     "studyStatus": "Infeasible, exact encoding/core crosswalk + published theorem; proof archive not replayed locally",
+    "resultSummary": "Infeasible, exact encoding/core crosswalk + published theorem; proof archive not replayed locally",
     "evidenceGrade": "LT",
     "evidenceLevel": "Published-theorem transfer",
     "primalImprovement": false,
@@ -4711,6 +4873,7 @@
       "value": "483755247.8932753"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; five independently audited BFS fundamental-cycle inequalities plus Gurobi 13.0.1",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; five independently audited BFS fundamental-cycle inequalities plus Gurobi 13.0.1",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -4740,6 +4903,7 @@
       "value": "156"
     },
     "studyStatus": "Feasible; strict local optimality proved to bit radius 7; global optimum open",
+    "resultSummary": "Feasible; strict local optimality proved to bit radius 7; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4769,6 +4933,7 @@
       "value": "-1146278.6542107703"
     },
     "studyStatus": "QUALIFIED numerical global dual: the strongest full-original run also produced an incumbent with original-row violation 1142141.00397197; that candidate is rejected. Preserve the raw solver dual with this numerical qualification. Independent full-original runs gave -1147434.3976039088 and LP -1158940.9781666666. No optimality or primal improvement is claimed. The retained primal passes the complete original-model checker. QUALIFIED numerical global dual: the strongest full-original run also produced an incumbent with original-row violation 1142141.00397197; that candidate is rejected. Preserve the raw solver dual with this numerical qualification. Independent full-original runs gave -1147434.3976039088 and LP -1158940.9781666666. No optimality or primal improvement is claimed. The retained primal passes the complete original-model checker.",
+    "resultSummary": "Verified primal; numerical dual is qualified by an infeasible solver incumbent and excluded from improvement counts.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4798,6 +4963,7 @@
       "value": "-2521.353274311517894"
     },
     "studyStatus": "394 pair, 70 clique and 5 genuine triple-cover cuts plus flow=cut certificate; global optimum open",
+    "resultSummary": "394 pair, 70 clique and 5 genuine triple-cover cuts plus flow=cut certificate; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4827,6 +4993,7 @@
       "value": "-3504.68995907391278"
     },
     "studyStatus": "Rounded public tolerance vector and closure flow=cut certificate; structured neighborhoods tested; global optimum open",
+    "resultSummary": "Rounded public tolerance vector and closure flow=cut certificate; structured neighborhoods tested; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4856,6 +5023,7 @@
       "value": "-5042.036233392018593"
     },
     "studyStatus": "34-block exchange; 121 pair and 61 clique cuts; exact primal and flow=cut audits; global optimum open",
+    "resultSummary": "34-block exchange; 121 pair and 61 clique cuts; exact primal and flow=cut audits; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -4885,6 +5053,7 @@
       "value": "-10679.232567260660741"
     },
     "studyStatus": "Exact 1,441,651-row primal replay and closure flow=cut certificate; global optimum open",
+    "resultSummary": "Exact 1,441,651-row primal replay and closure flow=cut certificate; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4914,6 +5083,7 @@
       "value": "-15667.918862520611901"
     },
     "studyStatus": "Exact 2,953,849-row primal replay and cross-host closure certificate verification; global optimum open",
+    "resultSummary": "Exact 2,953,849-row primal replay and cross-host closure certificate verification; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4943,6 +5113,7 @@
       "value": "-11.84939220836703"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately. Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Numerical optimality reported; no newly attributed primal improvement against MIPLIB v36.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -4972,6 +5143,7 @@
       "value": "-11.82"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; strict public-pattern repair, audited temporal restrictions, and final untouched-original control",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; strict public-pattern repair, audited temporal restrictions, and final untouched-original control",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5001,6 +5173,7 @@
       "value": "755608.6597750485"
     },
     "studyStatus": "Not established; numerical global tree bound and independent exact lower certificate are separate",
+    "resultSummary": "Not established; numerical global tree bound and independent exact lower certificate are separate",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -5030,6 +5203,7 @@
       "value": "exact structural bound max sum(A8)=36"
     },
     "studyStatus": "Full objective open; high-level acceptance count globally optimal and line 4 conditionally optimal",
+    "resultSummary": "Full objective open; high-level acceptance count globally optimal and line 4 conditionally optimal",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5059,6 +5233,7 @@
       "value": "107"
     },
     "studyStatus": "Exact branch/dual certificates improved the lower bound; global optimum open; experiments paused",
+    "resultSummary": "Exact branch/dual certificates improved the lower bound; global optimum open; experiments paused",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5088,6 +5263,7 @@
       "value": "283"
     },
     "studyStatus": "Exact domination and independently replayed target-282 branch/dual certificate; global optimum open",
+    "resultSummary": "Exact domination and independently replayed target-282 branch/dual certificate; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5117,6 +5293,7 @@
       "value": "214"
     },
     "studyStatus": "Complete target-213 exact branch/dual replay; COPT terminal exclusion corroborates; global optimum open",
+    "resultSummary": "Complete target-213 exact branch/dual replay; COPT terminal exclusion corroborates; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5146,6 +5323,7 @@
       "value": "416"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; exact rational LP-dual replay plus deterministic cost-1 RWLS Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Exact rational LP-dual replay and covering search; numerical primal witness not uniformly revalidated.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5175,6 +5353,7 @@
       "value": "352"
     },
     "studyStatus": "Completed full-original COPT lower bound 351.0207653022212 gives 352 on the exact integer objective lattice. A separate complete-source rational price certificate proves 351 exactly. Restricted covering/repair masters do not give global bounds. Original validated primal remains 485.",
+    "resultSummary": "Full-model numerical bound rounds to 352; separate exact certificate proves 351. Verified primal unchanged.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5204,6 +5383,7 @@
       "value": "-199.81870652161473"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; structure-guided exact fixed-outside neighborhoods, local branching, exact LP dual certification, and an original-model global control",
+    "resultSummary": "Structural neighborhoods and exact LP-dual certification; numerical primal witness not uniformly revalidated.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5233,6 +5413,7 @@
       "value": "-228.1478805738048"
     },
     "studyStatus": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
+    "resultSummary": "Numerical optimality accepted; experiment baseline and frozen v36 compared separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5262,6 +5443,7 @@
       "value": "4275"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; structure-audited activation/rounding/Hall strengthenings with untouched-MPS baseline and exact witness replay",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; structure-audited activation/rounding/Hall strengthenings with untouched-MPS baseline and exact witness replay",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5291,6 +5473,7 @@
       "value": "17"
     },
     "studyStatus": "The full source-audited global numerical bound 16.876334243370593 rounds upward to 17 on the proved integer objective lattice. The primal difference from 84 is numerical polishing, not a discrete improvement. Valid structural/site-gap cuts and complete exported-model audits are recorded; restricted primal neighborhoods never supply global bounds. Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Audited global numerical bound rounds to 17 on the integer lattice. No discrete primal improvement.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5320,6 +5503,7 @@
       "value": "-41168"
     },
     "studyStatus": "The accepted global numerical lower bound -41168.198039877134 rounds to -41168 on the audited integer objective lattice. The original incumbent -40035 is unchanged. Linked/network extensions and unsuccessful routes remain attributed separately from the accepted complete global run. Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Audited numerical lower bound rounds to -41168 on the integer lattice; primal unchanged.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5349,6 +5533,7 @@
       "value": "no new certified global bound"
     },
     "studyStatus": "BOM-aware Decimal reconstruction and period/item/Hamming neighborhoods; global optimum open",
+    "resultSummary": "BOM-aware Decimal reconstruction and period/item/Hamming neighborhoods; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5378,6 +5563,7 @@
       "value": "101848.66004485569"
     },
     "studyStatus": "Numerical global solver bound with structural/domain audit; not exact arithmetic optimality",
+    "resultSummary": "Numerical global solver bound with structural/domain audit; not exact arithmetic optimality",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5407,6 +5593,7 @@
       "value": "85777.6824670317"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; precedence-pattern recourse, paper-motivated scheduling neighborhoods, independently verified directed-cycle inequalities, and matched global branch-and-cut controls",
+    "resultSummary": "Scheduling neighborhoods and verified cycle cuts; numerical primal witness not uniformly revalidated.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5436,6 +5623,7 @@
       "value": "22555.8775122676"
     },
     "studyStatus": "The accepted global numerical bound is 22555.8775122676 from an audited network projection. Conflicting larger continuation dual values are quarantined. The displayed primal is a numerical point; the separate exact feasible witness has objective 22671.197441887947. This is numerical polishing only. Use the archived exact primal value rather than the rounded or numerical catalogue display; the original display is retained separately. Historical COPT lower bound exceeds the archived feasible primal. Kept as a baseline inconsistency, not a valid superiority comparison.",
+    "resultSummary": "Audited numerical bound and exact feasible witness retained; conflicting duals excluded and historical baseline flagged.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5465,6 +5653,7 @@
       "value": "10905.7397762548"
     },
     "studyStatus": "1.4901% local reproducible gap; article partition and truck-radius-2 neighborhoods closed; global optimum open Historical COPT lower bound exceeds the archived feasible primal. Kept as a baseline inconsistency, not a valid superiority comparison.",
+    "resultSummary": "Local neighborhoods closed; global optimality remains open. Historical COPT baseline is inconsistent.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5494,6 +5683,7 @@
       "value": "10219502.195349596"
     },
     "studyStatus": "Feasible; structure-specific decomposition attempts tested; global optimum open",
+    "resultSummary": "Feasible; structure-specific decomposition attempts tested; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5523,6 +5713,7 @@
       "value": "18853382.0323116"
     },
     "studyStatus": "1,200 s root-cut LB improves archived PDF-only LB by about 76,817.9; 74/74 blocks and 6 selected groups closed conditionally; global optimum open",
+    "resultSummary": "1,200 s root-cut LB improves archived PDF-only LB by about 76,817.9; 74/74 blocks and 6 selected groups closed conditionally; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5552,6 +5743,7 @@
       "value": "35556219.47983733"
     },
     "studyStatus": "Same integer pattern and only 0.000893823 lower; 50/50 blocks closed conditionally; archived PDF-only LB 35,599,182.4 is stronger; global optimum open",
+    "resultSummary": "Same integer pattern and only 0.000893823 lower; 50/50 blocks closed conditionally; archived PDF-only LB 35,599,182.4 is stronger; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5581,6 +5773,7 @@
       "value": "18462676.77864"
     },
     "studyStatus": "Imported run improves the prior local LB by 19,778.272826703; archived PDF-only LB 18,605,207.3 remains stronger; runtime metadata is inconsistent; global optimum open",
+    "resultSummary": "Imported run improves the prior local LB by 19,778.272826703; archived PDF-only LB 18,605,207.3 remains stronger; runtime metadata is inconsistent; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5610,6 +5803,7 @@
       "value": "880540652.1100941"
     },
     "studyStatus": "Joint procurement/production/inventory neighborhoods improve the strict baseline by17997.815490. Inventory-prefix, resource-grid and piecewise-capacity cuts, with independently justified initial-chain integrality, strengthen the numerical global bound.",
+    "resultSummary": "Joint production and inventory neighborhoods improve primal; audited structural cuts strengthen the numerical global bound.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -5639,6 +5833,7 @@
       "value": "1869530183.5742903"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally. Use the archived exact primal value rather than the rounded or numerical catalogue display; the original display is retained separately.",
+    "resultSummary": "Strict rational primal witness; numerical and independently exact dual evidence reported separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5668,6 +5863,7 @@
       "value": "5906641320.228776"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally. Use the archived exact primal value rather than the rounded or numerical catalogue display; the original display is retained separately.",
+    "resultSummary": "Strict rational primal witness; numerical and independently exact dual evidence reported separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -5697,6 +5893,7 @@
       "value": "6055563163.869654"
     },
     "studyStatus": "Concurrent primal/dual, up to 8 cores per role, 2-2.5 hours; latest public seed also improved; no optimality proof",
+    "resultSummary": "Concurrent primal/dual, up to 8 cores per role, 2-2.5 hours; latest public seed also improved; no optimality proof",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -5726,6 +5923,7 @@
       "value": "-210"
     },
     "studyStatus": "Feasible; any improvement must change at least 27 bits; global optimum open",
+    "resultSummary": "Feasible; any improvement must change at least 27 bits; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5755,6 +5953,7 @@
       "value": "-201513.19679922966"
     },
     "studyStatus": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
+    "resultSummary": "Five substantive primal improvements and two optima. Sutlej strict optimum -1048730.8; numerical-tolerance incumbent separate. Vouga large-M tolerance artifact excluded.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -5784,6 +5983,7 @@
       "value": "106"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; untouched-original audit plus exact-recourse monotone combinatorial Benders",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; untouched-original audit plus exact-recourse monotone combinatorial Benders",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5813,6 +6013,7 @@
       "value": "6.4"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; DEC-master violated-original-row generation with independent subset audit and exact 1/5 objective lattice; exact alias/support quotient; scoped neighborhoods",
+    "resultSummary": "Audited row generation, objective lattice and structural reduction; numerical witness not uniformly revalidated.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5842,6 +6043,7 @@
       "value": "-12345.87023419769"
     },
     "studyStatus": "Public starting material required exact repair/canonicalization. No substantive primal improvement. Numerical dual is separate from the weaker independently replayed rational branch certificate.",
+    "resultSummary": "No substantive primal gain after exact repair; numerical dual and weaker exact branch certificate reported separately.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5871,6 +6073,7 @@
       "value": "37 covering rows remain"
     },
     "studyStatus": "Global feasibility open",
+    "resultSummary": "Global feasibility open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -5900,6 +6103,7 @@
       "value": "-3720097.298"
     },
     "studyStatus": "Primal frozen archive records earlier numerical closure; the later dual archive supplies the independently exact global proof. Both actual early-closure durations are retained.",
+    "resultSummary": "Primal frozen archive records earlier numerical closure; the later dual archive supplies the independently exact global proof. Both actual early-closure durations are retained.",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": true,
@@ -5929,6 +6133,7 @@
       "value": "instances/supportcase35/README.md"
     },
     "studyStatus": "See instance evidence and portable replay",
+    "resultSummary": "See instance evidence and portable replay",
     "evidenceGrade": "IV",
     "evidenceLevel": "Instance-specific proofs and solver verification",
     "primalImprovement": false,
@@ -5958,6 +6163,7 @@
       "value": "32476.03269588074"
     },
     "studyStatus": "167 audited 15-node monotone binary chains; joint threshold/continuous neighborhoods; fixed-integer crossover and original-model warm global search; adaptive continuous-variable LP pricing The bound difference is within half of the historical table last displayed digit; do not interpret it as a robust difference.",
+    "resultSummary": "Audited chain neighborhoods and LP pricing; the dual difference from the historical baseline is within rounding precision.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -5987,6 +6193,7 @@
       "value": "-1085325.230699"
     },
     "studyStatus": "New strict incumbent from Gaussian-boundary block search; global optimum open",
+    "resultSummary": "New strict incumbent from Gaussian-boundary block search; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": true,
@@ -6016,6 +6223,7 @@
       "value": "31.81114546990636"
     },
     "studyStatus": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
+    "resultSummary": "Original strict rational witness, separately graded numerical and independent exact dual evidence, verified core final-result packages; full trial archives retained locally.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -6045,6 +6253,7 @@
       "value": "137323.70814993372"
     },
     "studyStatus": "No primal gain after separately recorded public-solution integer canonicalization. Cheapest-support equivalence, valid subset/clique cuts and pair branching were audited. Numerical global bound is stronger than the independently exact135070 certificate.",
+    "resultSummary": "No primal gain after canonicalization; audited structural cuts give a numerical bound above the separate exact certificate.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -6074,6 +6283,7 @@
       "value": "no new bound"
     },
     "studyStatus": "Exact connected exchanges through five blocks and association-guided repair completed; global optimum open",
+    "resultSummary": "Exact connected exchanges through five blocks and association-guided repair completed; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -6103,6 +6313,7 @@
       "value": "7117.5"
     },
     "studyStatus": "Translation and impossible-direction audit; 13.864% numerical gap; global optimum open",
+    "resultSummary": "Translation and impossible-direction audit; 13.864% numerical gap; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -6132,6 +6343,7 @@
       "value": "120885"
     },
     "studyStatus": "The completed full-original COPT API lower bound 120884.16551379114 rounds to 120885 through an independently audited optimum-equivalent integer-objective projection. The source proof covers the necessary continuous-variable rounding without deleting costs or constraints. Frozen public baseline is 121065, not the historical headline 121066. Numerical difference shown, but frozen project attribution is not upgraded by this arithmetic audit.",
+    "resultSummary": "Full-model numerical bound rounds to 120885 via an audited integer-objective projection; baseline primal is 121065.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -6161,6 +6373,7 @@
       "value": "39122.06011237759"
     },
     "studyStatus": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 0",
+    "resultSummary": "Global solver numerical optimality accepted; exact certificate supplementary. Experiment initial primal improvement: 0",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -6190,6 +6403,7 @@
       "value": "-507"
     },
     "studyStatus": "See instance evidence and portable replay The independently replayed exact forest-strip bound -507 improves the publicly reported family bound -511 by 4. The best completed solver-only numerical result remains -511. Model validity and fingerprint checks pass. Keep evidence grades separate.",
+    "resultSummary": "Independent exact forest-strip certificate gives -507; solver-only numerical bound remains -511. Model checks pass.",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -6219,6 +6433,7 @@
       "value": "-515"
     },
     "studyStatus": "Best known path reproduced; extensive cell-projection/LNS search; global optimum open",
+    "resultSummary": "Best known path reproduced; extensive cell-projection/LNS search; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -6248,6 +6463,7 @@
       "value": "-1646"
     },
     "studyStatus": "Exact MPS-to-MIS interval; global optimum open",
+    "resultSummary": "Exact MPS-to-MIS interval; global optimum open",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
@@ -6277,6 +6493,7 @@
       "value": "833.8312541332446"
     },
     "studyStatus": "historically accepted numerical witness; not uniformly revalidated; exact w projection with support cuts",
+    "resultSummary": "historically accepted numerical witness; not uniformly revalidated; exact w projection with support cuts",
     "evidenceGrade": null,
     "evidenceLevel": null,
     "primalImprovement": false,
