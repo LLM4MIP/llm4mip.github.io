@@ -1,32 +1,37 @@
 # stockholm
 
-Snapshot: 21 September 2026. Repository research results; not a live MIPLIB leaderboard.
+Result snapshot: 2026-10-06.
 
 ## Current result
 
-- Cohort: subsequent20
-- Status: Verified feasible; open
-- Primal: 122.0
-- Dual / certificate: 106.0
-- Global conclusion: Not established
-- Evidence: See the stated numerical tolerances and source audits.
-- Project primal update vs MIPLIB v36: False (not_in_project_primal_table)
+- Conclusion: Open
+- Primal bound: 122
+- Dual bound: 106
+- Normalized gap: 0.131147540983606557377049180327868852459016393
+- Primal improvement vs MIPLIB v36: False
+- MIPLIB v36 primal: 120.9999950202855
+- Primal difference (baseline minus result): -1.0000049797145
 - Dual improvement vs historical COPT 10h: True
+- Historical COPT 10h dual: 93.5364881
+- Dual difference (result minus baseline): 12.4635119
+
+## Verification and qualifications
 
 historically accepted numerical witness; not uniformly revalidated; untouched-original audit plus exact-recourse monotone combinatorial Benders
 
-Best-of separate runs; selected numerical D may exceed independent certified D
 
-## Evidence and provenance
 
-[Instance evidence](https://github.com/Huangyc98/MIPLIB_openproblem/blob/b63b89634917ccde2f9e7dc7aefe1583a3eb55e8/skills-research/comparisons/per_instance_comparison.csv) · [Complete campaign ledger](https://github.com/Huangyc98/MIPLIB_openproblem/blob/b63b89634917ccde2f9e7dc7aefe1583a3eb55e8/results/catalogue.json)
+- Primal validation: Historical evidence grade; see instance report
+- Dual validation: dual skill Gurobi
+- Primal comparison: Above v36 primal
+- Dual comparison: Improved
 
-The full campaign contains 132 instances: 112 original cases and 20 subsequent evaluation cases.
-The subsequent cohort uses post-hoc best valid bounds from separate skill runs; numerical bounds
-and independently certified bounds are distinct. Genus g31 closures accept residuals below 1e-10.
+## Files and provenance
 
-## Download scope
+[Result data](result.json) · [Source research record](https://github.com/Huangyc98/MIPLIB_openproblem/blob/organize/complete-results-20260921/skills-research/comparisons/per_instance_comparison.csv)
 
-The result bundle contains this summary, the per-instance ledger and license. Detailed experiment records and certificates are linked in the research repository; they are not embedded in this compact bundle.
-
-Archive SHA-256: `ca46ccb436d2d70f15b5178b2b00ca66512150cdea64e3f957f59a53ea8fe95a`
+The result bundle contains this summary, the current result data, and the project license.
+Source research records may require repository access. Solver logs and full proof archives
+are not embedded in this compact result bundle. Numerical and tolerance-based conclusions
+retain their stated qualifications; the source-model qualification for tagus is recorded
+in its own result. These are project results against fixed baselines, not a live leaderboard.

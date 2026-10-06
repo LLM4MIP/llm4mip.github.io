@@ -1,192 +1,156 @@
-"""Build the current site from checked-in data; no solver or network access.
-
-Existing bundles remain immutable historical archives. New compact result
-bundles contain per-instance results and links, not complete proof archives.
-"""
+"""Generate the current website results and deterministic result downloads."""
 from pathlib import Path
 from collections import Counter
+from html import escape
+import csv
 import gzip
 import hashlib
 import io
 import json
 import re
 import tarfile
-from html import escape
 
 SITE = Path(__file__).resolve().parents[1]
-SOURCE_COMMIT = 'b63b89634917ccde2f9e7dc7aefe1583a3eb55e8'
-SOURCE_URL = f'https://github.com/Huangyc98/MIPLIB_openproblem/blob/{SOURCE_COMMIT}/'
 STATUS = {
-    'concluded': ('Certified optimality / infeasibility', '#8c1515'),
-    'verified-open': ('Verified feasible; open', '#006cb8'),
-    'numeric-optimal': ('Numerically optimal up to 1e-10 tolerance', '#176b5b'),
-    'no-feasible': ('No feasible point found', '#77736f'),
+    'optimal': ('Optimal', '#8c1515'),
+    'infeasible': ('Infeasible', '#620059'),
+    'unbounded': ('Unbounded', '#176b5b'),
+    'open': ('Open', '#006cb8'),
 }
-# Retain the published 18 September evidence reconciliation for old cases.
-# Add the two subsequent exact optima and the two tolerance-accepted genus cases.
 GRADES = {
-    'PE': ('Portable exact certificate', '#8c1515'),
-    'HP': ('Checked proof trace', '#b1040e'),
-    'EX': ('Exhaustive exact verification', '#176b5b'),
-    'LT': ('Published-theorem transfer', '#620059'),
-    'NS': ('Floating-point zero-gap verification', '#006cb8'),
-    'MX': ('Mixed computational evidence', '#8A4F00'),
-    'TC': ('Tolerance-accepted closure', '#666666'),
+    'PE': ('Portable exact certificate', '#8c1515', 'Exact certificates with instance-specific replay requirements.'),
+    'HP': ('Checked proof trace', '#b1040e', 'A checked proof trace; external trace availability is documented per instance.'),
+    'EX': ('Exhaustive exact verification', '#176b5b', 'Finite exhaustive verification of the stated conclusion.'),
+    'LT': ('Published-theorem transfer', '#620059', 'Instance data mapped to a published theorem.'),
+    'NS': ('Floating-point zero-gap verification', '#006cb8', 'Solver numerical verification under the reported tolerances.'),
+    'MX': ('Mixed computational evidence', '#8a4f00', 'A combination of computational verification methods.'),
+    'TC': ('Tolerance-accepted closure', '#666666', 'Closure under the stated numerical tolerance.'),
+    'IV': ('Instance-specific proofs and solver verification', '#719bbd', 'Exact structural proofs or solver numerical verification, as specified in each instance summary.'),
 }
-
 
 def read(name):
     return json.loads((SITE/name).read_text(encoding='utf-8'))
 
-
-def write(path, text):
+def write(name, text):
+    path=SITE/name
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding='utf-8', newline='\n')
 
+def dump(value):
+    return json.dumps(value, ensure_ascii=False, indent=2)+'\n'
 
-def sha(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+def bundle(path, files):
+    with path.open('wb') as out, gzip.GzipFile(filename='', mode='wb', fileobj=out, mtime=0) as gz:
+        with tarfile.open(fileobj=gz, mode='w') as tar:
+            for name,raw in sorted(files.items()):
+                info=tarfile.TarInfo(name); info.size=len(raw); info.mtime=0; info.mode=0o644
+                tar.addfile(info,io.BytesIO(raw))
 
-
-def result_bundle(path, name, row, summary):
-    payloads = {'summary.md': summary, 'result.json': json.dumps(row, ensure_ascii=False, indent=2)+'\n',
-                'LICENSE': (SITE/'LICENSE').read_text(encoding='utf-8')}
-    with path.open('wb') as output:
-        with gzip.GzipFile(filename='', mode='wb', fileobj=output, mtime=0) as zipped:
-            with tarfile.open(fileobj=zipped, mode='w') as archive:
-                for filename, text in payloads.items():
-                    raw = text.encode('utf-8'); info = tarfile.TarInfo(f'{name}-findings/{filename}')
-                    info.size = len(raw); info.mtime = 0; info.mode = 0o644
-                    archive.addfile(info, io.BytesIO(raw))
-
+def replace_block(text, key, replacement):
+    pattern=f'<!-- CAMPAIGN_{key}_START -->.*?<!-- CAMPAIGN_{key}_END -->'
+    text,n=re.subn(pattern,lambda _:f'<!-- CAMPAIGN_{key}_START -->\n{replacement}\n<!-- CAMPAIGN_{key}_END -->',text,flags=re.S)
+    assert n==1, (key,n)
+    return text
 
 def main():
-    catalogue = read('data/campaign-catalogue.json')
-    metrics = read('data/campaign-metrics.json')
-    legacy = {r['instance']: r for r in read('data/upstream-catalogue-b48994a.json')}
-    assert len(catalogue) == len({r['instance'] for r in catalogue}) == metrics['instances'] == 132
-    assert sum(r['project_primal_update'] for r in catalogue) == metrics['project_primal_updates']
-    assert sum(r['dual_improved_at_1e_7'] for r in catalogue) == metrics['dual_improvements_at_1e_7']
-    records = []
-    for row in catalogue:
-        name = row['instance']; prior = legacy.get(name, {})
-        closed = row['conclusion'].startswith('optimal') or row['conclusion'] == 'infeasible'
-        status = 'concluded' if closed else prior.get('status', 'verified-open')
-        if row['conclusion'] == 'optimal_with_tolerance': status = 'numeric-optimal'
-        grade = prior.get('evidenceGrade')
-        if row['conclusion'] == 'optimal_with_tolerance': grade = 'TC'
-        elif name in ('ns1456591', 'neos-3682128-sandon'): grade = 'PE'
-        if closed: assert grade in GRADES, name
-        conclusion = ('Infeasible' if row['conclusion']=='infeasible' else
-                      f"OPT = {row['primal']}" + (' (residual < 1e-10)' if grade=='TC' else '')) if closed else None
-        r = dict(prior)
-        r.update(instance=name, cohort=row['cohort'], status=status, statusLabel=STATUS[status][0],
-                 bestResult=row['primal'] if row['primal'] is not None else row['primal_source'],
-                 bestBound=row['dual'] if row['dual'] is not None else row['dual_source'],
-                 studyStatus=row['evidence_note'], globalConclusion=conclusion,
-                 globalMethod=prior.get('globalMethod') or (row['evidence_note'] if closed else None),
-                 evidenceGrade=grade, evidenceLevel=GRADES[grade][0] if grade else None,
-                 primalImprovement=row['project_primal_update'], dualImprovement=row['dual_improved_at_1e_7'],
-                 primalCategory=row['primal_category'], miplibPrimal=row['miplib_primal'],
-                 coptDual=row['copt_10h_dual'], primalDelta=row['primal_delta'], dualDelta=row['dual_delta'],
-                 sourceUrl=SOURCE_URL+row['source_path'], resultSourceCommit=SOURCE_COMMIT,
-                 summary=f'details/{name}/summary.md', archive=f'details/{name}/{name}-findings.tar.gz',
-                 bundleKind='historical' if prior else 'result')
-        r['sourceEvidenceNote'] = row['audit_evidence'] or row['evidence_note']
-        for field in ('bestResult','bestBound'):
-            old_display=prior.get(field+'Display',{})
-            r[field+'Display']={'value':str(r[field]) if r[field] is not None else '—','note':old_display.get('note')}
-        r['bundleSnapshot'] = 'upstream-b48994a' if prior else '2026-09-21'
-        if not prior:
-            r['sourceBaseCommit'] = SOURCE_COMMIT; r['includedFiles'] = 3; r['excludedFiles'] = 0
-        evidence = r['evidenceLevel'] or 'See the stated numerical tolerances and source audits.'
-        bundle_note = ('The downloadable research bundle is the unchanged 18 September archive. '
-                       'This summary and the current catalogue supersede its historical counts and genus policy.' if prior else
-                       'The result bundle contains this summary, the per-instance ledger and license. '
-                       'Detailed experiment records and certificates are linked in the research repository; they are not embedded in this compact bundle.')
-        summary = f"""# {name}
+    rows=read('data/campaign-catalogue.json'); metrics=read('data/campaign-metrics.json')
+    assert len(rows)==len({r['instance'] for r in rows})==metrics['instances']
+    assert sum(r['primal_improvement'] for r in rows)==metrics['primal_improvements']
+    assert sum(r['dual_improvement'] for r in rows)==metrics['dual_improvements']
+    counts=Counter('optimal' if r['conclusion'].startswith('optimal') else r['conclusion'] for r in rows)
+    for key in STATUS: assert counts[key]==metrics[key]
+    assert metrics['resolved']==sum(counts[k] for k in ['optimal','infeasible','unbounded'])
+    records=[]; all_files={}; license_raw=(SITE/'LICENSE').read_bytes()
+    for row in sorted(rows,key=lambda r:r['instance'].lower()):
+        name=row['instance']; status='optimal' if row['conclusion'].startswith('optimal') else row['conclusion']
+        grade=row['evidence_grade']; folder=SITE/'instances/details'/name; folder.mkdir(parents=True,exist_ok=True)
+        conclusion=STATUS[status][0]
+        if row['conclusion']=='optimal_with_tolerance': conclusion+=' (tolerance-accepted)'
+        summary=f'''# {name}
 
-Snapshot: 21 September 2026. Repository research results; not a live MIPLIB leaderboard.
+Result snapshot: {metrics['result_snapshot']}.
 
 ## Current result
 
-- Cohort: {row['cohort']}
-- Status: {r['statusLabel']}
-- Primal: {r['bestResult']}
-- Dual / certificate: {r['bestBound']}
-- Global conclusion: {conclusion or 'Not established'}
-- Evidence: {evidence}
-- Project primal update vs MIPLIB v36: {row['project_primal_update']} ({row['primal_category']})
-- Dual improvement vs historical COPT 10h: {row['dual_improved_at_1e_7']}
+- Conclusion: {conclusion}
+- Primal bound: {row['primal_display']}
+- Dual bound: {row['dual_display']}
+- Normalized gap: {row['normalized_gap'] or 'Not applicable'}
+- Primal improvement vs MIPLIB v36: {row['primal_improvement']}
+- MIPLIB v36 primal: {row['v36_primal'] or 'No finite bound'}
+- Primal difference (baseline minus result): {row['primal_gain'] or 'Not applicable'}
+- Dual improvement vs historical COPT 10h: {row['dual_improvement']}
+- Historical COPT 10h dual: {row['copt10h_dual'] or 'No finite bound'}
+- Dual difference (result minus baseline): {row['dual_gain'] or 'Not applicable'}
 
-{row['evidence_note']}
+## Verification and qualifications
 
-{row['audit_limits']}
+{row['evidence']}
 
-## Evidence and provenance
+{row['notes']}
 
-[Instance evidence]({r['sourceUrl']}) · [Complete campaign ledger]({SOURCE_URL}results/catalogue.json)
+- Primal validation: {row['validation_grade']}
+- Dual validation: {row['dual_validation_grade']}
+- Primal comparison: {row['primal_comparison']}
+- Dual comparison: {row['dual_comparison']}
 
-The full campaign contains 132 instances: 112 original cases and 20 subsequent evaluation cases.
-The subsequent cohort uses post-hoc best valid bounds from separate skill runs; numerical bounds
-and independently certified bounds are distinct. Genus g31 closures accept residuals below 1e-10.
+## Files and provenance
 
-## Download scope
+[Result data](result.json) · [Source research record]({row['instance_evidence_url']})
 
-{bundle_note}
-"""
-        folder = SITE/'instances/details'/name; folder.mkdir(parents=True, exist_ok=True)
-        archive = SITE/'instances'/r['archive']
-        if not prior:
-            result_bundle(archive, name, row, summary)
-            r['archiveBytes'] = archive.stat().st_size; r['archiveSha256'] = sha(archive)
-        else:
-            assert archive.exists() and sha(archive)==prior['archiveSha256'], name
-        summary += f"\nArchive SHA-256: `{r['archiveSha256']}`\n"
-        if not prior:
-            write(folder/'summary.md', summary)
-        records.append(r)
-    records.sort(key=lambda r:r['instance'].lower())
-    counts = Counter(r['status'] for r in records)
-    grades = Counter(r['evidenceGrade'] for r in records if r['status'] in ('concluded','numeric-optimal'))
-    assert counts == {'concluded':32, 'verified-open':94, 'numeric-optimal':2, 'no-feasible':4}
-    assert sum(grades.values()) == metrics['optimal_including_tolerance']+metrics['infeasible'] == 34
-    campaign = dict(metrics, closed=34, statusCounts=dict(counts), evidenceCounts=dict(grades),
-                    sourceCommit=SOURCE_COMMIT, updated='2026-09-21',
-                    statusItems=[[label,counts[key],color] for key,(label,color) in STATUS.items()],
-                    evidenceItems=[[label,grades[key],color] for key,(label,color) in GRADES.items()])
-    write(SITE/'instances/instances.json', json.dumps(records,ensure_ascii=False,indent=2)+'\n')
-    write(SITE/'instances/data.js', 'window.INSTANCE_DATA='+json.dumps(records,ensure_ascii=False,separators=(',',':'))+';\n')
-    write(SITE/'assets/campaign-data.js', 'window.CAMPAIGN_DATA='+json.dumps(campaign,ensure_ascii=False,separators=(',',':'))+';\n')
-    write(SITE/'data/site-metrics.json', json.dumps(campaign,ensure_ascii=False,indent=2)+'\n')
-    for page in ('index.html','instances/index.html','skill/index.html','solver-replacement/index.html'):
-        path=SITE/page; text=path.read_text(encoding='utf-8')
-        status_html = '<div class="status-strip" role="group" aria-label="Filter by campaign status">'
-        for key, (label, color) in STATUS.items():
-            n = counts[key]
-            status_html += f'<button type="button" data-status-filter="{key}" style="width:{n/len(records)*100:.6f}%;background:{color}" aria-label="{escape(label)}: {n}" aria-pressed="false">{n}</button>'
-        status_html += '</div><div class="legend legend-4">'
-        for label,n,color in campaign['statusItems']:
-            status_html += f'<div class="legend-item"><span class="swatch" style="background:{color}"></span><span>{escape(label)}</span><strong>{n}</strong></div>'
-        status_html += '</div>'
-        options = [('all',f'All {len(records)}')] + [(k,f'{label} ({counts[k]})') for k,(label,_) in STATUS.items()]
-        options += [('optimal','Optimal (32)'),('infeasible','Infeasible (2)'),('primal-improved','Primal update (29)'),('dual-improved','Dual improvement (66)')]
-        options_html = ''.join(f'<option value="{key}">{escape(label)}</option>' for key,label in options)
-        evidence_html = '<div class="stack" role="img" aria-label="'+escape('; '.join(f'{label}: {n}' for label,n,_ in campaign['evidenceItems']))+'">'
-        for label,n,color in campaign['evidenceItems']:
-            evidence_html += f'<div class="stack-segment" style="width:{n/34*100:.6f}%;background:{color}">{n if n>=3 else ""}</div>'
-        evidence_html += '</div><div class="legend">'
-        for label,n,color in campaign['evidenceItems']:
-            evidence_html += f'<div class="legend-item"><span class="swatch" style="background:{color}"></span><span>{escape(label)}</span><strong>{n}</strong></div>'
-        evidence_html += '</div>'
-        for key,html in [('STATUS',status_html),('OPTIONS',options_html),('EVIDENCE',evidence_html)]:
-            text=re.sub(f'<!-- CAMPAIGN_{key}_START -->.*?<!-- CAMPAIGN_{key}_END -->',f'<!-- CAMPAIGN_{key}_START -->\n{html}\n<!-- CAMPAIGN_{key}_END -->',text,flags=re.S)
-        def metric(m): return m[1]+str(campaign[m[2]])+m[3]
-        text=re.sub(r'(<(?:strong|span)[^>]*data-campaign="([^"]+)"[^>]*>)[^<]*(</(?:strong|span)>)',metric,text)
-        write(path,text)
-    print(json.dumps({'instances':len(records),'closed':34,'optimal':32,'infeasible':2,
-                      'primal_updates':metrics['project_primal_updates'],'dual_improvements':metrics['dual_improvements_at_1e_7'],
-                      'status_counts':dict(counts),'evidence_counts':dict(grades)}))
-
+The result bundle contains this summary, the current result data, and the project license.
+Source research records may require repository access. Solver logs and full proof archives
+are not embedded in this compact result bundle. Numerical and tolerance-based conclusions
+retain their stated qualifications; the source-model qualification for tagus is recorded
+in its own result. These are project results against fixed baselines, not a live leaderboard.
+'''
+        row_json=dump(row)
+        write(f'instances/details/{name}/summary.md',summary)
+        write(f'instances/details/{name}/result.json',row_json)
+        files={'summary.md':summary.encode(),'result.json':row_json.encode(),'LICENSE':license_raw}
+        archive=folder/f'{name}-findings.tar.gz'; bundle(archive,{f'{name}-findings/{k}':v for k,v in files.items()})
+        all_files[f'instances/{name}/summary.md']=summary.encode()
+        all_files[f'instances/{name}/result.json']=row_json.encode()
+        records.append(dict(instance=name,status=status,statusLabel=conclusion,conclusion=row['conclusion'],
+            bestResult=row['final_primal'],bestBound=row['final_dual'],
+            bestResultDisplay={'value':row['primal_display']},bestBoundDisplay={'value':row['dual_display']},
+            studyStatus=' '.join(filter(None,[row['evidence'],row['notes']])),
+            evidenceGrade=grade,evidenceLevel=GRADES[grade][0] if grade else None,
+            primalImprovement=row['primal_improvement'],dualImprovement=row['dual_improvement'],
+            miplibPrimal=row['v36_primal'],coptDual=row['copt10h_dual'],primalDelta=row['primal_gain'],dualDelta=row['dual_gain'],
+            sourceUrl=row['instance_evidence_url'],summary=f'details/{name}/summary.md',
+            archive=f'details/{name}/{name}-findings.tar.gz',archiveBytes=archive.stat().st_size,
+            archiveSha256=hashlib.sha256(archive.read_bytes()).hexdigest(),includedFiles=3))
+    grades=Counter(r['evidenceGrade'] for r in records if r['status']!='open')
+    assert sum(grades.values())==metrics['resolved']
+    campaign=dict(metrics,statusCounts=dict(counts),evidenceCounts=dict(grades),
+        statusItems=[[label,counts[k],color] for k,(label,color) in STATUS.items()],
+        evidenceItems=[[label,grades[k],color,note] for k,(label,color,note) in GRADES.items() if grades[k]])
+    write('instances/instances.json',dump(records))
+    write('instances/data.js','window.INSTANCE_DATA='+json.dumps(records,ensure_ascii=False,separators=(',',':'))+';\n')
+    write('assets/campaign-data.js','window.CAMPAIGN_DATA='+json.dumps(campaign,ensure_ascii=False,separators=(',',':'))+';\n')
+    write('data/site-metrics.json',dump(campaign))
+    write('downloads/results-217.json',dump({'metrics':metrics,'rows':rows,'provenance':read('data/result-provenance.json')}))
+    with (SITE/'downloads/results-217.csv').open('w',encoding='utf-8',newline='') as out:
+        writer=csv.DictWriter(out,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+    for f in ['results-217.json','results-217.csv']: all_files[f]=(SITE/'downloads'/f).read_bytes()
+    all_files['LICENSE']=license_raw
+    bundle(SITE/'downloads/results-217.tar.gz',all_files)
+    status_html='<div class="status-strip" role="group" aria-label="Filter by benchmark outcome">'
+    for key,(label,color) in STATUS.items():
+        n=counts[key];status_html+=f'<button type="button" data-status-filter="{key}" style="width:{n/len(rows)*100:.6f}%;background:{color}" aria-label="{label}: {n}" aria-pressed="false">{n if n>3 else ""}</button>'
+    status_html+='</div><div class="legend legend-4">'
+    for label,n,color in campaign['statusItems']: status_html+=f'<div class="legend-item"><span class="swatch" style="background:{color}"></span><span>{label}</span><strong>{n}</strong></div>'
+    status_html+='</div>'
+    options=[('all',f"All {len(rows)}"),('resolved',f"Resolved ({metrics['resolved']})")]+[(k,f'{label} ({counts[k]})') for k,(label,_) in STATUS.items()]+[('primal-improved',f"Primal improvement ({metrics['primal_improvements']})"),('dual-improved',f"Dual improvement ({metrics['dual_improvements']})")]
+    options_html=''.join(f'<option value="{k}">{escape(label)}</option>' for k,label in options)
+    page=(SITE/'instances/index.html').read_text(encoding='utf-8')
+    page=replace_block(page,'STATUS',status_html);page=replace_block(page,'OPTIONS',options_html)
+    write('instances/index.html',page)
+    for filename in ['index.html','instances/index.html','solver-replacement/index.html']:
+        page=(SITE/filename).read_text(encoding='utf-8')
+        page=re.sub(r'(<(?:strong|span)[^>]*data-campaign="([^"]+)"[^>]*>)[^<]*(</(?:strong|span)>)',lambda m:m[1]+str(metrics[m[2]])+m[3],page)
+        write(filename,page)
+    print(json.dumps(campaign))
 
 if __name__=='__main__': main()

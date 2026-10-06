@@ -1,0 +1,24 @@
+{
+  "result_snapshot": "2026-10-06",
+  "sources": [
+    {
+      "role": "final_catalogue",
+      "filename": "catalogue.json",
+      "sha256": "7d9a8de4f815e38777a5cd8f33d3fbd5bc755010f02054ffac0bc1423c8243f5"
+    },
+    {
+      "role": "frozen_v36",
+      "filename": "miplib2017-v36.solu",
+      "sha256": "9236602294c1a5aca5248b6f7d03689a7533ea3cb3f3d92cff962e752e20af84"
+    },
+    {
+      "role": "historical_COPT10h",
+      "filename": "source_extraction.json",
+      "sha256": "35b7ac7662c35c017c39dcdcaede2bb95685bf4224ec4b7d3e5ec785e98648b4"
+    }
+  ],
+  "primal_baseline": "MIPLIB 2017 v36",
+  "dual_baseline": "Historical COPT 10-hour results",
+  "comparison_tolerance": "1e-7",
+  "notes": "Project-attributed primal improvements and accepted dual comparisons are recorded per instance. Categories overlap. Evidence qualifications are retained in each result."
+}

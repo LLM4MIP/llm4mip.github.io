@@ -1,32 +1,37 @@
 # shipsched
 
-Snapshot: 21 September 2026. Repository research results; not a live MIPLIB leaderboard.
+Result snapshot: 2026-10-06.
 
 ## Current result
 
-- Cohort: subsequent20
-- Status: Verified feasible; open
-- Primal: 111919.8337342348
-- Dual / certificate: 85777.6824670317
-- Global conclusion: Not established
-- Evidence: See the stated numerical tolerances and source audits.
-- Project primal update vs MIPLIB v36: False (not_in_project_primal_table)
+- Conclusion: Open
+- Primal bound: 111919.8337342348
+- Dual bound: 85777.6824670317
+- Normalized gap: 0.233579253962084478655357672231151297383503721
+- Primal improvement vs MIPLIB v36: False
+- MIPLIB v36 primal: 111919.8337342348
+- Primal difference (baseline minus result): 0
 - Dual improvement vs historical COPT 10h: True
+- Historical COPT 10h dual: 67029.7019
+- Dual difference (result minus baseline): 18747.9805670317
+
+## Verification and qualifications
 
 historically accepted numerical witness; not uniformly revalidated; precedence-pattern recourse, paper-motivated scheduling neighborhoods, independently verified directed-cycle inequalities, and matched global branch-and-cut controls
 
-Best-of separate runs; selected numerical D may exceed independent certified D
 
-## Evidence and provenance
 
-[Instance evidence](https://github.com/Huangyc98/MIPLIB_openproblem/blob/b63b89634917ccde2f9e7dc7aefe1583a3eb55e8/skills-research/comparisons/per_instance_comparison.csv) · [Complete campaign ledger](https://github.com/Huangyc98/MIPLIB_openproblem/blob/b63b89634917ccde2f9e7dc7aefe1583a3eb55e8/results/catalogue.json)
+- Primal validation: Historical evidence grade; see instance report
+- Dual validation: dual skill Gurobi
+- Primal comparison: No difference above 1e-7
+- Dual comparison: Improved
 
-The full campaign contains 132 instances: 112 original cases and 20 subsequent evaluation cases.
-The subsequent cohort uses post-hoc best valid bounds from separate skill runs; numerical bounds
-and independently certified bounds are distinct. Genus g31 closures accept residuals below 1e-10.
+## Files and provenance
 
-## Download scope
+[Result data](result.json) · [Source research record](https://github.com/Huangyc98/MIPLIB_openproblem/blob/organize/complete-results-20260921/skills-research/comparisons/per_instance_comparison.csv)
 
-The result bundle contains this summary, the per-instance ledger and license. Detailed experiment records and certificates are linked in the research repository; they are not embedded in this compact bundle.
-
-Archive SHA-256: `43eaf7f8969d382fbb80f9a5f11fe3f08d2548cb94939a641c787aefc9636ff5`
+The result bundle contains this summary, the current result data, and the project license.
+Source research records may require repository access. Solver logs and full proof archives
+are not embedded in this compact result bundle. Numerical and tolerance-based conclusions
+retain their stated qualifications; the source-model qualification for tagus is recorded
+in its own result. These are project results against fixed baselines, not a live leaderboard.

@@ -81,33 +81,12 @@
           <div id="metric-chart"></div>
         </div>
         <p>The structure-guided arm produced the better primal bound on 11 of 20 instances, four strict primal-bound improvements over its frozen public baseline, and certified global optimality for two instances. The comparison arm produced the stronger dual bound on 12 of 20 and the smaller relative gap on 11. Improving primal bounds does not replace global dual bounding; strong branch-and-bound performance does not by itself yield a portable optimality certificate.</p>
-        <p class="note">Six skill-arm primal bounds were tolerance-indexed. The two comparison-study certified global optima—<span class="mono">ns1456591</span> and <span class="mono">neos-3682128-sandon</span>—belong to a separate comparison dataset and are not added to the main benchmark count of 30 resolved instances.</p>
+        <p class="note">Six skill-arm primal bounds were tolerance-indexed. The two comparison-study certified global optima—<span class="mono">ns1456591</span> and <span class="mono">neos-3682128-sandon</span>—are included once in the complete 217-instance catalogue; this 20-instance experiment remains a separate comparison.</p>
       </section>
 
       <section class="section" aria-labelledby="verification-heading">
-        <div class="section-head">
-          <div><p class="eyebrow">Benchmark-wide validation results</p><h2 id="verification-heading">Thirty certified optimality or infeasibility results across six verification methods</h2></div>
-          <p>This chart classifies how each result was verified; it does not assign discovery credit.</p>
-        </div>
-        <div class="panel">
-          <div class="stack" role="img" aria-label="18 portable exact certificates, 1 checked proof trace, 3 exhaustive exact verifications, 3 published-theorem transfers, 3 floating-point zero-gap verifications, 2 mixed computational validation results">
-            <div class="stack-segment" style="width:60%;background:#8c1515">18</div>
-            <div class="stack-segment" style="width:3.333%;background:#b1040e"></div>
-            <div class="stack-segment" style="width:10%;background:#176b5b">3</div>
-            <div class="stack-segment" style="width:10%;background:#620059">3</div>
-            <div class="stack-segment" style="width:10%;background:#006cb8">3</div>
-            <div class="stack-segment" style="width:6.667%;background:#8A4F00">2</div>
-          </div>
-          <div class="legend legend-6">
-            <div class="legend-item"><span class="swatch" style="background:#8c1515"></span><span>Portable exact certificate</span><strong>18</strong></div>
-            <div class="legend-item"><span class="swatch" style="background:#b1040e"></span><span>Checked proof trace</span><strong>1</strong></div>
-            <div class="legend-item"><span class="swatch" style="background:#176b5b"></span><span>Exhaustive exact verification</span><strong>3</strong></div>
-            <div class="legend-item"><span class="swatch" style="background:#620059"></span><span>Published-theorem transfer</span><strong>3</strong></div>
-            <div class="legend-item"><span class="swatch" style="background:#006cb8"></span><span>Floating-point zero-gap verification</span><strong>3</strong></div>
-            <div class="legend-item"><span class="swatch" style="background:#8A4F00"></span><span>Mixed computational validation</span><strong>2</strong></div>
-          </div>
-        </div>
-        <div class="callout green"><p>Eighteen resolved-instance artifacts can be replayed without a commercial MILP solver once the artifact has been constructed. This supports portable post hoc verification; it does not demonstrate LLM-only discovery. Five resolved-instance results retain floating-point or commercial-solver dependence, and one exact proof uses a large external trace identified by its hash.</p></div>
+        <div class="section-head"><div><p class="eyebrow">Benchmark-wide validation results</p><h2 id="verification-heading">52 resolved instances across the complete study</h2></div></div>
+        <div class="panel"><p>The 217-instance study reports 49 optimal, 2 infeasible and 1 unbounded result, together with 59 primal-bound and 136 dual-bound improvements. Exact certificates, numerical solver results, tolerance-accepted closures and source-model qualifications are documented individually.</p><a href="../instances/">Inspect all results and verification summaries →</a></div>
       </section>
 
       <section class="section" aria-labelledby="inspect-heading">

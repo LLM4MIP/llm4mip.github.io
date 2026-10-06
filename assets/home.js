@@ -5,31 +5,16 @@
   const palette = ['#8c1515', '#006cb8', '#176b5b', '#77736f', '#b66a6a', '#719bbd', '#639b8d'];
   const views = {
     status: {
-      title: "What happened across the 132 studied instances?",
-      note: "These four categories partition the 132-instance benchmark. A resolved instance has a verified optimality or infeasibility result; official MIPLIB labels may not yet have changed.",
-      mode: "stack",
-      total: 132,
-      items: [
-        ["Certified optimality / infeasibility", 32, "#176b5b"],
-        ["Verified feasible; open", 94, "#006cb8"],
-        ["Numerically optimal up to 1e-10 tolerance", 2, "#8A4F00"],
-        ["No feasible point found", 4, "#8c1515"]
-      ]
+      title: `What happened across the ${window.CAMPAIGN_DATA.instances} studied instances?`,
+      note: "Optimality, infeasibility, unboundedness and open status partition the study. Numerical, tolerance and source-model qualifications are recorded per instance.",
+      mode: "stack", total: window.CAMPAIGN_DATA.instances,
+      items: window.CAMPAIGN_DATA.statusItems
     },
     evidence: {
-      title: "How were the 34 optimality / infeasibility results verified?",
-      note: "This classifies the basis of verification, not discovery credit. Portable replay after discovery is different from LLM-only discovery.",
-      mode: "stack",
-      total: 34,
-      items: [
-        ["Mathematically proven certificate", 20, "#8c1515", "Solver/LLM finds a primal bound. LLM proves a certificate mathematically"],
-        ["Logic reasoning", 1, "#b1040e", "Solver/LLM finds a primal bound. LLM finds a certificate through LLM-based logic reasoning"],
-        ["Enumeration", 3, "#176b5b", "Solver/LLM finds a primal bound. LLM finds a dual bound by enumeration"],
-        ["Published-theorem transfer", 3, "#620059", "Solver/LLM finds a primal bound. LLM plugs instance data into a published theorem statement"],
-        ["Floating-point zero-gap verification", 3, "#006cb8", "Solver finds a dual bound. LLM finds a matching primal solution"],
-        ["Mixed computational verification", 2, "#8A4F00", "A combination of above methods"],
-        ["Numerical closure at 1e-10 tolerance", 2, "#666666", "Residuals below the accepted tolerance"]
-      ]
+      title: `How were the ${window.CAMPAIGN_DATA.resolved} resolved instances verified?`,
+      note: "Verification methods describe the evidence for each conclusion. They do not assign discovery credit or imply that every result is an exact arithmetic proof.",
+      mode: "stack", total: window.CAMPAIGN_DATA.resolved,
+      items: window.CAMPAIGN_DATA.evidenceItems
     },
     skill: {
       title: "Solver + primal/dual skill vs Vanilla prompting and solver baseline",
@@ -40,9 +25,6 @@
 
   views.evidence.items.sort((a, b) => b[1] - a[1]);
 
-  for (const view of Object.values(views)) {
-    view.items.forEach((item, index) => { item[2] = palette[index % palette.length]; });
-  }
 
   const chart = document.querySelector("#overview-chart");
   const title = document.querySelector("#overview-title");

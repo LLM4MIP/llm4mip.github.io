@@ -48,11 +48,11 @@
     archive.className = "button small";
     archive.href = record.archive;
     archive.download = "";
-    archive.textContent = `Bundle · ${formatBytes(record.archiveBytes)}`;
+    archive.textContent = `Result bundle · ${formatBytes(record.archiveBytes)}`;
     wrap.append(summary, archive);
     const meta = document.createElement("span");
     meta.className = "download-meta";
-    meta.textContent = `${record.includedFiles} source files · SHA-256 ${record.archiveSha256.slice(0, 12)}…`;
+    meta.textContent = `${record.includedFiles} result files · SHA-256 ${record.archiveSha256.slice(0, 12)}…`;
     td.append(wrap, meta);
     return td;
   }
@@ -61,7 +61,10 @@
     const term = search.value.trim().toLowerCase();
     const status = filter.value;
     const visible = data.filter(record => {
-      if (status !== "all" && record.status !== status) return false;
+      if (status === "primal-improved" && !record.primalImprovement) return false;
+      if (status === "dual-improved" && !record.dualImprovement) return false;
+      if (status === "resolved" && record.status === "open") return false;
+      if (!["all", "resolved", "primal-improved", "dual-improved"].includes(status) && record.status !== status) return false;
       if (!term) return true;
       return [record.instance, record.bestResult, record.bestBound, record.studyStatus, record.globalMethod, record.evidenceLevel]
         .filter(Boolean).join(" ").toLowerCase().includes(term);
