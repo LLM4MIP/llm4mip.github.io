@@ -131,14 +131,15 @@ p { margin: 0 0 1rem; text-align: justify; }
 .home-page .metric-grid { padding: 1.1rem 1.25rem; background: linear-gradient(110deg, #fcf7f6 0%, #f5e8e6 100%); }
 .home-page .research-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
 .home-page .research-links > a { align-items: flex-start; padding-block: 1rem; border-bottom: 0; }
-.news-section { padding: 1.15rem 1.25rem; border: 1px solid #ead5d2; border-left: 4px solid var(--cardinal); border-radius: 3px; background: linear-gradient(110deg, var(--paper) 0%, var(--cardinal-wash) 100%); }
-.news-meta { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 0.45rem; }
-.news-meta .eyebrow { margin: 0; }
-.news-meta time { color: var(--muted); font-size: 0.72rem; white-space: nowrap; }
-.news-section h2 { margin: 0 0 0.55rem; font-size: clamp(1.2rem, 1.8vw, 1.4rem); }
-.news-body { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 1.5rem; }
-.news-body p { max-width: 820px; margin: 0; color: var(--muted); font-size: 0.92rem; text-align: left; }
-.news-action { display: inline-flex; align-items: center; gap: 0.55rem; min-height: 44px; color: var(--cardinal); font-size: 0.84rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.news-section { padding: 0; overflow: hidden; border: 1px solid #ead5d2; border-left: 3px solid var(--cardinal); border-radius: 3px; background: linear-gradient(110deg, var(--paper) 0%, var(--cardinal-wash) 100%); }
+.home-page .news-section > h2 { margin: 0; padding: 0.5rem 0.85rem 0.4rem; border-bottom: 1px solid #ead5d2; color: var(--cardinal); font-size: 0.68rem; font-weight: 650; letter-spacing: 0.09em; text-transform: uppercase; }
+.news-list { display: grid; }
+.news-item { display: grid; grid-template-columns: 8.25rem minmax(0, 1fr) auto; align-items: center; gap: 1rem; padding: 0.62rem 0.85rem; }
+.news-item + .news-item { border-top: 1px solid var(--line); }
+.news-item time { color: var(--muted); font-size: 0.7rem; white-space: nowrap; }
+.news-copy h3 { margin: 0; font-size: 0.94rem; font-weight: 600; line-height: 1.4; }
+.news-copy p { margin: 0.08rem 0 0; color: var(--muted); font-size: 0.78rem; line-height: 1.45; text-align: left; }
+.news-action { display: inline-flex; align-items: center; gap: 0.45rem; min-height: 36px; color: var(--cardinal); font-size: 0.78rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
 .news-action:hover { color: var(--cardinal-dark); text-decoration: underline; }
 .research-intro > p { max-width: none; }
 .miplib-intro { margin-bottom: 0.75rem; }
@@ -391,8 +392,8 @@ details > div { padding: 0.8rem 0 0; color: var(--muted); }
   .home-page .section + .section { margin-top: 1.65rem; padding-top: 1.35rem; }
   .home-page .content { padding-bottom: 2rem; }
   .home-page .section-rail { margin-bottom: 1.25rem; padding-bottom: 0.5rem; }
-  .news-body { grid-template-columns: 1fr; gap: 0.35rem; }
-  .news-action { justify-self: start; }
+  .news-item { grid-template-columns: 7.25rem minmax(0, 1fr); gap: 0.15rem 0.85rem; align-items: start; }
+  .news-action { grid-column: 2; justify-self: start; }
   .section-head { flex-direction: column; align-items: flex-start; gap: 0.7rem; }
   .section-head h2, .section h2 { font-size: 1.5rem; }
   .miplib-gallery { grid-template-columns: repeat(2, minmax(18rem, 1fr)); overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
@@ -416,8 +417,9 @@ details > div { padding: 0.8rem 0 0; color: var(--muted); }
   .home-page .nav-wrap { min-height: 80px; }
   .home-page .metric-grid { padding: 1rem; gap: 1.25rem 0; }
   .home-page .skill-downloads, .home-page .research-links { grid-template-columns: 1fr; gap: 0.6rem; }
-  .news-section { padding: 1rem; }
-  .news-meta { flex-wrap: wrap; gap: 0.25rem 0.75rem; }
+  .home-page .news-section > h2 { padding-inline: 0.75rem; }
+  .news-item { grid-template-columns: 1fr; gap: 0.12rem; padding: 0.65rem 0.75rem; }
+  .news-action { grid-column: 1; min-height: 44px; }
   .miplib-update-item > summary { align-items: start; gap: 0.65rem; padding: 0.9rem 0.5rem; }
   .miplib-update-summary > span { font-size: 0.72rem; }
   .miplib-update-toggle { min-height: 36px; padding-inline: 0.6rem; font-size: 0.72rem; }
