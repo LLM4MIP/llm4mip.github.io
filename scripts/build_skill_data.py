@@ -7,6 +7,7 @@ import json
 import gzip
 import io
 import tarfile
+import zipfile
 import hashlib
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,13 +20,21 @@ def rows(name):
 
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding='utf-8', newline='\n')
+    with path.open('w',encoding='utf-8',newline='\n') as out:
+        out.write(text)
 
 def archive(path, files):
     with path.open('wb') as out, gzip.GzipFile(filename='',fileobj=out,mode='wb',mtime=0) as gz, tarfile.open(fileobj=gz,mode='w') as tar:
         for name,p in sorted(files):
             raw=p.read_bytes();info=tarfile.TarInfo(name);info.size=len(raw);info.mtime=0;info.mode=0o644
             tar.addfile(info,io.BytesIO(raw))
+
+def zip_archive(path, root, files):
+    with zipfile.ZipFile(path,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as out:
+        for name,p in sorted(files):
+            info=zipfile.ZipInfo(f'{root}/{name}',date_time=(1980,1,1,0,0,0))
+            info.compress_type=zipfile.ZIP_DEFLATED;info.create_system=3;info.external_attr=0o100644<<16
+            out.writestr(info,p.read_bytes(),compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
 
 def main():
     manifest=json.loads((ROOT/'data/skill-study/source-manifest.json').read_text(encoding='utf-8'))
@@ -116,7 +125,10 @@ def main():
         files.append(('LICENSE',ROOT/'LICENSE'))
         if folder.name.endswith('-frozen'):
             files.append(('ENGLISH-TRANSLATION.md',ROOT/'docs/english-localization.md'))
-        archive(ROOT/f'downloads/{folder.name}-skill.tar.gz',files)
+        if folder.name.endswith('-current'):
+            zip_archive(ROOT/f'downloads/{folder.name}-skill.zip',f'{folder.name}-skill',files)
+        else:
+            archive(ROOT/f'downloads/{folder.name}-skill.tar.gz',files)
     evidence=ROOT/'data/skill-study'
     archive(ROOT/'downloads/primal-dual-evidence.tar.gz',[(p.relative_to(ROOT).as_posix(),p) for p in evidence.rglob('*') if p.is_file()]+[('scripts/build_skill_data.py',Path(__file__)),('LICENSE',ROOT/'LICENSE'),('ENGLISH-TRANSLATION.md',ROOT/'docs/english-localization.md'),('data/english-localization-manifest.json',ROOT/'data/english-localization-manifest.json')])
     print(json.dumps(stats))

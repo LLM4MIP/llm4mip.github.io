@@ -281,6 +281,14 @@ p { margin: 0 0 1rem; text-align: justify; }
 .home-page .skill-downloads h3 { font-size: 1.15rem; }
 .home-page .skill-downloads p:not(.resource-label) { margin-bottom: 0.6rem; font-size: 1rem; }
 .home-page .skill-downloads a, .home-page .section-link { font-size: 0.95rem; }
+.home-skill-actions { display: grid; max-width: 320px; gap: 0.25rem; margin-top: 0.85rem; }
+.home-page .skill-downloads .home-skill-download { display: grid; grid-template-columns: minmax(0, 1fr) auto; min-height: 50px; align-items: center; gap: 0.65rem; padding: 0.48rem 0.55rem 0.48rem 0.7rem; border: 1px solid #d8d8d2; border-radius: 4px; background: var(--paper); color: var(--ink); font-size: 0.9rem; text-decoration: none; transition: border-color 150ms, background-color 150ms; }
+.home-skill-download strong, .home-skill-download small { display: block; }
+.home-skill-download strong { font-size: 0.88rem; font-weight: 600; line-height: 1.35; }
+.home-skill-download small { margin-top: 0.05rem; color: var(--muted); font: 0.64rem/1.4 var(--mono); letter-spacing: 0.01em; }
+.home-page .skill-downloads .home-skill-download:hover { border-color: #c5a29d; background: var(--cardinal-wash); color: var(--cardinal-dark); text-decoration: none; }
+.home-page .skill-downloads .home-skill-archive { display: inline-flex; min-height: 40px; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0 0.2rem; color: var(--muted); font-size: 0.76rem; font-weight: 500; text-decoration: none; }
+.home-page .skill-downloads .home-skill-archive:hover { color: var(--cardinal); text-decoration: underline; }
 .home-page .research-links strong { font-size: 1.08rem; }
 .home-page .research-links small { max-width: none; font-size: 0.95rem; }
 .home-page .research-links .resource-label { display: block; margin-bottom: 0.45rem; }
@@ -417,6 +425,7 @@ details > div { padding: 0.8rem 0 0; color: var(--muted); }
   .home-page .nav-wrap { min-height: 80px; }
   .home-page .metric-grid { padding: 1rem; gap: 1.25rem 0; }
   .home-page .skill-downloads, .home-page .research-links { grid-template-columns: 1fr; gap: 0.6rem; }
+  .home-skill-actions { width: 100%; max-width: none; }
   .home-page .news-section > h2 { padding-inline: 0.75rem; }
   .news-item { grid-template-columns: 1fr; gap: 0.12rem; padding: 0.65rem 0.75rem; }
   .news-action { grid-column: 1; min-height: 44px; }
