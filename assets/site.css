@@ -77,6 +77,30 @@ p { margin: 0 0 1rem; text-align: justify; }
 .text-link:hover { text-decoration: underline; }
 .publication-note { margin-left: 0.35rem; color: var(--muted); font-size: 0.76rem; }
 
+/* Skill downloads read as paired releases rather than a row of competing buttons. */
+.skill-download-panel { max-width: 800px; margin-top: 1.2rem; overflow: hidden; border: 1px solid #d7d3ce; border-top: 2px solid var(--cardinal); border-radius: 4px; background: rgba(255, 255, 255, 0.82); }
+.skill-download-heading { padding: 0.6rem 0.9rem 0.5rem; border-bottom: 1px solid var(--line); }
+.skill-download-heading h2 { margin: 0; font-size: 0.9rem; line-height: 1.35; }
+.skill-package-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.skill-package-group { min-width: 0; padding: 0.7rem 0.9rem 0.8rem; }
+.skill-package-group + .skill-package-group { border-left: 1px solid var(--line); }
+.skill-package-header { display: flex; align-items: center; justify-content: space-between; gap: 0.7rem; margin-bottom: 0.5rem; }
+.skill-package-header h3 { margin: 0; font-size: 0.92rem; font-weight: 600; }
+.skill-package-header time { display: block; margin-top: 0.15rem; color: var(--muted); font-size: 0.7rem; }
+.release-badge { flex: 0 0 auto; padding: 0.18rem 0.45rem; border-radius: 999px; background: var(--soft-red); color: var(--cardinal); font-size: 0.63rem; font-weight: 650; letter-spacing: 0.04em; text-transform: uppercase; }
+.skill-package-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.45rem; }
+.skill-download-link { display: grid; grid-template-columns: minmax(0, 1fr) auto; min-height: 46px; align-items: center; gap: 0.5rem; padding: 0.42rem 0.45rem 0.42rem 0.6rem; border: 1px solid #d8d8d2; border-radius: 3px; background: var(--paper); color: var(--ink); text-decoration: none; transition: border-color 150ms, background-color 150ms; }
+.skill-download-link strong, .skill-download-link small { display: block; }
+.skill-download-link strong { font-size: 0.82rem; font-weight: 600; }
+.skill-download-link small { margin-top: 0.05rem; color: var(--muted); font: 0.64rem/1.45 var(--mono); letter-spacing: 0.02em; }
+.download-mark { display: grid; width: 24px; height: 24px; flex: 0 0 auto; place-items: center; border-radius: 50%; background: var(--cardinal); color: #fff; font-size: 0.76rem; line-height: 1; }
+.skill-download-link:hover { border-color: #c5a29d; background: var(--cardinal-wash); color: var(--cardinal-dark); }
+.skill-download-link:hover .download-mark { background: var(--cardinal-dark); }
+.skill-download-footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.5rem 0.9rem; border-top: 1px solid var(--line); background: #fbfbf9; }
+.skill-download-footer .note { margin: 0; }
+.skill-results-link { flex: 0 0 auto; color: var(--cardinal); font-size: 0.76rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.skill-results-link:hover { text-decoration: underline; }
+
 /* Text and figures share a consistent reading grid. */
 .page-shell { max-width: 1168px; margin: 0 auto; padding: 0 24px; background: var(--paper); }
 .content { padding: 0 0 4rem; }
@@ -380,6 +404,8 @@ details > div { padding: 0.8rem 0 0; color: var(--muted); }
   .skill-objective-grid { grid-template-columns: 1fr; }
   .footer-inner { flex-wrap: wrap; gap: 0.5rem; }
   .footer-description { display: block; margin-left: 0; }
+  .skill-package-grid { grid-template-columns: 1fr; }
+  .skill-package-group + .skill-package-group { border-top: 1px solid var(--line); border-left: 0; }
 }
 
 @media (max-width: 480px) {
@@ -411,6 +437,11 @@ details > div { padding: 0.8rem 0 0; color: var(--muted); }
   .publication-note { flex-basis: 100%; margin: 0.25rem 0 0; }
   .hero-actions { gap: 0.6rem; }
   .button { padding: 0.5rem 0.8rem; min-height: 44px; }
+  .skill-download-panel { margin-top: 1.25rem; }
+  .skill-download-heading, .skill-package-group, .skill-download-footer { padding-right: 0.9rem; padding-left: 0.9rem; }
+  .skill-download-footer { align-items: flex-start; flex-direction: column; gap: 0.45rem; }
+  .skill-package-links { grid-template-columns: 1fr; }
+  .skill-results-link { min-height: 44px; display: inline-flex; align-items: center; }
   .text-link { margin: 0; }
   .page-shell { padding: 0 20px; }
   .content { padding-bottom: 2.5rem; }
