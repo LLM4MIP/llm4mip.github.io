@@ -41,7 +41,13 @@ def inspect(raw,name,counts,findings):
     text=re.sub(r'\\u([0-9a-fA-F]{4})',lambda m:chr(int(m[1],16)),text)
     # Public HTTP links can legitimately contain directory names also used on local machines.
     text=re.sub(r'https?://[^\s"\x27<>]+','PUBLIC_URL',text)
-    for kind,pattern in [('model configuration',MODEL),('local path',WIN),('server path',UNIX),('hardware identity',HARDWARE),('credential',SECRET)]:
+    # Allow the public model credit on the homepage.
+    model_text = text
+    if name == 'index.html':
+        model_text = re.sub(r'<strong>GPT[ ]5\.6-sol</strong>', '', text, count=1)
+    if MODEL.search(model_text):
+        findings.append((name,'model configuration'))
+    for kind,pattern in [('local path',WIN),('server path',UNIX),('hardware identity',HARDWARE),('credential',SECRET)]:
         if pattern.search(text):findings.append((name,kind))
     for match in IP.finditer(text):
         try:address=ipaddress.ip_address(match[0])
